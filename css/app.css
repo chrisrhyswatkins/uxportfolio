@@ -2260,8 +2260,16 @@ ol.regular li:last-child p {
 }
 
 .quote-slide-individual.static-quote p.main {
-	font-size: 1.1em;
+	font-size: 1.25em;
 	color: rgba(53, 53, 132, 1);
+}
+
+.quote-slide-individual p.author::before {
+	width: 45px;
+}
+
+.quote-slide-individual p.author {
+	padding-left: 60px;
 }
 
 img.persona {

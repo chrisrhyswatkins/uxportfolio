@@ -1,0 +1,341 @@
+@media screen and (max-width: 66.2375em) {
+
+.selected-work-item .selected-work-item-image {
+    background-size: cover !important
+}
+
+.selected-work-item a:hover .selected-work-item-image {
+    background-size: cover !important
+}
+
+}
+
+/* Medium only */
+@media screen and (max-width: 63.9375em) {
+
+body {
+	font-size: 15px;
+}
+
+.row {
+	width: 86%;
+}
+
+.top-pad-200 {
+	padding-top: 160px;
+}
+
+ul.nav-list {
+	font-size: 14.5px;
+}
+
+ul.nav-list li {
+	padding: 0 0 0 25px;
+}
+
+.selected-work-item .row {
+	width: 96% !important;
+}
+
+/* Individual Work Page */
+
+ul.portfolio-nav-option { 
+	margin-bottom: 15px;
+}
+
+p.project-overview {
+
+}
+
+.project-highlight-image img.phone {
+	left: 60px;
+}
+
+p.capitalized-title-desc.above-personas {
+	width: 100%;
+}
+
+ul#persona-tabs.tabs {
+	float: left;
+	width: 100%;
+}
+
+ul#persona-tabs.tabs .tabs-title {
+	margin-left: 25px;
+}
+
+ul#persona-tabs.tabs .tabs-title > a .persona-picture {
+	margin-right: 8px;
+}
+
+.quote-slide-individual {
+	max-width: 710px !important;
+	margin: 0 auto 0 auto;
+}
+
+/* About */
+
+img.about-me-chris {
+	height: 85vh;
+}
+
+a.scrolltop {
+	bottom: 50px !important;
+}
+
+
+/* Single Project */
+
+a.section-jump-option {
+	width: 98%;
+}
+
+}
+
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+
+body {
+	font-size: 14px;
+}
+
+.row {
+	width: 92%;
+}
+
+.top-pad-200 {
+	padding-top: 125px;
+}
+
+.top-pad-200.main-top-section {
+	padding-top: 125px;
+}
+
+ul.nav-list {
+	font-size: 14px;
+}
+
+ul.nav-list li {
+	padding: 0 0 0 15px;
+}
+
+h1 {
+	font-size: 2.5em !important;
+}
+
+h1.welcome-description {
+	margin-bottom: 25px !important;
+	font-size: 2.55em !important;
+}
+
+.work-page-header h1 {
+	font-size: 2.25em !important;
+}
+
+.recent-work-container {
+	padding-top: 0;
+}
+
+.selected-work-item .row {
+	width: 100% !important;
+}
+
+.selected-work-item {
+	margin-top: 75px;
+}
+
+.selected-work-item:nth-child(even) {
+	margin-top: 75px;
+}
+
+.row.coming-soon-line {
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+
+.row.coming-soon-line.selected-work-line {
+	margin-top: 20px !important;
+	padding-top: 30px !important;
+}
+
+.selected-work-item.lyft {
+	margin-top: 0;
+}
+
+section.top-about-content {
+	background-color: rgba(13,13,13,0.9);
+	padding-top: 150px !important;
+}
+
+.row.about-me-section {
+	margin-top: 20px;
+}
+
+.row.about-me-section.first-section {
+	margin-top: 50px;
+}
+
+.row.about-me-section.options-section {
+	margin-top: 75px;
+}
+
+h2.about-subsection {
+	font-size: 1.85em;
+}
+
+.about-grey-gradient {
+	background: rgba(13,13,13,0.9);
+}
+
+.instagram-photo-outer {
+	width: calc((100%/3) - 20px);
+}
+
+.instagram-photo-outer-double {
+	width: calc((100% * 2/3 ) - 20px);
+}
+
+.instagram-photo-outer:nth-child(5), .instagram-photo-outer:nth-child(6) {
+	display: none !important;
+}
+
+.about-page-bottom-option:last-child {
+	margin-bottom: 30px;
+}
+
+a.about-page-bottom-option .image-underlay {
+	background-size: auto 100%;
+}
+
+.banner-below-overview {
+	padding: 60px 0;
+}
+
+.portfolio-content-area {
+	padding: 50px 0 !important;
+}
+
+.work-page-header .work-page-header-background-image {
+	background-size: cover;
+}
+
+.individual-work-overview {
+	padding: 30px 0 20px 0;
+}
+
+p.project-overview {
+	margin-bottom: 15px;
+}
+
+.row.project-overview-details {
+	margin-top: 10px;
+}
+
+p.overview-detail.team-members {
+	margin-bottom: 0;
+}
+
+h2.sub-section.case-study-in-progress-warning {
+	font-size: 1.325em;
+	margin-bottom: 25px;
+	padding-left: 0px;
+	position: relative;
+}
+
+h2.sub-section.case-study-in-progress-warning::before {
+	content: "";
+	height: 0px;
+	width: 0px;
+	left: 0;
+	top: calc(50% - 2px);
+	background-color: rgba(0, 0, 0, 0.2);
+	position: absolute;
+}
+
+.in-project-subhead h2.line-behind {
+	font-size: 1.5em;
+}
+
+.panel-photo {
+	height: 300px;
+	width: 100%;
+}
+
+.panel-photo.full-120-mobile {
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+}
+
+.panel-photo.full-120-mobile:hover {
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+}
+
+.panel-photo.full-120-mobile.second-with-margin {
+	margin-top: 30px;
+}
+
+.phone-screen-design-individual {
+	margin-top: 30px;
+}
+
+.phone-screen-design-individual img {
+	width: 90%;
+}
+
+img.visual-screen-design {
+	width: 100%;
+}
+
+.quote-slide-individual {
+	max-width: 540px !important;
+}
+
+ol.regular {
+	padding-left: 45px;
+}
+
+ol.regular li:before {
+	left: -40px;
+	font-size: 1.05em;
+	padding-top: 6px;
+}
+
+}
+
+
+@media screen and (max-width: 388px) {
+
+h1 {
+	font-size: 2.25em !important;
+}
+
+h1.welcome-description {
+	font-size: 2.25em !important;
+}
+
+}
+
+
+@media screen and (max-width: 340px) {
+
+ul.responsive-nav-list {
+	font-size: 24px;
+}
+
+ul.responsive-nav-list li.social a span {
+	font-size: 12px;
+}
+
+h1 {
+	font-size: 2.05em !important;
+}
+
+h1.welcome-description {
+	font-size: 2.05em !important;
+}
+
+}

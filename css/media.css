@@ -112,6 +112,10 @@ body {
 	padding-top: 125px;
 }
 
+a.logo p.portfolio-title-cw {
+	margin-top: 20px;
+}
+
 ul.nav-list {
 	font-size: 14px;
 }

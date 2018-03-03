@@ -465,10 +465,13 @@ a.logo p.portfolio-title-cw {
 	letter-spacing: -0.35px;
 	*/
 	font-family: 'proxima-nova', Arial, sans-serif;
-	font-size: 1.45em;
+	/*font-size: 1.45em;
 	font-weight: 400;
+	margin-top: 17px;*/
+	font-size: 1.25em;
+	font-weight: 500;
 	letter-spacing: -0.05px;
-	margin-top: 17px;
+	margin-top: 16px;
 	text-decoration: none;
 	float: left;
 	color: inherit;
@@ -501,7 +504,7 @@ ul.nav-list {
 	font-family: 'proxima-nova', Arial, sans-serif;
 	font-size: 15px;
 	font-weight: 500;
-	margin-top: 28px;
+	margin-top: 27px;
 	margin-left: 0;
 	text-transform: lowercase;
 }

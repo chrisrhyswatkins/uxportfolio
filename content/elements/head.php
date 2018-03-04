@@ -15,7 +15,6 @@
 	<title><?php echo $metaTitle; ?></title>
 	<meta name="description" content="<?php echo $metaDescription; ?>">
 	<meta name="author" content="Chris Watkins">
-	<!--<script src="js/pace.min.js"></script>-->
 	<script src="js/scrollreveal.min.js"></script>
     <script>
       window.sr = ScrollReveal();

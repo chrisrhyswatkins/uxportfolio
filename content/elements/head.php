@@ -1,4 +1,5 @@
 <head>
+	<!--
 	<script>
 		(function(d) {
 			var config = {
@@ -9,13 +10,24 @@
     		h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
   		})(document);
 	</script>
+	-->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115340611-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-115340611-1');
+	</script>
+	<link rel="stylesheet" href="https://use.typekit.net/dmx3ofy.css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<title><?php echo $metaTitle; ?></title>
 	<meta name="description" content="<?php echo $metaDescription; ?>">
 	<meta name="author" content="Chris Watkins">
-	<script src="js/scrollreveal.min.js"></script>
+	<script async src="js/scrollreveal.min.js"></script>
     <script>
       window.sr = ScrollReveal();
     </script>

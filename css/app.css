@@ -125,14 +125,14 @@ body #content {
 }*/
 
 body #content {
-    opacity: 1;
+    /*opacity: 1;*/
     animation: fadeInUp 1.25s;
     -webkit-animation: fadeInUp 1.25s;
     -moz-animation: fadeInUp 1.25s;
 }
 
 body .recent-work-container {
-    opacity: 1;
+   /* opacity: 1;*/
     animation: fadeInUpMega 1.25s;
     -webkit-animation: fadeInUpMega 1.25s;
     -moz-animation: fadeInUpMega 1.25s;
@@ -157,6 +157,10 @@ body img.about-me-chris {
 @-webkit-keyframes fadeInUp {
     0% {
         opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
         -webkit-transform: translate3d(0, 20px, 0);
         transform: translate3d(0, 20px, 0);
     }
@@ -170,6 +174,10 @@ body img.about-me-chris {
 
 @keyframes fadeInUp {
     0% {
+        opacity: 0;
+    }
+
+    20% {
         opacity: 0;
         -webkit-transform: translate3d(0, 20px, 0);
         transform: translate3d(0, 20px, 0);
@@ -190,7 +198,11 @@ body img.about-me-chris {
 @-webkit-keyframes fadeInUpMega {
     0% {
         opacity: 0;
-        -webkit-transform: translate3d(0, 80px, 0);
+    }
+
+    20% {
+    	opacity: 0;
+    	-webkit-transform: translate3d(0, 80px, 0);
         transform: translate3d(0, 80px, 0);
     }
 
@@ -204,7 +216,11 @@ body img.about-me-chris {
 @keyframes fadeInUpMega {
     0% {
         opacity: 0;
-        -webkit-transform: translate3d(0, 80px, 0);
+    }
+
+    20% {
+    	opacity: 0;
+    	-webkit-transform: translate3d(0, 80px, 0);
         transform: translate3d(0, 80px, 0);
     }
 

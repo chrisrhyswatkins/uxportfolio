@@ -94,18 +94,7 @@ $(document).ready(function() {
 	}, 25);
 
 });
-/*
-Pace.on('done', function() {
-	
-  	$('#project-item-plastic').css("background-image", "url('img/project-items/plastic.jpg')"); 
-	$('#project-item-strawberry').css("background-image", "url('img/project-items/strawberry.jpg')");
-	$('#project-item-seven').css("background-image", "url('img/project-items/seven.jpg')");
-	$('#project-item-purdue').css("background-image", "url('img/project-items/purdue.jpg')");
-	$('#project-item-shopping').css("background-image", "url('img/project-items/shopping.jpg')");
 
-	$('.selected-work-item').css("height", "auto");
-	
-});*/
 </script>
 
 <?php

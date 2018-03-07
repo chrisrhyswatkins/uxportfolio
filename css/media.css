@@ -204,6 +204,14 @@ h2.about-subsection {
 	display: none !important;
 }
 
+a.about-page-bottom-option {
+	padding: 30px;
+}
+
+a.about-page-bottom-option .color-block-overlay {
+	width: 100%;
+}
+
 .about-page-bottom-option:last-child {
 	margin-bottom: 30px;
 }

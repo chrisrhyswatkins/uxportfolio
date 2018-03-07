@@ -20,7 +20,7 @@
 	</a>
 </div>
 
-<div class="responsive-menu-overlay">
+<div class="responsive-menu-overlay" id="fixed-overlay">
 	<ul class="responsive-nav-list">
 		<li<?php if($activeNav == '1') {echo " class='current-menu-item'";}?>><a href="/#work-anchor">work</a></li>
 		<li<?php if($activeNav == '2') {echo " class='current-menu-item'";}?>><a href="about">about me</a></li>

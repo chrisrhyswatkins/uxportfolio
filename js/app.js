@@ -87,7 +87,18 @@ $(".responsive-menu-link").click(function(e) {
     $(".responsive-menu").toggleClass("open");
     $("html").toggleClass("no-scroll");
     $("body").toggleClass("no-scroll");
+
 });
+
+
+var fixed = document.getElementById('fixed-overlay');
+
+fixed.addEventListener('touchmove', function(e) {
+
+        e.preventDefault();
+
+}, false);
+
 
 
 /* GREETING MESSAGE FUNCTION */

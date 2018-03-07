@@ -62,7 +62,7 @@
 
 	<section class="banner-below-overview no-grey-banner" id="theBrief">
 		<div class="row in-project-subhead">
-			<div class="small-24 columns fadeInPortfolioText">
+			<div class="small-24 columns">
 				<h2 class="line-behind"><span>The Brief</span></h2>
 				<p class="in-project-subhead-para">Identifying the overarching issues.</p>
 			</div>

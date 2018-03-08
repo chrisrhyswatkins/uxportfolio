@@ -134,9 +134,9 @@ body #content {
 
 body .recent-work-container {
    /* opacity: 1;*/
-    animation: fadeInUpMega 1.25s;
-    -webkit-animation: fadeInUpMega 1.25s;
-    -moz-animation: fadeInUpMega 1.25s;
+    animation: fadeInUpMega 1.05s;
+    -webkit-animation: fadeInUpMega 1.05s;
+    -moz-animation: fadeInUpMega 1.05s;
 }
 
 img.about-me-chris {

@@ -141,10 +141,13 @@ $(document).ready(function() {
 	}, 4750);
 
 	setTimeout(function() {
-		$navbar.fadeIn(750);
 		$('.selected-work-item').css("height", "auto");
-	    $maincontent.fadeIn(750);
-	    $footer.fadeIn(750);
+	    $maincontent.show();
+	}, 6750);
+
+	setTimeout(function() {
+		$navbar.fadeIn(750);
+	    $footer.fadeIn(150);
 	}, 7000);
 
 	$('.selected-work-item').css("height", "auto");

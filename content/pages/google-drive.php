@@ -96,22 +96,29 @@
 		<div class="row">
 			<div class="small-24 medium-22 large-18 columns small-centered">
 				<h2 class="sub-section">Identified Problem Explanations</h2>
-				<p class="portfolio-body nothing-below">As shown in the visual representation above, the critical analysis of the design identified 12 issues that I felt needed to be addressed in any redesign. A brief overview of this list of problems found can be seen below.</p>
-				<p class="capitalized-title-desc above-list-items">Problems Identified</p>
-				<ol class="regular">
-					<li><p>While the ‘Get Backup and Sync for Mac’ option looks visually unappealing, it's position is also unsuitable in terms of it's distance from the element it relates to, the ‘Backups’ menu option.</p></li>
-		      		<li><p>The method of displaying the storage usage, whilst informative, does technically require a calculative effort on the part of the user to work out the amount remaining.</p></li>
-		          	<li><p>The arrows to the left of the menu items ‘My Drive’ and ‘Computers’ go some way to violating the rule of familiarity to the users, who are more likely to be used to seeing collapsable menu items with an icon to the right of the text label.</p></li>
-		          	<li><p>To less familiar users, the visibility and navigation possibilities of the menu options to the left of the screen may be overlooked initially due to the lack of visual separation between these options, and the content of the current folder displayed in the middle of the screen.</p></li>
-		      		<li><p>The blue ‘NEW’ button displayed in the left hand screen creates confusion to it’s function due to it's position in relation to the elements it targets, and also the vagueness of language.</p></li>
-		          	<li><p>The arrow next to the user’s current location, ‘My Drive’, lacks sufficient semiotic value in conveying it’s true function.</p></li>
-		          	<li><p>The direction of the arrow to convey the order in which the folders and files are currently displayed appears to go against logic and countless systems that users will be used to. Additionally, there is no clear indication of which column the items are currently being sorted by.</p></li>
-		      		<li><p>There is a lack of differentiation between what is essentially two separate navigation bars, but displayed as one, causing large issues with visual and information hierarchy, and separation of action functionality.</p></li>
-		          	<li><p>The current notifications icon (the bell next to the user’s profile image) violates the consistency present in the majority of the other icons displayed on the screen.</p></li>
-		          	<li><p>The location of the settings call to action could cause confusion in the mind of the user as to it's actual functionality.</p></li>
-		      		<li><p>There is no conveyance of function of the information icon through visual indication, through position or appearance. This element needs attention at two points: a) it’s position must better convey it’s function in relation to the currently selected file, folder, or location, and b) the system needs to better draw attention of the user to the important event of the information/details/activity sidebar being opened or closed with it’s click.</p></li>
-		          	<li><p>The current option for the user to alter the view type of the files and folders shown can cause confusion to it’s similarity in appearance to the Drive option directly above it, and also it’s spacial relativity to that same option.</p></li>
-		   		</ol>
+				<p class="portfolio-body nothing-below">As shown in the visual representation above, the critical analysis of the design identified 12 issues that I felt needed to be addressed in any redesign.</p>
+
+		   		<ul class="accordion ordered-list-container" data-accordion data-allow-all-closed="true">
+					<li class="accordion-item" data-accordion-item>
+				    	<a href="#" class="accordion-title">Problems Identified</a>
+				    	<div class="accordion-content" data-tab-content>
+				      		<ol class="regular">
+								<li><p>While the ‘Get Backup and Sync for Mac’ option looks visually unappealing, it's position is also unsuitable in terms of it's distance from the element it relates to, the ‘Backups’ menu option.</p></li>
+					      		<li><p>The method of displaying the storage usage, whilst informative, does technically require a calculative effort on the part of the user to work out the amount remaining.</p></li>
+					          	<li><p>The arrows to the left of the menu items ‘My Drive’ and ‘Computers’ go some way to violating the rule of familiarity to the users, who are more likely to be used to seeing collapsable menu items with an icon to the right of the text label.</p></li>
+					          	<li><p>To less familiar users, the visibility and navigation possibilities of the menu options to the left of the screen may be overlooked initially due to the lack of visual separation between these options, and the content of the current folder displayed in the middle of the screen.</p></li>
+					      		<li><p>The blue ‘NEW’ button displayed in the left hand screen creates confusion to it’s function due to it's position in relation to the elements it targets, and also the vagueness of language.</p></li>
+					          	<li><p>The arrow next to the user’s current location, ‘My Drive’, lacks sufficient semiotic value in conveying it’s true function.</p></li>
+					          	<li><p>The direction of the arrow to convey the order in which the folders and files are currently displayed appears to go against logic and countless systems that users will be used to. Additionally, there is no clear indication of which column the items are currently being sorted by.</p></li>
+					      		<li><p>There is a lack of differentiation between what is essentially two separate navigation bars, but displayed as one, causing large issues with visual and information hierarchy, and separation of action functionality.</p></li>
+					          	<li><p>The current notifications icon (the bell next to the user’s profile image) violates the consistency present in the majority of the other icons displayed on the screen.</p></li>
+					          	<li><p>The location of the settings call to action could cause confusion in the mind of the user as to it's actual functionality.</p></li>
+					      		<li><p>There is no conveyance of function of the information icon through visual indication, through position or appearance. This element needs attention at two points: a) it’s position must better convey it’s function in relation to the currently selected file, folder, or location, and b) the system needs to better draw attention of the user to the important event of the information/details/activity sidebar being opened or closed with it’s click.</p></li>
+					          	<li><p>The current option for the user to alter the view type of the files and folders shown can cause confusion to it’s similarity in appearance to the Drive option directly above it, and also it’s spacial relativity to that same option.</p></li>
+					   		</ol>
+				    	</div>
+					</li>
+				</ul>
 		   	</div>
 		</div>
 	</section>

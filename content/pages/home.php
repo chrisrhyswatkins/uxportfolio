@@ -158,7 +158,7 @@
 					</div>		
 				</div>
 			</div>
-			<div class="small-24 columns end selected-work-item project-in-progress fadeIn">
+			<div class="small-24 columns end selected-work-item embodied project-in-progress fadeIn">
 				<div class="row in-progress-project-container">				
 					<div class="small-24 show-for-medium medium-11 large-12 columns selected-work-item-image" style="background-image:url('img/project-items/shopping.jpg');" id="project-item-shopping">
 					</div>
@@ -173,7 +173,7 @@
 					</div>		
 				</div>
 			</div>
-			<div class="small-24 columns end selected-work-item mental-health project-in-progress fadeIn">
+			<div class="small-24 columns end selected-work-item purdue project-in-progress fadeIn">
 				<div class="row in-progress-project-container">				
 					<div class="small-24 show-for-medium medium-11 large-12 columns selected-work-item-image" style="background-image:url('img/project-items/purdue.jpg');" id="project-item-purdue">
 					</div>

@@ -1282,9 +1282,15 @@ section.recent-work-container {
 	background-color: rgba(194,142,13,0.75);
 }
 
+.selected-work-item.purdue .selected-work-item-text h3 {
+	color: rgba(194,142,13,1)
+}
+
+/*
 .selected-work-item.purdue a:hover .selected-work-item-text h3 {
 	color: rgba(194,142,13,1)
 }
+*/
 
 .selected-work-item.google .selected-work-item-image .hovered-line {
 	background-color: rgba(66, 133, 244,1);
@@ -1302,9 +1308,15 @@ section.recent-work-container {
 	background-color: rgba(19, 135, 80, 0.75);
 }
 
+.selected-work-item.embodied .selected-work-item-text h3 {
+	color: rgba(19, 135, 80, 1)
+}
+
+/*
 .selected-work-item.embodied a:hover .selected-work-item-text h3 {
 	color: rgba(19, 135, 80, 1)
 }
+*/
 
 .selected-work-item.strawberry .selected-work-item-image .hovered-line {
 	background-color: rgba(233,10,34, 1);
@@ -1338,9 +1350,15 @@ section.recent-work-container {
 	color: rgba(100,100,100, 1);
 }
 
+.selected-work-item.mental-health .selected-work-item-text h3 {
+	color: rgba(59,89,152, 1);
+}
+
+/*
 .selected-work-item.mental-health a:hover .selected-work-item-text h3 {
 	color: rgba(59,89,152, 1);
 }
+*/
 
 .row.coming-soon-line {
 	padding-top: 50px;
@@ -2408,6 +2426,44 @@ ul#persona-tabs.tabs .tabs-title > a:focus .persona-picture, .tabs-title > a[ari
 	width: 100%;
 	padding: 0;
 	display: table;
+}
+
+ul.accordion.ordered-list-container {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid rgba(20,20,20,0.1);
+	padding-bottom: 25px;
+}
+
+ul.accordion.ordered-list-container li.accordion-item .accordion-title {
+	padding: 0;
+	text-transform: uppercase;
+	font-family: 'proxima-nova', Arial, sans-serif;
+	font-weight: 600;
+	font-size: 0.85em;
+	letter-spacing: 0.8px;
+	color: #202021 !important;
+	border: none;
+}
+
+ul.accordion.ordered-list-container li.accordion-item .accordion-title::before {
+	content: 'Show';
+	right: 0;
+	color: rgba(12,98,218,1.00) !important;
+	font-weight: bold;
+}
+
+ul.accordion.ordered-list-container li.accordion-item.is-active > .accordion-title::before {
+	content: 'Hide';
+}
+
+ul.accordion.ordered-list-container li.accordion-item .accordion-title:hover, ul.accordion.ordered-list-container li.accordion-item .accordion-title:focus {
+	background: none;
+}
+
+ul.accordion.ordered-list-container li.accordion-item .accordion-content {
+	border: none;
+	padding: 30px 0 0 0;
 }
 
 a.section-jump-option {

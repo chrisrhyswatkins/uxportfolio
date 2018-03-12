@@ -145,7 +145,7 @@
 		<div class="row">
 			<div class="small-24 columns end selected-work-item mental-health project-in-progress first fadeIn">
 				<div class="row in-progress-project-container">				
-					<div class="small-24 show-for-medium medium-11 columns selected-work-item-image" style="background-image:url('img/project-items/mental-health.jpg');">
+					<div class="small-24 show-for-medium medium-11 large-12 columns selected-work-item-image" style="background-image:url('img/project-items/mental-health.jpg');">
 					</div>
 					<div class="show-for-medium medium-1 large-2 columns">
 						
@@ -160,7 +160,7 @@
 			</div>
 			<div class="small-24 columns end selected-work-item project-in-progress fadeIn">
 				<div class="row in-progress-project-container">				
-					<div class="small-24 show-for-medium medium-11 columns selected-work-item-image" style="background-image:url('img/project-items/shopping.jpg');" id="project-item-shopping">
+					<div class="small-24 show-for-medium medium-11 large-12 columns selected-work-item-image" style="background-image:url('img/project-items/shopping.jpg');" id="project-item-shopping">
 					</div>
 					<div class="show-for-medium medium-1 large-2 columns">
 						
@@ -175,7 +175,7 @@
 			</div>
 			<div class="small-24 columns end selected-work-item mental-health project-in-progress fadeIn">
 				<div class="row in-progress-project-container">				
-					<div class="small-24 show-for-medium medium-11 columns selected-work-item-image" style="background-image:url('img/project-items/purdue.jpg');" id="project-item-purdue">
+					<div class="small-24 show-for-medium medium-11 large-12 columns selected-work-item-image" style="background-image:url('img/project-items/purdue.jpg');" id="project-item-purdue">
 					</div>
 					<div class="show-for-medium medium-1 large-2 columns">
 						

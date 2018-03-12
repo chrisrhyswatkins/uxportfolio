@@ -1120,26 +1120,6 @@ section.recent-work-container {
 	color: rgba(20,20,20,1);
 }
 
-.selected-work-item.project-in-progress {
-	cursor: default !important;
-}
-
-.selected-work-item.project-in-progress .selected-work-item-image {
-	
-}
-
-.selected-work-item.project-in-progress a:hover {
-	opacity: 0.3;
-}
-
-.selected-work-item.project-in-progress:hover .date {
-	opacity: 1;
-}
-
-.selected-work-item.project-in-progress a {
-	cursor: default;
-}
-
 .selected-work-item-image {
 	width: 100%;
 	/*height: 350px;*/
@@ -1209,7 +1189,7 @@ section.recent-work-container {
     transition: all 0.25s;
 }
 
-.selected-work-item a:hover .selected-work-item-image {
+.selected-work-item:not(.project-in-progress) a:hover .selected-work-item-image {
     background-size: 110% auto;
     -webkit-box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.2);
 	-moz-box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.2);
@@ -1260,12 +1240,12 @@ section.recent-work-container {
 
 .selected-work-item.new-project h3:after {
 	color: red;
-	content: 'New Project';
+	content: 'New Full Case Study';
 }
 
 .selected-work-item.case-study-in-progress h3:after {
 	color: orange;
-	content: 'Case Study In Progress';
+	content: 'Designs-Only Case Study';
 }
 
 .selected-work-item.project-in-progress h3:after {
@@ -1273,7 +1253,7 @@ section.recent-work-container {
 	content: 'Project Underway';
 }
 
-.selected-work-item p {
+.selected-work-item p:not(.in-progress-description) {
 	text-transform: uppercase;
 	font-family: 'proxima-nova', Arial, sans-serif;
 	font-weight: 600;
@@ -1370,6 +1350,40 @@ section.recent-work-container {
 
 .row.coming-soon-line.selected-work-line {
 	margin-top: 75px;
+}
+
+.selected-work-item.project-in-progress:not(:first-child) {
+	margin-top: 110px;
+}
+
+.row.in-progress-project-container {
+	display: flex;
+ 	align-items: center;
+ 	float: left;
+}
+
+.selected-work-item.project-in-progress a {
+	cursor: default;
+}
+
+.selected-work-item.project-in-progress p.in-progress-description {
+	font-size: 0.95em;
+	margin-top: 25px;
+	margin-bottom: 0;
+	text-transform: none;
+	font-weight: 400;
+	font-family: 'proxima-nova', Arial, sans-serif;
+}
+
+.selected-work-item.project-in-progress p.in-progress-date {
+	text-transform: uppercase;
+	font-family: 'proxima-nova', Arial, sans-serif;
+	font-weight: 600;
+	font-size: 0.8em;
+	letter-spacing: 0.5px;
+	opacity: 0.7;
+	margin-top: 25px;
+	margin-bottom: 0;
 }
 
 /* About Page */

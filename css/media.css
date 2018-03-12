@@ -153,6 +153,14 @@ h1.welcome-description {
 	margin-top: 75px;
 }
 
+.selected-work-item.project-in-progress.first {
+	margin-top: 0px !important;
+}
+
+.selected-work-item.project-in-progress:not(:first-child) {
+	margin-top: 60px;
+}
+
 .row.coming-soon-line {
 	margin-top: 60px;
 	margin-bottom: 20px;

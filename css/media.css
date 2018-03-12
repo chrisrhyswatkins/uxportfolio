@@ -37,6 +37,10 @@ ul.nav-list li {
 	width: 96% !important;
 }
 
+.selected-work-item-image {
+	height: 240px;
+}
+
 /* Individual Work Page */
 
 ul.portfolio-nav-option { 
@@ -151,6 +155,10 @@ h1.welcome-description {
 
 .selected-work-item:nth-child(even) {
 	margin-top: 75px;
+}
+
+.selected-work-item-image {
+	height: 185px;
 }
 
 .selected-work-item.project-in-progress.first {

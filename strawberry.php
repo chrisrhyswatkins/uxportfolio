@@ -15,7 +15,7 @@ $footerType = 'black-footer portfolio-project-footer';
 
 // Project Page Details
 $projectName = 'strawberry';
-$colorMainRGB = 'rgba(233,10,34, 1)';
+$colorMainRGB = 'rgba(105,169,22, 1)';
 $prevProject = 'precision-plastics';
 $nextProject = 'seven-hair-body';
 

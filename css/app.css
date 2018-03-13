@@ -819,7 +819,7 @@ header.has-background.prec-plas-res-nav {
 }
 
 header.has-background.strawberry-res-nav {
-	background: rgba(233,10,34, 0.95);
+	background: rgba(105,169,22, 0.95);
 }
 
 header.has-background.seven-res-nav {
@@ -1198,11 +1198,11 @@ section.recent-work-container {
 }
 
 .selected-work-item-image.wide-image {
-	background-size: auto 105%;
+	background-size: auto 110%;
 }
 
 .selected-work-item a:hover .selected-work-item-image.wide-image {
-	background-size: auto 110%;
+	background-size: auto 115%;
 }
 
 .selected-work-item a:hover .hovered-line {

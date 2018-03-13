@@ -16,76 +16,11 @@
 					<p class="portfolio-body text-white about-page">While my specialties lie in <b>qualitative research and UX design</b>, I also love <b>developing</b> the solutions I propose. When I'm not researching, designing, or coding, I enjoy anything dog-related, hiking, skiing (poorly), and coming up with horrendous puns for Instagram post captions.</p>
 				</div>
 			</div>
-			<!--
-			<div class="row about-me-section">
-				<div class="small-24 large-7 columns">
-					<h2 class="text-white about-subsection">Design ethos</h2>
-				</div>
-				<div class="small-24 large-17 columns">
-					<p class="portfolio-body text-white">Simplicity. Don't consider 'final design'</p>
-					<p class="portfolio-body text-white">While my specialties lie in <b>UX &amp; interaction design</b>, I also love to <b>develop</b> the solutions I propose. When I'm not researching, designing, or developing, I enjoy anything dog-related, hiking, skiing (poorly), and coming up with horrendous puns for Instagram post captions.</p>
-				</div>
-			</div>
-			-->
-			<!--
-			<div class="row about-me-section">
-				<div class="small-24 large-6 columns">
-					<h2 class="text-white about-subsection">Résumé</h2>
-				</div>
-				<div class="small-24 large-18 columns">
-					<p class="capitalized-title-desc text-white no-margin-bottom"><span>education</span></p>
-					<div class="experience-item present first">
-						<p class="experience-item-title">MS <span>in</span> Human-Centered Design &amp; Development</p>
-						<p class="experience-item-location">Purdue University<span>West Lafayette, Indiana, USA</span></p>
-						<p class="experience-item-dates">August 2017 - <span class="present">Present</span></p>
-					</div>
-					<div class="experience-item">
-						<p class="experience-item-title">BSc (Honors) <span>in</span> Web Design &amp; Development</p>
-						<p class="experience-item-location">Northumbria University<span>Newcastle upon Tyne, United Kingdom</span></p>
-						<p class="experience-item-dates">September 2012 - June 2015</p>
-					</div>
-					<p class="capitalized-title-desc text-white no-margin-bottom" style="margin-top: 4rem;"><span>experience</span></p>
-					<div class="experience-item present first">
-						<p class="experience-item-title">UX Consultant, Designer &amp; Developer</p>
-						<p class="experience-item-location">Freelance<span>Remote Locations</span></p>
-						<p class="experience-item-dates">September - <span class="present">Present</span></p>
-					</div>
-					<div class="experience-item">
-						<p class="experience-item-title">UX Designer &amp; Front-End Developer</p>
-						<p class="experience-item-location">New Socks Media &amp; Media Motors<span>Peterborough, United Kingdom</span></p>
-						<p class="experience-item-dates">March 2016 - June 2017</p>
-					</div>
-					<div class="experience-item">
-						<p class="experience-item-title">BSc (Honors) <span>in</span> Web Design &amp; Development</p>
-						<p class="experience-item-location">Northumbria University<span>Newcastle upon Tyne, United Kingdom</span></p>
-						<p class="experience-item-dates">September 2012 - June 2015</p>
-					</div>
-					<p class="capitalized-title-desc text-white no-margin-bottom" style="margin-top: 4rem;"><span>additional experience</span></p>
-					<div class="experience-item present first">
-						<p class="experience-item-title">Director</p>
-						<p class="experience-item-location">Precision Plastics<span>Peterborough, United Kingdom</span></p>
-						<p class="experience-item-dates">March 2010 - <span class="present">Present</span></p>
-					</div>
-					<div class="experience-item">
-						<p class="experience-item-title">Camp Counselor &amp; Assistant to Camp Director</p>
-						<p class="experience-item-location">Camp Saginaw<span>Oxford, Pennsylvania, USA</span></p>
-						<p class="experience-item-dates">June 2014 - August 2017</p>
-					</div>
-					<p class="capitalized-title-desc text-white no-margin-bottom" style="margin-top: 4rem;"><span>methods</span></p>
-					<p class="portfolio-body text-white no-margin-bottom" style="padding-bottom: 0;">A/B testing, Affinity diagramming, Comparative analysis, Concept modeling, Contextual inquiry, Eye tracking, Flow diagramming, Heuristic evaluation, Interactive prototyping, Interviewing, Mixed-method research, Paper prototyping, Persona development, Requirement analysis, Site maps, Usability testing, Use cases &amp; scenarios, Wireframing</p>
-					<p class="capitalized-title-desc text-white no-margin-bottom" style="margin-top: 4rem;"><span>tools</span></p>
-					<p class="portfolio-body text-white no-margin-bottom" style="padding-bottom: 0;">Illustrator, InDesign, InVision, MailChimp, Morae, OmniGraffle, Photoshop, Sketch, Sublime Text, Tobii Studio, Zurb Foundation</p>
-					<p class="capitalized-title-desc text-white no-margin-bottom" style="margin-top: 4rem;"><span>development</span></p>
-					<p class="portfolio-body text-white no-margin-bottom" style="padding-bottom: 0;">HTML, CSS, PHP, MySQL, jQuery</p>
-				</div>
-			</div>
-		-->
 		</div>
 	</div>
 </section>
 
 <section class="about-grey-gradient">
-
 	<div class="row">
 		<div class="small-5 show-for-medium columns">
 			

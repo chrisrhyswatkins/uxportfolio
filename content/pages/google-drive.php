@@ -36,26 +36,11 @@
 						<p class="overview-detail">West Lafayette, IN, USA 🇺🇸</p>
 					</div>
 				</div>
-				<!--
-				<div class="row">
-					<div class="small-24 columns">
-						<p class="capitalized-title-desc no-margin-bottom">Quick Links</p>
-						<p class="overview-detail team-members"><a href="#theBrief" class="first-member samepageanchor">Brief</a><span class="dash">/</span><a href="#analysis" class="samepageanchor">Visual Critique</a><span class="dash">/</span><a href="#solutionSectMain" class="samepageanchor">Proposed Redesign</a></p>
-					</div>
-				</div>
-				-->
 			</div>
 			<div class="small-24 medium-6 large-7 columns project-highlight-image show-for-medium" data-equalizer-watch>
 				<img src="img/projects/google-drive/designs/google-macbook-temp.png" alt="" class="laptop">
 			</div>
 		</div>
-		<!--
-		<div class="row hide-for-medium">
-			<div class="small-8 columns small-centered">
-				<img src="img/projects/lyft/designs/2.0.png" alt="">
-			</div>
-		</div>
-		-->
 	</section>
 
 	<section class="banner-below-overview no-grey-banner" id="theBrief">
@@ -132,7 +117,7 @@
 		</div>
 		<div class="row">
 			<div class="small-24 medium-22 large-18 columns small-centered">
-				<h2 class="sub-section">Proposed Redesign</h2>
+				<h2 class="sub-section">User Interface</h2>
 				<p class="portfolio-body">Using the guidance given within the various visual and interactive principles referenced in the initial critique, I went about proposing a solution to the 12 problems identified by completing recreating the interface using Sketch, incorporating the changes I felt would help to solve those problems.</p>
 			</div>
 		</div>
@@ -142,17 +127,6 @@
 			</div>
 		</div>
 	</section>
-
-	<!--
-	<section class="portfolio-content-area conclusions-area">
-		<div class="row">
-			<div class="small-24 medium-22 large-18 columns small-centered fadeInPortfolioText">
-				<h2 class="sub-section">Conclusions &amp; Future Work</h2>
-				<p class="portfolio-body nothing-below">The proposed changes allow users to provide accurate ratings through more relatable and recognizable emotion-based options, and directly influences their physical rideshare experience.</p>
-		   	</div>
-		</div>
-	</section>
--->
 
 	<section class="portfolio-navigator-bottom-page">
 		<div class="row">

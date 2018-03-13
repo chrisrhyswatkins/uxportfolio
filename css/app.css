@@ -819,7 +819,7 @@ header.has-background.prec-plas-res-nav {
 }
 
 header.has-background.strawberry-res-nav {
-	background: rgba(105,169,22, 0.95);
+	background: rgba(248, 12, 58, 0.95);
 }
 
 header.has-background.seven-res-nav {
@@ -1319,11 +1319,11 @@ section.recent-work-container {
 */
 
 .selected-work-item.strawberry .selected-work-item-image .hovered-line {
-	background-color: rgba(233,10,34, 1);
+	background-color: rgba(248, 12, 58, 1);
 }
 
 .selected-work-item.strawberry a:hover .selected-work-item-text h3 {
-	color: rgba(233,10,34, 1);
+	color: rgba(248, 12, 58, 1);
 }
 
 .selected-work-item.freeagent .selected-work-item-image .hovered-line {

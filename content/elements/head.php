@@ -23,10 +23,14 @@
 	<link rel="stylesheet" href="https://use.typekit.net/dmx3ofy.css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 	<title><?php echo $metaTitle; ?></title>
 	<meta name="description" content="<?php echo $metaDescription; ?>">
 	<meta name="author" content="Chris Watkins">
+	<meta property="og:title" content="<?php echo $metaTitle; ?>" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://www.crwatkins.com" />
+	<meta property="og:description" content="<?php echo $metaDescription; ?>" />
+	<meta property="fb:app_id" content="1891212391169727" />
 	<script src="js/scrollreveal.min.js"></script>
     <script>
       window.sr = ScrollReveal();

@@ -32,7 +32,7 @@
 					<a href="lyft">
 						<div class="small-24 columns selected-work-item-image" style="background-image: url('img/project-items/lyft.jpg');">
 							<div class="hovered-line"></div>
-							<span class="date text-white">NOV 2017</span>
+							<span class="date text-white"></span>
 						</div>
 						<div class="small-24 columns selected-work-item-text">
 							<h3>Lyft Rating System</h3>
@@ -46,7 +46,7 @@
 					<a href="google-drive">
 						<div class="small-24 columns selected-work-item-image" style="background-image: url('img/project-items/google3.jpg');">
 							<div class="hovered-line"></div>
-							<span class="date text-white">NOV 2017</span>
+							<span class="date text-white"></span>
 						</div>
 						<div class="small-24 columns selected-work-item-text">
 							<h3>Google Drive</h3>
@@ -77,7 +77,7 @@
 						<div class="small-24 columns selected-work-item-image" style="background-image:url('img/project-items/plastic.jpg');" id="project-item-plastic">
 							<div class="hovered-line"></div>
 							<div class="hovered-overlay"></div>
-							<span class="date text-white">OCT 2016</span>
+							<span class="date text-white">DESIGNS ONLY</span>
 						</div>
 						<div class="small-24 columns selected-work-item-text">
 							<h3>Precision Plastics</h3>
@@ -95,7 +95,7 @@
 						<div class="small-24 columns selected-work-item-image wide-image" style="background-image:url('img/project-items/strawberry.jpg');" id="project-item-strawberry">
 							<div class="hovered-line"></div>
 							<div class="hovered-overlay"></div>
-							<span class="date text-white">MAY 2016</span>
+							<span class="date text-white">DESIGNS ONLY</span>
 						</div>
 						<div class="small-24 columns selected-work-item-text">
 							<h3>Strawberry</h3>
@@ -110,7 +110,7 @@
 						<div class="small-24 columns selected-work-item-image" style="background-image:url('img/project-items/seven.jpg');" id="project-item-seven">
 							<div class="hovered-line"></div>
 							<div class="hovered-overlay"></div>
-							<span class="date text-white">APR 2016</span>
+							<span class="date text-white">DESIGNS ONLY</span>
 						</div>
 						<div class="small-24 columns selected-work-item-text">
 							<h3>Seven Hair &amp; Body</h3>

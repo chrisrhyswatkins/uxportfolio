@@ -317,8 +317,8 @@ p.portfolio-body {
 	font-family: 'adobe-caslon-pro';
 	font-size: 1.3em;
 	padding-bottom: 25px;
-	letter-spacing: -0.5px;
-	line-height: 2em;
+	letter-spacing: -0.25px;
+	line-height: 2.25em;
 }
 
 p.portfolio-body.about-page {
@@ -1122,6 +1122,8 @@ section.recent-work-container {
 
 .selected-work-item-image {
 	width: 100%;
+	border-radius: 5px;
+	overflow: hidden;
 	/*height: 350px;*/
 	height: 275px;
 	/*background-image: url('../img/project-items/misc.jpg');*/
@@ -1130,9 +1132,11 @@ section.recent-work-container {
 	position: relative;
 	-webkit-transition: all 0.25s;
     transition: all 0.25s;
-    -webkit-box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.12);
+    /*-webkit-box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.12);
 	-moz-box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.12);
-	box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.12);
+	box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.12);*/
+	-moz-box-shadow: 0px 1px 8px 2px rgba(30,30,30, 0.075);
+    box-shadow: 0px 1px 8px 2px rgba(30,30,30, 0.075);
 }
 
 .selected-work-item-image .hovered-overlay {
@@ -1191,10 +1195,12 @@ section.recent-work-container {
 
 .selected-work-item:not(.project-in-progress) a:hover .selected-work-item-image {
     background-size: 110% auto;
-    -webkit-box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.2);
-	-moz-box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.2);
-	box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.2);
-	transform: scale(1.025,1.025);
+   /* -webkit-box-shadow: 0px 5px 9px 0px rgba(30, 30, 30, 0.15);
+	-moz-box-shadow: 0px 5px 9px 0px rgba(30, 30, 30, 0.15);
+	box-shadow: 0px 5px 9px 0px rgba(30, 30, 30, 0.15);*/
+	transform: scale(1.0175,1.0175);
+	-moz-box-shadow: 0px 2px 20px 2px rgba(30,30,30, 0.15);
+    box-shadow: 0px 2px 20px 2px rgba(30,30,30, 0.15);
 }
 
 .selected-work-item-image.wide-image {
@@ -1238,6 +1244,7 @@ section.recent-work-container {
 	font-size: 0.5em;
 }
 
+/*
 .selected-work-item.new-project h3:after {
 	color: red;
 	content: 'New Full Case Study';
@@ -1247,6 +1254,7 @@ section.recent-work-container {
 	color: orange;
 	content: 'Designs-Only Case Study';
 }
+*/
 
 .selected-work-item.project-in-progress h3:after {
 	color: gray;
@@ -1604,6 +1612,7 @@ a.about-page-bottom-option {
 	position: relative;
 	-webkit-transition: all 0.45s; /* Safari */
     transition: all 0.45s;
+    border-radius: 4px;
 }
 
 a.about-page-bottom-option:hover {

@@ -100,7 +100,6 @@ fixed.addEventListener('touchmove', function(e) {
 }, false);
 
 
-
 /* GREETING MESSAGE FUNCTION */
 if ($('#home-greeting').length) {	 
 	today = new Date()

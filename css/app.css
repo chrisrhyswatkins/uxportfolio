@@ -1354,11 +1354,10 @@ section.recent-work-container {
 	color: rgba(59,89,152, 1);
 }
 
-/*
-.selected-work-item.mental-health a:hover .selected-work-item-text h3 {
-	color: rgba(59,89,152, 1);
+.selected-work-item.mmodal .selected-work-item-text h3 {
+	color: rgba(237,110,0, 1);
 }
-*/
+
 
 .row.coming-soon-line {
 	padding-top: 50px;
@@ -1521,7 +1520,7 @@ a.instagram-photo {
 	padding-top: calc(100%);
 	/*border: 1px solid rgba(255,255,255,0.15);
 	border-radius: 2px;*/
-	background-size: 100% auto;
+	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 }

@@ -143,6 +143,21 @@
 			</div>
 		</div>
 		<div class="row">
+			<div class="small-24 columns end selected-work-item mmodal project-in-progress first fadeIn">
+				<div class="row in-progress-project-container">				
+					<div class="small-24 show-for-medium medium-11 large-12 columns selected-work-item-image" style="background-image:url('img/project-items/mmodal2.jpg');">
+					</div>
+					<div class="show-for-medium medium-1 large-2 columns">
+						
+					</div>
+					<div class="small-24 medium-12 large-10 columns selected-work-item-text">
+						<h3>Clinical Assistant</h3>
+						<p class="category">Voice-User Interface<span>Internship</span></p>
+						<p class="in-progress-description">Encouraging regular, reflective mental health self check-ins, through a non-intrustive digital integration.</p>
+						<p class="in-progress-date">COMING SEP 2018</p>
+					</div>		
+				</div>
+			</div>
 			<div class="small-24 columns end selected-work-item mental-health project-in-progress first fadeIn">
 				<div class="row in-progress-project-container">				
 					<div class="small-24 show-for-medium medium-11 large-12 columns selected-work-item-image" style="background-image:url('img/project-items/mental-health.jpg');">
@@ -154,7 +169,7 @@
 						<h3>Emotional Check-In</h3>
 						<p class="category">Critical Design<span>University Work</span></p>
 						<p class="in-progress-description">Encouraging regular, reflective mental health self check-ins, through a non-intrustive digital integration.</p>
-						<p class="in-progress-date">COMING MAR 2018</p>
+						<p class="in-progress-date">COMING SEP 2018</p>
 					</div>		
 				</div>
 			</div>
@@ -169,7 +184,7 @@
 						<h3>Embodied Shopping</h3>
 							<p class="category">Smartphone Application<span>University Work</span></p>
 						<p class="in-progress-description">Designing a refined experience for grocery store patrons, maximizing empowering embodied interaction patterns.</p>
-						<p class="in-progress-date">COMING MAR 2018</p>
+						<p class="in-progress-date">COMING SEP 2018</p>
 					</div>		
 				</div>
 			</div>
@@ -184,7 +199,7 @@
 						<h3>Purdue Everywhere</h3>
 							<p class="category">Multi-Channel System<span>University Work</span></p>
 						<p class="in-progress-description">Increasing the enjoyment and confidence of first year students at Purdue through a cross-platform experience.</p>
-						<p class="in-progress-date">COMING MAR 2018</p>
+						<p class="in-progress-date">COMING SEP 2018</p>
 					</div>		
 				</div>
 			</div>

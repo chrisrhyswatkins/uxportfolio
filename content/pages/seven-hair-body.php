@@ -54,7 +54,7 @@
 		<div class="row">
 			<div class="small-24 medium-22 large-18 columns small-centered fadeInPortfolioText">
 				<p class="capitalized-title-desc no-margin-bottom">Case Study in Progress</p>
-				<h2 class="sub-section case-study-in-progress-warning">Well, this is embarassing.</h2>
+				<h2 class="sub-section case-study-in-progress-warning">This case study currently only details the project outcome, but the full story will be available soon.</h2>
 				<p class="portfolio-body nothing-below">I like to tell the story of each project from beginning to end, and this one is no different. I'll get the full details of this case study typed up and visualized as soon as possible, but feel free to <a href="mailto:chris@crwatkins.com?Subject=Hey,%20Chris!">get in touch</a> in for more details. In the meantime, enjoy the design solution.</p>
 			</div>
 		</div>

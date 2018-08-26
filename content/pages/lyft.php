@@ -18,7 +18,7 @@
 						<?php require 'content/elements/project-nav.php'; ?>
 					</div>
 					<div class="small-24 columns">
-						<p class="project-overview">In a two week project, my team and I researched, conceptualized, and prototyped an alternative solution to the traditional five-star system currently used by passengers and drivers of the rideshare application <span>Lyft</span>, to rate one another after each journey.</p>
+						<p class="project-overview">In a two week project, my team and I researched, conceptualized, and prototyped an alternative solution to the traditional five-star system currently used by passengers and drivers of the rideshare application Lyft, to rate one another after each journey.</p>
 					</div>
 				</div>
 				<div class="row project-overview-details">
@@ -32,8 +32,8 @@
 						<p class="overview-detail hide-for-large">Nov '17</p>
 					</div>
 					<div class="small-12 medium-10 large-9 columns">
-						<p class="capitalized-title-desc no-margin-bottom">Location</p>
-						<p class="overview-detail">West Lafayette, IN, USA 🇺🇸</p>
+						<p class="capitalized-title-desc no-margin-bottom">Duration</p>
+						<p class="overview-detail">2 weeks</p>
 					</div>
 				</div>
 				<!--

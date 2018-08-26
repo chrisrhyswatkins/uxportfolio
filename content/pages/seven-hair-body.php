@@ -32,8 +32,8 @@
 						<p class="overview-detail hide-for-large">Apr '16</p>
 					</div>
 					<div class="small-12 medium-10 large-9 columns">
-						<p class="capitalized-title-desc no-margin-bottom">Location</p>
-						<p class="overview-detail">Peterborough, UK 🇬🇧</p>
+						<p class="capitalized-title-desc no-margin-bottom">Duration</p>
+						<p class="overview-detail">1 month</p>
 					</div>
 				</div>
 			</div>

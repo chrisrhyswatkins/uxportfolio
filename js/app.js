@@ -220,6 +220,15 @@ $("a.instagram-photo").hover(function() { // Mouse over
 
 // Slick sliders
 
+/*
+
+$('.project-slider').slick({
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 1
+});
+
+*/
 
 $('.quote-slide-handler').slick({
     centerMode:true,

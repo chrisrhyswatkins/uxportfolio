@@ -17,7 +17,7 @@ $footerType = 'black-footer portfolio-project-footer';
 $projectName = 'sevenHairBody';
 $colorMainRGB = 'rgba(30,30,30,1)';
 $prevProject = 'strawberry';
-$nextProject = 'lyft';
+$nextProject = 'mmodal';
 
 ?>
 <!DOCTYPE html>

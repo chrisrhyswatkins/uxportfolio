@@ -16,7 +16,7 @@ $footerType = 'black-footer portfolio-project-footer';
 // Project Page Details
 $projectName = 'lyft';
 $colorMainRGB = 'rgba(53, 53, 132, 1)';
-$prevProject = 'seven-hair-body';
+$prevProject = 'mmodal';
 $nextProject = 'google-drive';
 
 ?>

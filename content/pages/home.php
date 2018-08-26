@@ -26,11 +26,26 @@
 				<h2 class="selected-work line-behind"><span>Selected Projects</span></h2>
 			</div>
 		</div>
-		<div class="row" data-equalizer>
+		<div class="row project-slider" data-equalizer>
+			<div class="small-24 medium-12 columns selected-work-item mmodal" data-equalizer-watch>
+				<div class="row">
+					<a href="mmodal">
+						<div class="small-24 columns selected-work-item-image" style="background-image: url('img/project-items/mmodal2.jpg');">
+							<div class="hovered-line"></div>
+							<div class="hovered-overlay"></div>
+							<span class="date text-white">NDA RESTRICTIONS</span>
+						</div>
+						<div class="small-24 columns selected-work-item-text">
+							<h3>Clinical Assistant</h3>
+							<p class="category no-margin-bottom">Multi-Modal Interaction<span>Internship</span></p>
+						</div>
+					</a>
+				</div>
+			</div>
 			<div class="small-24 medium-12 columns selected-work-item lyft" data-equalizer-watch>
 				<div class="row">
 					<a href="lyft">
-						<div class="small-24 columns selected-work-item-image" style="background-image: url('img/project-items/lyft.jpg');">
+						<div class="small-24 columns selected-work-item-image" style="background-image: url('img/project-backgrounds/lyft.jpg');">
 							<div class="hovered-line"></div>
 							<span class="date text-white"></span>
 						</div>
@@ -41,10 +56,10 @@
 					</a>
 				</div>
 			</div>
-			<div class="small-24 medium-12 columns selected-work-item google" data-equalizer-watch>
+			<div class="small-24 medium-12 columns selected-work-item google fadeIn" data-equalizer-watch>
 				<div class="row">
 					<a href="google-drive">
-						<div class="small-24 columns selected-work-item-image" style="background-image: url('img/project-items/google3.jpg');">
+						<div class="small-24 columns selected-work-item-image" style="background-image: url('img/project-items/google5.jpg');">
 							<div class="hovered-line"></div>
 							<span class="date text-white"></span>
 						</div>
@@ -55,26 +70,10 @@
 					</a>
 				</div>
 			</div>
-			<!--
-			<div class="small-24 medium-12 columns selected-work-item mygoalpal fadeIn" data-equalizer-watch>
-				<div class="row">
-					<a href="embodied-shopping">
-						<div class="small-24 columns selected-work-item-image wide-image" style="background-image: url('img/project-items/mygoalpal.png');">
-							<div class="hovered-line"></div>
-							<span class="date text-white">SEP 2017</span>
-						</div>
-						<div class="small-24 columns selected-work-item-text">
-							<h3>My Goal Pal</h3>
-							<p class="category">Smartphone Application<span>University Work</span></p>
-						</div>
-					</a>
-				</div>
-			</div>
-			-->
 			<div class="small-24 medium-12 columns selected-work-item precisionplastics case-study-in-progress fadeIn" data-equalizer-watch>
 				<div class="row">
 					<a href="precision-plastics">
-						<div class="small-24 columns selected-work-item-image" style="background-image:url('img/project-items/plastic.jpg');" id="project-item-plastic">
+						<div class="small-24 columns selected-work-item-image" style="background-image:url('img/project-items/plastics2.jpg');" id="project-item-plastic">
 							<div class="hovered-line"></div>
 							<div class="hovered-overlay"></div>
 							<span class="date text-white">DESIGNS ONLY</span>
@@ -89,10 +88,7 @@
 			<div class="small-24 medium-12 columns selected-work-item strawberry case-study-in-progress fadeIn" data-equalizer-watch>
 				<div class="row">
 					<a href="strawberry">
-						<!--
-						<div class="small-24 columns selected-work-item-image wide-image" style="background-image: url('img/project-items/strawberry.jpg');">
-						-->
-						<div class="small-24 columns selected-work-item-image wide-image" style="background-image:url('img/project-items/strawberry.jpg');" id="project-item-strawberry">
+						<div class="small-24 columns selected-work-item-image" style="background-image:url('img/project-items/strawberry.jpg');" id="project-item-strawberry">
 							<div class="hovered-line"></div>
 							<div class="hovered-overlay"></div>
 							<span class="date text-white">DESIGNS ONLY</span>
@@ -143,24 +139,28 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="small-24 columns end selected-work-item mmodal project-in-progress first fadeIn">
+			<div class="small-24 columns end selected-work-item domestic-abuse project-in-progress first fadeIn">
 				<div class="row in-progress-project-container">				
-					<div class="small-24 show-for-medium medium-11 large-12 columns selected-work-item-image" style="background-image:url('img/project-items/mmodal2.jpg');">
+					<div class="small-24 show-for-medium medium-11 large-12 columns selected-work-item-image" style="background-image:url('img/project-items/domestic.jpg');">
+						<div class="hovered-overlay"></div>
+						<span class="date text-white">WRITE-UP UNDERWAY</span>
 					</div>
 					<div class="show-for-medium medium-1 large-2 columns">
 						
 					</div>
 					<div class="small-24 medium-12 large-10 columns selected-work-item-text">
-						<h3>Clinical Assistant</h3>
-						<p class="category">Voice-User Interface<span>Internship</span></p>
+						<h3>Domestic Abuse Support</h3>
+						<p class="category">Service Mapping<span>Study-Abroad</span></p>
 						<p class="in-progress-description">Encouraging regular, reflective mental health self check-ins, through a non-intrustive digital integration.</p>
-						<p class="in-progress-date">COMING SEP 2018</p>
+						<!--<p class="in-progress-date">COMING SEP 2018</p>-->
 					</div>		
 				</div>
 			</div>
 			<div class="small-24 columns end selected-work-item mental-health project-in-progress first fadeIn">
 				<div class="row in-progress-project-container">				
 					<div class="small-24 show-for-medium medium-11 large-12 columns selected-work-item-image" style="background-image:url('img/project-items/mental-health.jpg');">
+						<div class="hovered-overlay"></div>
+						<span class="date text-white">WRITE-UP UNDERWAY</span>
 					</div>
 					<div class="show-for-medium medium-1 large-2 columns">
 						
@@ -169,10 +169,11 @@
 						<h3>Emotional Check-In</h3>
 						<p class="category">Critical Design<span>University Work</span></p>
 						<p class="in-progress-description">Encouraging regular, reflective mental health self check-ins, through a non-intrustive digital integration.</p>
-						<p class="in-progress-date">COMING SEP 2018</p>
+						<!--<p class="in-progress-date">COMING SEP 2018</p>-->
 					</div>		
 				</div>
 			</div>
+			<!--
 			<div class="small-24 columns end selected-work-item embodied project-in-progress fadeIn">
 				<div class="row in-progress-project-container">				
 					<div class="small-24 show-for-medium medium-11 large-12 columns selected-work-item-image" style="background-image:url('img/project-items/shopping.jpg');" id="project-item-shopping">
@@ -188,22 +189,6 @@
 					</div>		
 				</div>
 			</div>
-			<div class="small-24 columns end selected-work-item purdue project-in-progress fadeIn">
-				<div class="row in-progress-project-container">				
-					<div class="small-24 show-for-medium medium-11 large-12 columns selected-work-item-image" style="background-image:url('img/project-items/purdue.jpg');" id="project-item-purdue">
-					</div>
-					<div class="show-for-medium medium-1 large-2 columns">
-						
-					</div>
-					<div class="small-24 medium-12 large-10 columns selected-work-item-text">
-						<h3>Purdue Everywhere</h3>
-							<p class="category">Multi-Channel System<span>University Work</span></p>
-						<p class="in-progress-description">Increasing the enjoyment and confidence of first year students at Purdue through a cross-platform experience.</p>
-						<p class="in-progress-date">COMING SEP 2018</p>
-					</div>		
-				</div>
-			</div>
-			<!--
 			<div class="small-24 medium-12 columns selected-work-item purdue project-in-progress fadeIn" data-equalizer-watch>
 				<div class="row">
 					<a href="" onclick="return false;">

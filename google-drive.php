@@ -15,7 +15,7 @@ $footerType = 'black-footer portfolio-project-footer';
 
 // Project Page Details
 $projectName = 'googleDrive';
-$colorMainRGB = 'rgba(66, 133, 244,1)';
+$colorMainRGB = 'rgba(52,168,83,1)';
 $prevProject = 'lyft';
 $nextProject = 'precision-plastics';
 

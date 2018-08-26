@@ -18,7 +18,7 @@
 						<?php require 'content/elements/project-nav.php'; ?>
 					</div>
 					<div class="small-24 columns">
-						<p class="project-overview">Given a single screenshot of the ‘My Drive’ screen within a user’s <span>Google Drive</span> account, I conducted a critical analysis of the current design using various visual and interactive principles, and offered a proposed, but constrained redesign based on that critique.</p>
+						<p class="project-overview">Given a single screenshot of the ‘My Drive’ screen within a user’s Google Drive account, I conducted a critical analysis of the current design using various visual and interactive principles, and offered a proposed, but constrained redesign based on that critique.</p>
 					</div>
 				</div>
 				<div class="row project-overview-details">
@@ -32,8 +32,8 @@
 						<p class="overview-detail hide-for-large">Nov '17</p>
 					</div>
 					<div class="small-12 medium-10 large-9 columns">
-						<p class="capitalized-title-desc no-margin-bottom">Location</p>
-						<p class="overview-detail">West Lafayette, IN, USA 🇺🇸</p>
+						<p class="capitalized-title-desc no-margin-bottom">Duration</p>
+						<p class="overview-detail">2 days</p>
 					</div>
 				</div>
 			</div>
@@ -52,7 +52,6 @@
 		</div>
 		<div class="row">
 			<div class="small-24 medium-22 large-18 columns small-centered fadeInPortfolioText">
-				<h2 class="sub-section">The Brief</h2>
 				<p class="portfolio-body nothing-below">While UX designers are sometimes able to redesign or imagine entire products or systems, often the changes that can be made are much smaller in scope. In this exercise, we were individually tasked with using our current knowledge of visual and interactive principles to redesign the visual layout of an existing product website. However, the programming and semantic markup for the page was locked (with slight positional flexibility dependent on sound reasoning), so only changes that alter elements that are already on the page were permitted.</p>
 			</div>
 		</div>
@@ -84,7 +83,7 @@
 				<p class="portfolio-body nothing-below">As shown in the visual representation above, the critical analysis of the design identified 12 issues that I felt needed to be addressed in any redesign.</p>
 
 		   		<ul class="accordion ordered-list-container" data-accordion data-allow-all-closed="true">
-					<li class="accordion-item" data-accordion-item>
+					<li class="accordion-item is-active" data-accordion-item>
 				    	<a href="#" class="accordion-title">Problems Identified</a>
 				    	<div class="accordion-content" data-tab-content>
 				      		<ol class="regular">

@@ -40,6 +40,7 @@
 	<link rel="stylesheet" type="text/css" href="css/media.css">
 	<link rel="stylesheet" type="text/css" href="css/foundation.css"/>
 	<link rel="stylesheet" type="text/css" href="js/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css"/>
 	<link rel="stylesheet" type="text/css" href="js/lightbox/css/lightbox.css">
 	<link rel="stylesheet" type="text/css" href="js/lity/lity.css">
 	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">

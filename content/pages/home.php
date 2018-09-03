@@ -23,10 +23,10 @@
 		</div>-->
 		<div class="row coming-soon-line selected-work-line" id="work-anchor">
 			<div class="small-24 columns">
-				<h2 class="selected-work line-behind"><span>Selected Projects</span></h2>
+				<h2 class="selected-work line-behind"><span id="left-distance-element">Selected Projects</span></h2>
 			</div>
 		</div>
-		<div class="row project-slider" data-equalizer>
+		<div class="row project-slider scrolling-wrapper-flexbox draggable" data-equalizer>
 			<div class="small-24 medium-12 columns selected-work-item mmodal latest-item" data-equalizer-watch>
 				<div class="row">
 					<a href="mmodal">
@@ -56,7 +56,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="small-24 medium-12 columns selected-work-item google fadeIn" data-equalizer-watch>
+			<div class="small-24 medium-12 columns selected-work-item google" data-equalizer-watch>
 				<div class="row">
 					<a href="google-drive">
 						<div class="small-24 columns selected-work-item-image" style="background-image: url('img/project-items/google5.jpg');">
@@ -70,7 +70,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="small-24 medium-12 columns selected-work-item precisionplastics case-study-in-progress fadeIn" data-equalizer-watch>
+			<div class="small-24 medium-12 columns selected-work-item precisionplastics case-study-in-progress" data-equalizer-watch>
 				<div class="row">
 					<a href="precision-plastics">
 						<div class="small-24 columns selected-work-item-image" style="background-image:url('img/project-items/plastics2.jpg');" id="project-item-plastic">
@@ -85,7 +85,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="small-24 medium-12 columns selected-work-item sevenhairbody case-study-in-progress fadeIn" data-equalizer-watch>
+			<div class="small-24 medium-12 columns selected-work-item sevenhairbody case-study-in-progress" data-equalizer-watch>
 				<div class="row">
 					<a href="seven-hair-body">
 						<div class="small-24 columns selected-work-item-image" style="background-image:url('img/project-items/seven.jpg');" id="project-item-seven">
@@ -100,7 +100,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="small-24 medium-12 columns selected-work-item strawberry case-study-in-progress fadeIn end" data-equalizer-watch>
+			<div class="small-24 medium-12 columns selected-work-item strawberry case-study-in-progress end" data-equalizer-watch>
 				<div class="row">
 					<a href="strawberry">
 						<div class="small-24 columns selected-work-item-image wide-image" style="background-image:url('img/project-items/strawberry.jpg');" id="project-item-strawberry">
@@ -115,25 +115,8 @@
 					</a>
 				</div>
 			</div>
-			<!--
-			<div class="small-24 medium-12 columns selected-work-item freeagent case-study-in-progress end fadeIn" data-equalizer-watch>
-				<div class="row">
-					<a href="free-agent">
-						<div class="small-24 columns selected-work-item-image" style="background-image: url('img/project-items/freeagent.jpg');">
-							<div class="hovered-line"></div>
-							<div class="hovered-overlay"></div>
-							<span class="date text-white">MAY 2015</span>
-						</div>
-						<div class="small-24 columns selected-work-item-text">
-							<h3>Free Agent</h3>
-							<p class="category">Website<span>University Work</span></p>
-						</div>
-					</a>
-				</div>
-			</div>
-		-->
 		</div>
-		<div class="row coming-soon-line">
+		<div class="row coming-soon-line second-line">
 			<div class="small-24 columns fadeIn">
 				<h2 class="selected-work line-behind"><span>Coming Soon</span></h2>
 			</div>

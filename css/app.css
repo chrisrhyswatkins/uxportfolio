@@ -19,7 +19,7 @@ body.about-page {
 
 body.not-found {
 	background-image: url('../img/misc/kenobi.jpg');
-	background-size: cover%;
+	background-size: cover;
 	background-position: top left;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -27,7 +27,7 @@ body.not-found {
 
 .no-scroll {
 	overflow: hidden !important;
-	position: fixed !important;
+	position: static !important;
 }
 
 /* Pace Loader */
@@ -1113,8 +1113,31 @@ section.recent-work-container {
 	/*visibility: hidden;*/
 }
 
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto; 
+  max-width: 100% !important;
+  width: 100% !important;
+  /*padding-left: calc(((100% - 62.5rem) / 2) - 15px);*/
+  padding-left: calc(10% - 7.5px);
+  -webkit-overflow-scrolling: touch;
+  -moz-overflow-scrolling: touch;
+}
+
+.scrolling-wrapper-flexbox::-webkit-scrollbar {
+    display: none;
+}
+
 .selected-work-item {
 	margin-top: 50px;
+}
+
+.scrolling-wrapper-flexbox .selected-work-item {
+	flex: 0 0 auto;
+    margin-right: 30px;
+    max-width: 500px;
+    width: 50%;
 }
 
 .selected-work-item:nth-child(even) {
@@ -1125,6 +1148,7 @@ section.recent-work-container {
 	width: 94% !important;
 }
 
+/*
 .selected-work-item:nth-child(odd) .row {
 	margin-left: 0 !important;
 }
@@ -1132,16 +1156,17 @@ section.recent-work-container {
 .selected-work-item:nth-child(even) .row {
 	margin-right: 0 !important;
 }
+*/
 
 .selected-work-item a {
-	color: rgba(20,20,20,1);
+	color: rgba(20,20,20,1) !important;
 	-webkit-transition: all 0.25s; /* Safari */
     transition: all 0.25s;
     display: block;
 }
 
 .selected-work-item a:hover {
-	color: rgba(20,20,20,1);
+	color: rgba(20,20,20,1) !important;
 }
 
 .selected-work-item-image {
@@ -2253,7 +2278,7 @@ ol.regular li:before {
 	position: absolute;
 	left: -50px;
 	padding-bottom: 10px;
-	padding-top: 5.5px;
+	padding-top: 5px;
 	font-style: normal;
 	line-height: 1.6em;
 }
@@ -2277,6 +2302,7 @@ ol.regular li p {
 ol.regular li p.maintext {
 	line-height: 1.8em;
 	padding-bottom: 0px;
+	font-weight: 600;
 }
 
 ol.regular li p.subtext {

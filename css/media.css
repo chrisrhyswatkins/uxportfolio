@@ -84,6 +84,10 @@ ul#persona-tabs.tabs .tabs-title > a .persona-picture {
 	margin: 0 auto 0 auto;
 }
 
+img.second-card-image {
+	margin-top: 0px;
+}
+
 /* About */
 
 img.about-me-chris {
@@ -168,6 +172,10 @@ h1.welcome-description {
 	height: 185px;
 }
 
+.selected-work-item-image .hovered-line {
+	width: 100%;
+}
+
 .selected-work-item.project-in-progress.first {
 	margin-top: 0px !important;
 }
@@ -186,7 +194,7 @@ h1.welcome-description {
 	padding-top: 30px !important;
 }
 
-.selected-work-item.lyft {
+.selected-work-item.latest-item {
 	margin-top: 0;
 }
 

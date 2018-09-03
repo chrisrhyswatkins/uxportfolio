@@ -287,6 +287,10 @@ h2.sub-section {
 	margin-bottom: 5px;
 }
 
+h2.sub-section.below-image {
+	margin-top: 100px;
+}
+
 h2.sub-section.case-study-in-progress-warning {
 	font-size: 1.75em;
 	margin-bottom: 15px;
@@ -2151,6 +2155,11 @@ section.portfolio-photo-wrap.with-borders {
 	box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.3);
 }
 
+.panel-photo.taller {
+	height: 480px;
+	background-position: center 25%;
+}
+
 .panel-photo.full-width {
 	width: 100%;
 	-webkit-box-shadow: none;
@@ -2219,6 +2228,10 @@ ol.regular {
     transition: all 0.25s;
 }
 
+ol.regular.pad-below {
+	padding-bottom: 25px;
+}
+
 ol.regular:hover {
 	/*border-left: 2px solid rgba(0,0,0,1);*/
 }
@@ -2259,6 +2272,20 @@ ol.regular li p {
 	padding-bottom: 25px;
 	letter-spacing: -0.5px;
 	line-height: 1.8em;
+}
+
+ol.regular li p.maintext {
+	line-height: 1.8em;
+	padding-bottom: 0px;
+}
+
+ol.regular li p.subtext {
+	font-family: 'adobe-caslon-pro';
+	color: #40464E;
+	font-size: 1.3em;
+    font-weight: 400;
+    letter-spacing: -0.25px;
+    line-height: 2.25em;
 }
 
 ol.regular:hover li {
@@ -2608,6 +2635,10 @@ img.visual-screen-design {
 
 img.visual-screen-design.no-border {
 	border: none;
+}
+
+img.second-card-image {
+	margin-top: 45px;
 }
 
 section.conclusions-area {

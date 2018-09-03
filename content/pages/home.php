@@ -27,10 +27,10 @@
 			</div>
 		</div>
 		<div class="row project-slider" data-equalizer>
-			<div class="small-24 medium-12 columns selected-work-item mmodal" data-equalizer-watch>
+			<div class="small-24 medium-12 columns selected-work-item mmodal latest-item" data-equalizer-watch>
 				<div class="row">
 					<a href="mmodal">
-						<div class="small-24 columns selected-work-item-image" style="background-image: url('img/project-items/mmodal2.jpg');">
+						<div class="small-24 columns selected-work-item-image" style="background-image: url('img/project-items/mmodal3.jpg');">
 							<div class="hovered-line"></div>
 							<div class="hovered-overlay"></div>
 							<span class="date text-white">NDA RESTRICTIONS</span>
@@ -85,22 +85,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="small-24 medium-12 columns selected-work-item strawberry case-study-in-progress fadeIn" data-equalizer-watch>
-				<div class="row">
-					<a href="strawberry">
-						<div class="small-24 columns selected-work-item-image" style="background-image:url('img/project-items/strawberry.jpg');" id="project-item-strawberry">
-							<div class="hovered-line"></div>
-							<div class="hovered-overlay"></div>
-							<span class="date text-white">DESIGNS ONLY</span>
-						</div>
-						<div class="small-24 columns selected-work-item-text">
-							<h3>Strawberry</h3>
-							<p class="category">Visual Design<span>Personal Project</span></p>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="small-24 medium-12 columns selected-work-item sevenhairbody case-study-in-progress fadeIn end" data-equalizer-watch>
+			<div class="small-24 medium-12 columns selected-work-item sevenhairbody case-study-in-progress fadeIn" data-equalizer-watch>
 				<div class="row">
 					<a href="seven-hair-body">
 						<div class="small-24 columns selected-work-item-image" style="background-image:url('img/project-items/seven.jpg');" id="project-item-seven">
@@ -111,6 +96,21 @@
 						<div class="small-24 columns selected-work-item-text">
 							<h3>Seven Hair &amp; Body</h3>
 							<p class="category">Website<span>Client Work</span></p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="small-24 medium-12 columns selected-work-item strawberry case-study-in-progress fadeIn end" data-equalizer-watch>
+				<div class="row">
+					<a href="strawberry">
+						<div class="small-24 columns selected-work-item-image wide-image" style="background-image:url('img/project-items/strawberry.jpg');" id="project-item-strawberry">
+							<div class="hovered-line"></div>
+							<div class="hovered-overlay"></div>
+							<span class="date text-white">DESIGNS ONLY</span>
+						</div>
+						<div class="small-24 columns selected-work-item-text">
+							<h3>Strawberry</h3>
+							<p class="category">Visual Design<span>Personal Project</span></p>
 						</div>
 					</a>
 				</div>
@@ -149,16 +149,16 @@
 						
 					</div>
 					<div class="small-24 medium-12 large-10 columns selected-work-item-text">
-						<h3>Domestic Abuse Support</h3>
+						<h3>Domestic Violence Support</h3>
 						<p class="category">Service Mapping<span>Study-Abroad</span></p>
-						<p class="in-progress-description">Encouraging regular, reflective mental health self check-ins, through a non-intrustive digital integration.</p>
+						<p class="in-progress-description">Providing victims with a streamlined, personable method of locating domestic abuse support services.</p>
 						<!--<p class="in-progress-date">COMING SEP 2018</p>-->
 					</div>		
 				</div>
 			</div>
 			<div class="small-24 columns end selected-work-item mental-health project-in-progress first fadeIn">
 				<div class="row in-progress-project-container">				
-					<div class="small-24 show-for-medium medium-11 large-12 columns selected-work-item-image" style="background-image:url('img/project-items/mental-health.jpg');">
+					<div class="small-24 show-for-medium medium-11 large-12 columns selected-work-item-image wide-image" style="background-image:url('img/project-items/mental-health.jpg');">
 						<div class="hovered-overlay"></div>
 						<span class="date text-white">WRITE-UP UNDERWAY</span>
 					</div>

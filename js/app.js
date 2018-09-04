@@ -3,7 +3,7 @@ $(document).ready(function () {
 $(document).foundation();
 
 // delegate all clicks on "a" tag (links)
-$(document).on("click", "a:not('.email-social-link')", function () {
+$(document).on("click", "a:not('.email-social-link', '.samepageanchor')", function () {
 
     // get the href attribute
     var newUrl = $(this).attr("href");

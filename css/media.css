@@ -122,6 +122,10 @@ a.section-jump-option {
 	width: 98%;
 }
 
+p.phrasing-step {
+	font-size: 0.85em;
+}
+
 }
 
 
@@ -380,7 +384,6 @@ img.second-card-image {
 	margin-bottom: 45px;
 }
 
-
 .quote-slide-individual {
 	max-width: 540px !important;
 }
@@ -401,6 +404,12 @@ a.section-jump-option {
 
 a.section-jump-option h4 {
 	font-size: 15px;
+}
+
+p.phrasing-step {
+	font-size: 0.925em;
+	line-height: 1.2em;
+	margin-bottom: 5px;
 }
 
 }

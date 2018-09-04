@@ -52,7 +52,7 @@
 		</div>
 		<div class="row">
 			<div class="small-24 medium-22 large-18 columns small-centered fadeInMinor">
-				<p class="portfolio-body">Evolving clinical requirements and increasing time constraints have made it harder for healthcare providers to create compliant documentation and, more importantly, have also made it easier for critical patient information to slip through the cracks. M*Modal's Computer-Assisted Physician Documentation (CAPD) technology is designed to address this problem by providing real-time on-screen feedback to providers while they document. However, this technology can sometimes be seen as a burden, since many providers are accustomed to dictating their reports, whereas CAPD is predominately a mouse-driven UI.</p>
+				<p class="portfolio-body nothing-below">Evolving clinical requirements and increasing time constraints have made it harder for healthcare providers to create compliant documentation and, more importantly, have also made it easier for critical patient information to slip through the cracks. M*Modal's Computer-Assisted Physician Documentation (CAPD) technology is designed to address this problem by providing real-time on-screen feedback to providers while they document. However, this technology can sometimes be seen as a burden, since many providers are accustomed to dictating their reports, whereas CAPD is predominately a mouse-driven UI.</p>
 			</div>
 		</div>
 	</section>
@@ -173,7 +173,7 @@
 
 	<section class="portfolio-photo-wrap">
 		<div class="row">
-			<div class="small-24 large-22 small-centered columns fadeInPortfolioImage">
+			<div class="small-24 large-22 small-centered columns fadeInMinor">
 				<div class="panel-photo taller full-120-mobile" style="background-image: url('img/projects/mmodal/paper-proto3.jpg');">
 					
 				</div>
@@ -200,12 +200,37 @@
 				<h2 class="sub-section">Phrasing Structures &amp; Terminology</h2>
 				<p class="portfolio-body">The key aim was to deliver a corpus of natural phrases used by participants to resolve each message type, such as one specification with options listed as inline text inside the message, two specifications requested with options listed in the form of radio buttons, or select dropdown etc. This would then allow the Speech & Natural Language Understanding teams to build a greater corpus of commands that would successfully register and act upon a user’s intent to interact with each message type.</p>
 				<p class="portfolio-body">The phrase used to resolve each message type was extracted from all 16 transcripts, and grouped according to that message. Due to the analogous domain used, the phrasing structure  had to be broken down in to individual components, and restructured in a way that would allow it to be applicable to the messages of that particular formatting. Below is an example of this phrase restructuring method.</p>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
+			</div>
+			<div class="row">
+				<div class="small-24 large-20 columns small-centered fadeInMinor">
+					<div class="row phrasing-breakdown-step first-step">
+						<div class="small-24 medium-4 columns">
+							<p class="phrasing-step">Phrase</p>
+						</div>
+						<div class="small-24 medium-20 columns">
+							<p class="phrasing-copy">“Specify body type. Type is hatchback.”</p>
+						</div>
+					</div>
+					<div class="row phrasing-breakdown-step">
+						<div class="small-24 medium-4 columns">
+							<p class="phrasing-step">Components</p>
+						</div>
+						<div class="small-24 medium-20 columns">
+							<p class="phrasing-copy">“<span>[Specify]</span> <span>[body type]</span>. <span>[Type]</span> is <span>[hatchback]</span>.”</p>
+						</div>
+					</div>
+					<div class="row phrasing-breakdown-step last-step">
+						<div class="small-24 medium-4 columns">
+							<p class="phrasing-step">Restructure</p>
+						</div>
+						<div class="small-24 medium-20 columns">
+							<p class="phrasing-copy">“<span>[Activation verb]</span> <span>[message title]</span>. <span>[Specification title]</span> is <span>[option]</span>.”</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="small-24 medium-22 large-18 columns small-centered fadeInMinor">
 				<p class="portfolio-body">In total, over 120 different phrasing structures (and their related message design) were handed off to the necessary teams, with specific terms for interaction with GUI form elements, and common verbs used to tell the system which message to take action upon also identified.</p>
 				<p class="portfolio-body nothing-below">However, the fact that around 10-15 widely differing phrasing structures were used for each message type, highlighted the uncertainty in participants in how exactly they should phrase their command to resolve each message.</p>
 			</div>
@@ -224,12 +249,12 @@
 
 	<section class="portfolio-photo-wrap">
 		<div class="row">
-			<div class="small-11 columns fadeInPortfolioImage">
+			<div class="small-11 columns">
 				<div class="panel-photo full-120-mobile" style="background-image: url('img/projects/mmodal/affin-1.jpeg');">
 					
 				</div>
 			</div>
-			<div class="small-11 columns fadeInPortfolioImage">
+			<div class="small-11 columns">
 				<div class="panel-photo second-with-margin full-120-mobile" style="background-image: url('img/projects/mmodal/affin-2.jpeg');">
 					
 				</div>
@@ -239,8 +264,80 @@
 
 	<section class="portfolio-content-area" id="solutionSect1">
 		<div class="row">
-			<div class="small-24 medium-22 large-18 columns small-centered fadeInMinor">
-				<p class="portfolio-body nothing-below">15 distinct themes were created using the extracts of information, as shown below, which after writing up a description of each individual theme, were used to inform the key study findings.</p>
+			<div class="small-24 medium-22 large-18 columns small-centered">
+				<p class="portfolio-body nothing-below">10 distinct themes were created using the extracts of information, as shown below, which after writing up a description of each individual theme, were used to inform the key study findings.</p>
+			</div>
+		</div>
+		<div class="row sticky-note-section">
+			<div class="note-outer">
+				<div class="sticky-note">
+					<div class="text-content">
+						<span>GUI form elements</span>
+					</div>
+				</div>
+			</div>
+			<div class="note-outer">
+				<div class="sticky-note">
+					<div class="text-content">
+						<span>Control of document narrative</span>
+					</div>
+				</div>
+			</div>
+			<div class="note-outer">
+				<div class="sticky-note">
+					<div class="text-content">
+						<span>Not dealing with messages</span>
+					</div>
+				</div>
+			</div>
+			<div class="note-outer">
+				<div class="sticky-note">
+					<div class="text-content">
+						<span>Lack of obvious next step</span>
+					</div>
+				</div>
+			</div>
+			<div class="note-outer">
+				<div class="sticky-note">
+					<div class="text-content">
+						<span>Aids for further context</span>
+					</div>
+				</div>
+			</div>
+			<div class="note-outer">
+				<div class="sticky-note">
+					<div class="text-content">
+						<span>Lack of visual cues from system</span>
+					</div>
+				</div>
+			</div>
+			<div class="note-outer">
+				<div class="sticky-note">
+					<div class="text-content">
+						<span>Phrasing rhythm and methods</span>
+					</div>
+				</div>
+			</div>
+			<div class="note-outer">
+				<div class="sticky-note">
+					<div class="text-content">
+						<span>Card "activation" methods</span>
+					</div>
+				</div>
+			</div>
+			<div class="note-outer">
+				<div class="sticky-note">
+					<div class="text-content">
+						<span>Doubts about using voice</span>
+					</div>
+				</div>
+			</div>
+			<div class="note-outer">
+				<div class="sticky-note">
+					<div class="text-content">
+						<span>Facilitating natural, conversational phrasing</span>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -255,7 +352,7 @@
 		<div class="row">
 			<div class="small-24 medium-22 large-18 columns small-centered fadeInMinor">
 				<p class="portfolio-body nothing-below">Whilst the full details of the actual findings of the initial research are NDA-protected, the following gives on overview on the key information taken forward to inform the subsequent work throughout the internship.</p>
-				<p class="capitalized-title-desc above-list-items">Possible triggers of documentation suggestions</p>
+				<p class="capitalized-title-desc above-list-items">Overview of findings</p>
 				<ol class="regular pad-below with-subtext">
 					<li><p class="maintext">Potential for Phrasing Influence</p><p class="subtext">The design and terminology of the voice-actionable messages can heavily influence the phrased uttered by the user when interacting with it.</p></li>
 		      		<li><p class="maintext">GUI Form Elements</p><p class="subtext">Radio buttons, dropdown etc. to depict possible specification answers cause hesitancy in voice interaction, and as a result, reduced confidence in taking action on the message using voice.</p></li>
@@ -273,16 +370,45 @@
 			<div class="small-24 medium-22 large-18 columns small-centered fadeInMinor">
 		   		<h2 class="sub-section">Three Key User Questions for Context</h2>
 				<p class="portfolio-body">Revisiting the issue of current issues surrounding user confusion when a message currently appears, the team devised three key questions a user subconsciously requires answers to in order to successfully understand and take action upon a message using their voice.</p>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
+				<div class="row context-question">
+					<div class="small-24 columns">
+						<p class="question"><span style="color: rgba(255,83,141,1);">Why</span> am I being presented with this message?</p>
+						<div class="row">
+							<div class="small-2 columns">
+								<div class="line-sep"></div>
+							</div>
+							<div class="small-22 columns">
+								<p class="portfolio-body">What is it about the patient or the note that has led to this prompt?</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row context-question">
+					<div class="small-24 columns">
+						<p class="question"><span style="color: rgba(154,127,255,1);">What</span> can I say to resolve this message?</p>
+						<div class="row">
+							<div class="small-2 columns">
+								<div class="line-sep"></div>
+							</div>
+							<div class="small-22 columns">
+								<p class="portfolio-body">How exactly do I need to phrase a command so that this message will disappear?</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row context-question">
+					<div class="small-24 columns">
+						<p class="question"><span style="color: rgba(251,174,44,1);">Where</span> will this change appear in my note?</p>
+						<div class="row">
+							<div class="small-2 columns">
+								<div class="line-sep"></div>
+							</div>
+							<div class="small-22 columns">
+								<p class="portfolio-body nothing-below">What about my documentation will change if I take action upon this message?</p>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -312,7 +438,7 @@
 		<div class="row">
 			<div class="small-24 medium-22 large-18 columns small-centered fadeInMinor">
 				<p class="portfolio-body">With the sporadic, inconsistent phrasing used by participants to resolve each message type exposing a lack of guidance from the GUI in how one might confidently go about interacting with the message by voice, I used the findings from the initial study to redesign the messages to signify a greater affordance of voice-actionability with the messages, with continual feedback from the UX team to inform design iteration, with a particular focus on how the visual design of a message can actually influence the phrasing a user will vocalize to resolve it.</p>
-				<p class="portfolio-body"><b>Note: for NDA reasons, the redesigned voice-actionable messages are not included.</b></p>
+				<p class="portfolio-body"><b>Please note:</b> for NDA reasons, the redesigned voice-actionable messages are not included.</p>
 				<p class="capitalized-title-desc above-list-items">Aims for Redesign of Voice-Actionable Messages</p>
 				<ol class="regular with-subtext">
 					<li><p class="maintext">Providing Context</p><p class="subtext">Offering a simple indication of why a request for specification has been made, and also where in the patient note a change will take place if action is taken.</p></li>
@@ -350,7 +476,7 @@
 
 	<section class="portfolio-photo-wrap">
 		<div class="row">
-			<div class="small-24 large-24 small-centered columns fadeInPortfolioImage">
+			<div class="small-24 large-24 small-centered columns fadeInMinor">
 				<div class="panel-photo taller full-120-mobile" style="background-image: url('img/projects/mmodal/setup.JPG');">
 					
 				</div>

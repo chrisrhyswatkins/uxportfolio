@@ -44,7 +44,7 @@
 	<link rel="stylesheet" type="text/css" href="js/lightbox/css/lightbox.css">
 	<link rel="stylesheet" type="text/css" href="js/lity/lity.css">
 	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Coustard|Roboto6" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Coustard|Kalam" rel="stylesheet">
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script async src="https://use.fontawesome.com/d081fde90d.js"></script>
 	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/browser-icons/apple-touch-icon-57x57.png" />

@@ -376,6 +376,11 @@ img.visual-screen-design {
 	width: 100%;
 }
 
+img.second-card-image {
+	margin-bottom: 45px;
+}
+
+
 .quote-slide-individual {
 	max-width: 540px !important;
 }

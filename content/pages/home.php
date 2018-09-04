@@ -122,7 +122,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="small-24 columns end selected-work-item domestic-abuse project-in-progress first fadeIn">
+			<div class="small-24 columns end selected-work-item domestic-abuse project-in-progress first fadeInMinor">
 				<div class="row in-progress-project-container">				
 					<div class="small-24 show-for-medium medium-11 large-12 columns selected-work-item-image" style="background-image:url('img/project-items/domestic.jpg');">
 						<div class="hovered-overlay"></div>

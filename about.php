@@ -17,7 +17,7 @@ $footerType = 'white-footer dark-grey-footer';
 <!DOCTYPE html>
 <html>
 <?php include 'content/elements/head.php'; ?>
-<body class="about-page">
+<body>
 
 <img src="img/chris/chris-dark-bg-grey-1800.jpg" alt="" class="about-me-chris" id="chris-bg-image">
 
@@ -37,6 +37,9 @@ Pace.on('done', function() {
 	$('#chris-bg-image').attr("src", "img/chris/chris-dark-bg-grey-1800.jpg");
 });
 */
+$(document).ready(function () {
+	$('body').addClass('about-page');
+});
 </script>
 
 </div>

@@ -11,7 +11,7 @@ $logoColor = "white-logo";
 $navColor = 'white-nav';
 $activeNav = '1';
 $responsiveNavRef = 'white-res-nav prec-plas-res-nav';
-$footerType = 'black-footer portfolio-project-footer';
+$footerType = 'white-footer portfolio-project-footer';
 
 // Project Page Details
 $projectName = 'precisionPlastics';

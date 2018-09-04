@@ -190,7 +190,7 @@
 		</div>
 		<div class="row">
 			<div class="small-24 medium-22 large-18 columns small-centered fadeInMinor">
-				<p class="portfolio-body nothing-below">In total, 16 company employees participated in the study, the audio recordings of which (between 10-15 minutes each in total) I fully transcribed using Temi Transcription, in preparation for two separate methods of analyses in line with the research goals of the study.</p> 
+				<p class="portfolio-body nothing-below">In total, 16 company employees participated in the study, the audio recordings of which (between 10-15 minutes each in total) I fully transcribed and cleaned up using a semi-automated transcription service, in preparation for two separate methods of analyses in line with the research goals of the study.</p> 
 			</div>
 		</div>
 	</section>

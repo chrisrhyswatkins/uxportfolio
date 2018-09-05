@@ -1159,6 +1159,7 @@ section.recent-work-container {
 
 .selected-work-item-image {
 	width: 100%;
+	display: block;
 	border-radius: 5px;
 	overflow: hidden;
 	/*height: 350px;*/
@@ -1432,7 +1433,7 @@ section.recent-work-container {
 }
 
 .selected-work-item.project-in-progress a {
-	cursor: default;
+	/*cursor: default;*/
 }
 
 .selected-work-item.project-in-progress p.in-progress-description {
@@ -2866,6 +2867,15 @@ section.portfolio-next-project-area .portfolio-content-area h3, section.portfoli
 	color: rgba(255,255,255,1);
 }
 
+p.category.project-footer span {
+	color: rgba(200,200,200,1) !important;
+	opacity: 1;
+}
+
+section.portfolio-next-project-area .in-progress-project-container .selected-work-item.project-in-progress a {
+	cursor: pointer !important;
+}
+
 .next-project-line {
 	width: 75%;
 	height: 2px;
@@ -2873,6 +2883,45 @@ section.portfolio-next-project-area .portfolio-content-area h3, section.portfoli
 	margin-top: 28px;
 	background-color: rgba(255,255,255,1);
 }
+
+/*
+
+a.next-project {
+	text-decoration: none;
+	padding-bottom: 5px;
+	-webkit-transition: color 0.2s;
+    transition: color 0.2s;
+    cursor: pointer !important;
+    position: relative;
+    margin-top: 30px;
+    color: rgba(255,255,255,1) !important;
+    display: inline-block;
+    font-family: 'proxima-nova', Arial, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+a.next-project::after {
+	height: 2px;
+	width: 0%;
+	background-color: rgba(255,255,255,1.00);
+	bottom: -2px;
+	left: 0;
+	position: absolute;
+	content: "";
+	-webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+a.next-project:hover {
+	color: rgba(255,255,255,1.00) !important;
+}
+
+a.next-project:hover::after {
+	width: 100%;
+}
+
+*/
 
 /*
 .portfolio-navigator-bottom-page ul.portfolio-nav-option li a {

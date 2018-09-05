@@ -569,12 +569,13 @@
 		</div>
 	</section>
 	
-	<section class="portfolio-next-project-area" style="background-image: url(img/project-backgrounds/mmodal.jpg);">
+	<section class="portfolio-next-project-area" style="background-image: url(img/project-backgrounds/lyft.jpg);">
 		<div class="portfolio-content-area">
 			<div class="row in-project-subhead">
 				<div class="medium-2 show-for-medium columns"><div class="next-project-line"></div></div>
 				<div class="small-24 medium-10 columns end">
-					<h2 class="selected-work up-next text-white"><span>Where to Next?</span></h2>
+					<h2 class="selected-work up-next text-white show-for-medium"><span>Next Project</span></h2>
+					<h2 class="selected-work up-next text-white hide-for-medium"><span>Where to Next?</span></h2>
 				</div>
 <!--
 				<div class="small-24 medium-12 columns selected-work-item lyft" data-equalizer-watch>
@@ -593,7 +594,29 @@
 				</div>-->
 
 			</div>
-			<div class="row project-slider scrolling-wrapper-flexbox draggable" data-equalizer>
+
+			<div class="row show-for-medium">
+				<div class="small-24 columns end selected-work-item lyft project-in-progress first fadeInMinor">
+					<div class="row in-progress-project-container">				
+						<a href="lyft" class="small-24 show-for-medium medium-11 large-12 columns selected-work-item-image" style="background-image:url('img/project-backgrounds/lyft.jpg');">
+							<div class="hovered-overlay"></div>
+							<div class="hovered-line"></div>
+						</a>
+						<div class="show-for-medium medium-1 large-2 columns">
+							
+						</div>
+						<div class="small-24 medium-12 large-10 columns selected-work-item-text">
+							<h3 class="test">Lyft Rating System</h3>
+								<p class="category project-footer">Smartphone Application<span>University Work</span></p>
+							<p class="in-progress-description text-white">Providing victims with a streamlined, personable method of locating domestic abuse support services.</p>
+							<!--<p class="in-progress-date">COMING SEP 2018</p>-->
+							<!--<a href="" class="next-project">view project</a>-->
+						</div>		
+					</div>
+				</div>
+			</div>
+
+			<div class="row project-slider scrolling-wrapper-flexbox draggable hide-for-medium" data-equalizer>
 				<div class="small-24 medium-12 columns selected-work-item lyft" data-equalizer-watch>
 					<div class="row">
 						<a href="lyft">

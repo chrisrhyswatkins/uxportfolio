@@ -30,7 +30,7 @@
 			<div class="small-24 medium-12 columns selected-work-item mmodal latest-item" data-equalizer-watch>
 				<div class="row">
 					<a href="mmodal">
-						<div class="small-24 columns selected-work-item-image" style="background-image: url('img/project-items/mmodal3.jpg');">
+						<div class="small-24 columns selected-work-item-image wide-image" style="background-image: url('img/project-items/mmodal3.jpg');">
 							<div class="hovered-line"></div>
 							<div class="hovered-overlay"></div>
 							<span class="date text-white">NDA RESTRICTIONS</span>

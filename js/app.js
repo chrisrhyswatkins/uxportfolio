@@ -27,6 +27,21 @@ $(document).on("click", "a:not('.email-social-link, .samepageanchor')", function
 
 
 
+// Mobile navigation: When on work page (menu item 1), if clicking work item, menu needs to close and go to that section
+
+$("li.current-menu-item > a.samepageanchor-menu ").click(function(e) {
+    // Your code goes here
+    if ($("#home-greeting").length) {
+        $(".responsive-menu-overlay").toggleClass("open");
+        $(".responsive-menu").toggleClass("open");
+        $("html").toggleClass("no-scroll");
+        $("body").toggleClass("no-scroll");
+    }
+    
+});
+
+
+
 // Hide Header on on scroll down
 var didScroll;
 var lastScrollTop = 0;
@@ -244,16 +259,6 @@ $("a.instagram-photo").hover(function() { // Mouse over
 
 // Slick sliders
 
-/*
-
-$('.project-slider').slick({
-    infinite: true,
-    slidesToShow: 2,
-    slidesToScroll: 1
-});
-
-*/
-
 $('.quote-slide-handler').slick({
     centerMode:true,
     slidesToShow: 1,
@@ -301,7 +306,7 @@ $('.quote-slide-handler').on('click', '.slick-slide', function (e) {
 
 // Same page anchor
 
-$('a.samepageanchor').click(function(){
+$('a.samepageanchor, a.samepageanchor-menu').click(function(){
     $('a.scrolltop').removeClass('inactive');
     $('html, body').animate({
         scrollTop: $( $(this).attr('href') ).offset().top

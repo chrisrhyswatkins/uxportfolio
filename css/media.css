@@ -1,3 +1,4 @@
+/*
 @media screen and (min-width: 1264px) {
 
 .scrolling-wrapper-flexbox {
@@ -5,7 +6,7 @@
 }
 
 }
-
+*/
 
 @media screen and (max-width: 66.2375em) {
 
@@ -49,13 +50,17 @@ ol.regular li:hover {
     opacity: 1;
 }
 
+/*
 .scrolling-wrapper-flexbox {
   padding-left: calc(7% - 7.5px);
 }
+*/
 
+/*
 .scrolling-wrapper-flexbox .selected-work-item {
     margin-right: 20px;
 }
+*/
 
 .selected-work-item .row {
 	width: 96% !important;
@@ -240,6 +245,39 @@ h1.welcome-description {
 	margin-top: 20px !important;
 	padding-top: 30px !important;
 }
+
+/* Creating horizontal scroll */
+
+
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto; 
+  max-width: 100% !important;
+  width: 100% !important;
+  /*padding-left: calc(((100% - 62.5rem) / 2) - 15px);*/
+  padding-left: calc(10% - 15px);
+  -webkit-overflow-scrolling: touch;
+  -moz-overflow-scrolling: touch;
+}
+
+.scrolling-wrapper-flexbox::-webkit-scrollbar {
+    display: none;
+}
+
+.selected-work-item {
+	margin-top: 15px;
+	margin-bottom: 0;
+}
+
+.scrolling-wrapper-flexbox .selected-work-item {
+	flex: 0 0 auto;
+    margin-right: 30px;
+    /*max-width: 500px;*/
+    width: 62.5%;
+}
+
+
 
 .selected-work-item.latest-item {
 	margin-top: 0;
@@ -460,6 +498,17 @@ p.phrasing-step {
 }
 
 
+@media screen and (max-width: 485px) and (min-width: 435px) {
+
+.scrolling-wrapper-flexbox .selected-work-item {
+	width: 80%;
+}
+
+}
+
+
+
+
 @media screen and (max-width: 435px) {
 
 .scrolling-wrapper-flexbox .selected-work-item {
@@ -467,7 +516,6 @@ p.phrasing-step {
 }
 
 }
-
 
 
 

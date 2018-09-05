@@ -29,7 +29,7 @@ $(document).on("click", "a:not('.email-social-link, .samepageanchor')", function
 
 // Mobile navigation: When on work page (menu item 1), if clicking work item, menu needs to close and go to that section
 
-$("li.current-menu-item > a.samepageanchor-menu ").click(function(e) {
+$("ul.responsive-nav-list > li.current-menu-item > a.samepageanchor-menu ").click(function(e) {
     // Your code goes here
     if ($("#home-greeting").length) {
         $(".responsive-menu-overlay").toggleClass("open");

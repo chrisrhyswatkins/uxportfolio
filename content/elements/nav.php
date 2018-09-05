@@ -6,7 +6,7 @@
 			}?>
 		>
 			<a 
-				<?php if($homepageIndicator) {
+				<?php if(isset($homepageIndicator) && ($homepageIndicator!==null)) {
 					echo " href='#work-anchor' class='samepageanchor-menu'";
 				} else {
 					echo " href='/#work-anchor'";
@@ -40,7 +40,7 @@
 			}?>
 		>
 			<a 
-				<?php if($homepageIndicator) {
+				<?php if(isset($homepageIndicator) && ($homepageIndicator!==null)) {
 					echo " href='#work-anchor' class='samepageanchor-menu'";
 				} else {
 					echo " href='/#work-anchor'";

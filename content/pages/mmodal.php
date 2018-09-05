@@ -61,7 +61,7 @@
 		<div class="row in-project-subhead">
 			<div class="small-24 columns">
 				<h2 class="line-behind"><span>Clinical Documentation Suggestions</span></h2>
-				<p class="in-project-subhead-para">Introducing the area of scope for the internship.</p>
+				<p class="in-project-subhead-para">Increasing compliance and patient care quality.</p>
 			</div>
 		</div>
 		<div class="row">
@@ -83,7 +83,7 @@
 		<div class="row in-project-subhead">
 			<div class="small-24 columns">
 				<h2 class="line-behind"><span>Actionable Messages</span></h2>
-				<p class="in-project-subhead-para">Introducing the area of scope for the internship.</p>
+				<p class="in-project-subhead-para">Via speech or direct manipulation.</p>
 			</div>
 		</div>
 		<div class="row">
@@ -123,7 +123,7 @@
 		<div class="row in-project-subhead">
 			<div class="small-24 columns fadeInMinor">
 				<h2 class="selected-work line-behind"><span>Initial Research Aims</span></h2>
-				<p class="in-project-subhead-para">Personal contributions to the project.</p>
+				<p class="in-project-subhead-para">Exploring potential for a natural, conversational system.</p>
 			</div>
 		</div>
 		<div class="row">
@@ -142,7 +142,7 @@
 		<div class="row in-project-subhead">
 			<div class="small-24 columns fadeInMinor">
 				<h2 class="selected-work line-behind"><span>Initial Study Plan</span></h2>
-				<p class="in-project-subhead-para">Scoping the problem in question.</p>
+				<p class="in-project-subhead-para">Evaluating the current CAPD system.</p>
 			</div>
 		</div>
 		<div class="row">
@@ -159,7 +159,7 @@
 		<div class="row in-project-subhead">
 			<div class="small-24 columns fadeInMinor">
 				<h2 class="selected-work line-behind"><span>Switch to Analogous Domain</span></h2>
-				<p class="in-project-subhead-para">Scoping the problem in question.</p>
+				<p class="in-project-subhead-para">Reducing need for participant medical knowledge.</p>
 			</div>
 		</div>
 		<div class="row">
@@ -185,7 +185,7 @@
 		<div class="row in-project-subhead">
 			<div class="small-24 columns fadeInMinor">
 				<h2 class="selected-work line-behind"><span>Analysis</span></h2>
-				<p class="in-project-subhead-para">A beneficial, accurate, and fair rating system.</p>
+				<p class="in-project-subhead-para">Studying phrases and key information.</p>
 			</div>
 		</div>
 		<div class="row">
@@ -346,7 +346,7 @@
 		<div class="row in-project-subhead">
 			<div class="small-24 columns fadeInMinor">
 				<h2 class="selected-work line-behind"><span>Key Study Findings</span></h2>
-				<p class="in-project-subhead-para">Scoping the problem in question.</p>
+				<p class="in-project-subhead-para">Driving future design and research.</p>
 			</div>
 		</div>
 		<div class="row">
@@ -417,7 +417,7 @@
 		<div class="row in-project-subhead">
 			<div class="small-24 columns fadeInMinor">
 				<h2 class="selected-work line-behind"><span>Revised Research Scope</span></h2>
-				<p class="in-project-subhead-para">Scoping the problem in question.</p>
+				<p class="in-project-subhead-para">Taking advantage of the time remaining.</p>
 			</div>
 		</div>
 		<div class="row">
@@ -432,7 +432,7 @@
 		<div class="row in-project-subhead">
 			<div class="small-24 columns fadeInMinor">
 				<h2 class="selected-work line-behind"><span>Redesigning the Messages</span></h2>
-				<p class="in-project-subhead-para">Scoping the problem in question.</p>
+				<p class="in-project-subhead-para">For discoverability and ease of voice-actionability.</p>
 			</div>
 		</div>
 		<div class="row">
@@ -453,7 +453,7 @@
 		<div class="row in-project-subhead">
 			<div class="small-24 columns fadeInMinor">
 				<h2 class="selected-work line-behind"><span>Wizard of Oz Study</span></h2>
-				<p class="in-project-subhead-para">Scoping the problem in question.</p>
+				<p class="in-project-subhead-para">Testing the redesigned voice-actionable messages.</p>
 			</div>
 		</div>
 		<div class="row">
@@ -497,7 +497,7 @@
 		<div class="row in-project-subhead">
 			<div class="small-24 columns fadeInMinor">
 				<h2 class="selected-work line-behind"><span>Study Outcomes</span></h2>
-				<p class="in-project-subhead-para">Scoping the problem in question.</p>
+				<p class="in-project-subhead-para">Evaluating the redesign performance.</p>
 			</div>
 		</div>
 		<div class="row">
@@ -529,7 +529,7 @@
 		<div class="row in-project-subhead">
 			<div class="small-24 columns fadeInMinor">
 				<h2 class="selected-work line-behind"><span>Internship Recap</span></h2>
-				<p class="in-project-subhead-para">Scoping the problem in question.</p>
+				<p class="in-project-subhead-para">Summarizing the experience and deliverables.</p>
 			</div>
 		</div>
 		<div class="row">

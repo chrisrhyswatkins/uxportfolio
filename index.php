@@ -52,8 +52,11 @@ $headerType = 'white-header';
 $logoColor = "black-logo";
 $navColor = 'black-nav';
 $activeNav = '1';
+$homepageIndicator = 'Y';
 $responsiveNavRef = 'whitebg-res-nav';
 $footerType = 'black-footer';
+
+
 
 ?>
 <!DOCTYPE html>

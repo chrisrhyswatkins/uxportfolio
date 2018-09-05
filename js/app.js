@@ -36,9 +36,11 @@ $("li.current-menu-item > a.samepageanchor-menu ").click(function(e) {
         $(".responsive-menu").toggleClass("open");
         $("html").toggleClass("no-scroll");
         $("body").toggleClass("no-scroll");
-    }
-    
-});
+    } else {
+        // get the href attribute
+        location = $(this).attr("href");
+    } 
+})
 
 
 

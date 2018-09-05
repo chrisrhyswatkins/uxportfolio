@@ -1,6 +1,18 @@
 <nav class="show-for-medium">
 	<ul class="nav-list <?php echo $navColor; ?>">
-		<li<?php if($activeNav == '1') {echo " class='current-menu-item'";}?>><a <?php if($activeNav == '1') {echo " href='#work-anchor' class='samepageanchor-menu'";} else {echo " href='/#work-anchor'";}?>>work</a></li>
+		<li
+			<?php if($activeNav == '1') {
+				echo " class='current-menu-item'";
+			}?>
+		>
+			<a 
+				<?php if($homepageIndicator) {
+					echo " href='#work-anchor' class='samepageanchor-menu'";
+				} else {
+					echo " href='/#work-anchor'";
+				}?>
+			>work</a>
+		</li>
 		<li<?php if($activeNav == '2') {echo " class='current-menu-item'";}?>><a href="about">about me</a></li>
 		<li<?php if($activeNav == '3') {echo " class='current-menu-item'";}?>><a href="mailto:chris@crwatkins.com?Subject=Hey,%20Chris!" class="email-social-link">contact</a></li>
 		<!--<li class="resume"><a title="Chris Watkins - Resume, Spring 2018" href="https://drive.google.com/file/d/1ZrraajkHZyLWjNm1HHFG0gvdtMrQYr9o/view?usp=sharing">résumé</a></li>-->
@@ -22,7 +34,19 @@
 
 <div class="responsive-menu-overlay" id="fixed-overlay">
 	<ul class="responsive-nav-list">
-		<li<?php if($activeNav == '1') {echo " class='current-menu-item'";}?>><a <?php if($activeNav == '1') {echo " href='#work-anchor' class='samepageanchor-menu'";} else {echo " href='/#work-anchor'";}?>>work</a></li>
+		<li
+			<?php if($activeNav == '1') {
+				echo " class='current-menu-item'";
+			}?>
+		>
+			<a 
+				<?php if($homepageIndicator) {
+					echo " href='#work-anchor' class='samepageanchor-menu'";
+				} else {
+					echo " href='/#work-anchor'";
+				}?>
+			>work</a>
+		</li>
 		<li<?php if($activeNav == '2') {echo " class='current-menu-item'";}?>><a href="about">about me</a></li>
 		<li<?php if($activeNav == '3') {echo " class='current-menu-item'";}?>><a href="mailto:chris@crwatkins.com?Subject=Hey,%20Chris!" class="email-social-link">contact</a></li>
 		<!--<li class="resume"><a title="Chris Watkins - Resume, Spring 2018" href="https://drive.google.com/file/d/1ZrraajkHZyLWjNm1HHFG0gvdtMrQYr9o/view?usp=sharing">résumé</a></li>-->

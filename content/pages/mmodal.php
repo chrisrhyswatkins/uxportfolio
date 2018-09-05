@@ -545,7 +545,22 @@
 		</div>
 	</section>
 
-	<section class="portfolio-content-area below-other-area" id="solutionSect1">
+	<section class="portfolio-photo-wrap">
+		<div class="row">
+			<div class="small-11 columns">
+				<div class="panel-photo full-120-mobile" style="background-image: url('img/projects/mmodal/outside.jpg');">
+					
+				</div>
+			</div>
+			<div class="small-11 columns">
+				<div class="panel-photo second-with-margin full-120-mobile" style="background-position: top center; background-image: url('img/projects/mmodal/outside2.jpg');">
+					
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="portfolio-content-area" id="solutionSect1">
 		<div class="row">
 			<div class="small-24 medium-22 large-18 columns small-centered fadeInMinor">
 		   		<p class="portfolio-body">The experience working as a member of the closely knit UX team at M*Modal was invaluable, particularly in terms of mentorship offered in differing areas of expertise from every member, is one that I cannot thank them enough for, as well as countless others from other product teams who offered advice, and research participants.</p>

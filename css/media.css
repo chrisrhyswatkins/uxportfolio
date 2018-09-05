@@ -424,6 +424,14 @@ p.phrasing-step {
 	margin-bottom: 5px;
 }
 
+.row.context-question {
+    margin-top: 20px;
+}
+
+.context-question p.question {
+    font-size: 1.75em;
+ }
+
 .note-outer {
 	width: 100%;
 }

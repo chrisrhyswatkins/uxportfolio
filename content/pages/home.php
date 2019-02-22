@@ -27,13 +27,13 @@
 			</div>
 		</div>
 		<div class="row project-slider scrolling-wrapper-flexbox draggable" data-equalizer>
-			<div class="small-24 medium-12 columns selected-work-item mmodal latest-item" data-equalizer-watch>
+			<div class="small-24 medium-12 columns selected-work-item mmodal latest-item nda-restrictions" data-equalizer-watch>
 				<div class="row">
 					<a href="mmodal">
 						<div class="small-24 columns selected-work-item-image wide-image" style="background-image: url('img/project-items/mmodal3.jpg');">
 							<div class="hovered-line"></div>
 							<div class="hovered-overlay"></div>
-							<span class="date text-white">NDA RESTRICTIONS</span>
+							<!--<span class="date text-white">NDA RESTRICTIONS</span>-->
 						</div>
 						<div class="small-24 columns selected-work-item-text">
 							<h3>Clinical Assistant</h3>
@@ -56,7 +56,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="small-24 medium-12 columns selected-work-item google" data-equalizer-watch>
+			<div class="small-24 medium-12 columns selected-work-item google end" data-equalizer-watch>
 				<div class="row">
 					<a href="google-drive">
 						<div class="small-24 columns selected-work-item-image" style="background-image: url('img/project-items/freeagent.jpg');">
@@ -70,13 +70,20 @@
 					</a>
 				</div>
 			</div>
+		</div>
+		<div class="row coming-soon-line second-line">
+			<div class="small-24 columns fadeIn">
+				<h2 class="selected-work line-behind"><span>Deliverable-Only Projects</span></h2>
+			</div>
+		</div>
+		<div class="row project-slider scrolling-wrapper-flexbox draggable fadeInTiny" data-equalizer>
 			<div class="small-24 medium-12 columns selected-work-item precisionplastics case-study-in-progress" data-equalizer-watch>
 				<div class="row">
 					<a href="precision-plastics">
 						<div class="small-24 columns selected-work-item-image" style="background-image:url('img/project-items/plastics2.jpg');" id="project-item-plastic">
 							<div class="hovered-line"></div>
 							<div class="hovered-overlay"></div>
-							<span class="date text-white">DESIGNS ONLY</span>
+							<!--<span class="date text-white">DESIGNS ONLY</span>-->
 						</div>
 						<div class="small-24 columns selected-work-item-text">
 							<h3>Precision Plastics</h3>
@@ -91,7 +98,7 @@
 						<div class="small-24 columns selected-work-item-image" style="background-image:url('img/project-items/seven.jpg');" id="project-item-seven">
 							<div class="hovered-line"></div>
 							<div class="hovered-overlay"></div>
-							<span class="date text-white">DESIGNS ONLY</span>
+							<!--<span class="date text-white">DESIGNS ONLY</span>-->
 						</div>
 						<div class="small-24 columns selected-work-item-text">
 							<h3>Seven Hair &amp; Body</h3>
@@ -106,7 +113,7 @@
 						<div class="small-24 columns selected-work-item-image wide-image" style="background-image:url('img/project-items/strawberry.jpg');" id="project-item-strawberry">
 							<div class="hovered-line"></div>
 							<div class="hovered-overlay"></div>
-							<span class="date text-white">DESIGNS ONLY</span>
+							<!--<span class="date text-white">DESIGNS ONLY</span>-->
 						</div>
 						<div class="small-24 columns selected-work-item-text">
 							<h3>Strawberry</h3>
@@ -139,9 +146,9 @@
 					</div>		
 				</div>
 			</div>
-			<div class="small-24 columns end selected-work-item mental-health project-in-progress first fadeIn">
+			<div class="small-24 columns end selected-work-item k9m8 project-in-progress first fadeIn">
 				<div class="row in-progress-project-container">				
-					<div class="small-24 show-for-medium medium-11 large-12 columns selected-work-item-image wide-image" style="background-image:url('img/project-items/mental-health.jpg');">
+					<div class="small-24 show-for-medium medium-11 large-12 columns selected-work-item-image wide-image" style="background-image:url('img/project-items/k9m8.jpg');">
 						<div class="hovered-overlay"></div>
 						<span class="date text-white">WRITE-UP UNDERWAY</span>
 					</div>
@@ -149,57 +156,13 @@
 						
 					</div>
 					<div class="small-24 medium-12 large-10 columns selected-work-item-text">
-						<h3>Emotional Check-In</h3>
-						<p class="category">Critical Design<span>University Work</span></p>
-						<p class="in-progress-description">Encouraging regular, reflective mental health self check-ins, through a non-intrustive digital integration.</p>
+						<h3>K9 M8</h3>
+						<p class="category">Physical Prototyping<span>University Work</span></p>
+						<p class="in-progress-description">Research-through-design prototyping to conceptualize meaningful interaction for separated dogs and owners.</p>
 						<!--<p class="in-progress-date">COMING SEP 2018</p>-->
 					</div>		
 				</div>
 			</div>
-			<!--
-			<div class="small-24 columns end selected-work-item embodied project-in-progress fadeIn">
-				<div class="row in-progress-project-container">				
-					<div class="small-24 show-for-medium medium-11 large-12 columns selected-work-item-image" style="background-image:url('img/project-items/shopping.jpg');" id="project-item-shopping">
-					</div>
-					<div class="show-for-medium medium-1 large-2 columns">
-						
-					</div>
-					<div class="small-24 medium-12 large-10 columns selected-work-item-text">
-						<h3>Embodied Shopping</h3>
-							<p class="category">Smartphone Application<span>University Work</span></p>
-						<p class="in-progress-description">Designing a refined experience for grocery store patrons, maximizing empowering embodied interaction patterns.</p>
-						<p class="in-progress-date">COMING SEP 2018</p>
-					</div>		
-				</div>
-			</div>
-			<div class="small-24 medium-12 columns selected-work-item purdue project-in-progress fadeIn" data-equalizer-watch>
-				<div class="row">
-					<a href="" onclick="return false;">
-						<div class="small-24 columns selected-work-item-image" style="background-image:url('img/project-items/purdue.jpg');" id="project-item-purdue">
-							<span class="date text-white">COMING MAR 2018</span>
-						</div>
-						<div class="small-24 columns selected-work-item-text">
-							<h3>Purdue Everywhere</h3>
-							<p class="category">Multi-Channel System<span>University Work</span></p>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="small-24 medium-12 columns selected-work-item end embodied project-in-progress fadeIn" data-equalizer-watch>
-				<div class="row">
-					<a href="" onclick="return false;">
-						<div class="small-24 columns selected-work-item-image" style="background-image:url('img/project-items/shopping.jpg');" id="project-item-shopping">
-							<div class="hovered-overlay"></div>
-							<span class="date text-white">COMING MAR 2018</span>
-						</div>
-						<div class="small-24 columns selected-work-item-text">
-							<h3>Embodied Shopping</h3>
-							<p class="category">Smartphone Application<span>University Work</span></p>
-						</div>
-					</a>
-				</div>
-			</div>
-			-->
 		</div>
 	</section>
 </div>

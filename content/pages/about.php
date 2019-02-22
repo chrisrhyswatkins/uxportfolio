@@ -26,6 +26,7 @@
 			
 		</div>
 		<div class="small-24 medium-19 columns">
+			<!--
 			<div class="row about-me-section">
 				<div class="small-24 large-7 columns">
 					<h2 class="text-white about-subsection">Through a lens</h2>
@@ -64,7 +65,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="row about-me-section options-section">
+			-->
+			<div class="row about-me-section"><!--options-section">-->
 				<div class="small-24 large-7 columns">
 					<h2 class="text-white about-subsection">So, where next?</h2>
 				</div>
@@ -83,7 +85,7 @@
 									</div>
 								</div>
 							</a>
-							<a title="Chris Watkins - Resume, Spring 2018" href="https://drive.google.com/file/d/1ZrraajkHZyLWjNm1HHFG0gvdtMrQYr9o/view?usp=sharing" class="about-page-bottom-option resume-option fadeInQuick">
+							<a title="Chris Watkins - Resume, Spring 2018" href="https://drive.google.com/file/d/1deqNLEkFIyEt0Tu4kSPD1TdcSylPSKNs/view?usp=sharing" class="about-page-bottom-option resume-option fadeInQuick">
 								<div class="color-block-overlay"></div>
 								<div class="gradient-block-overlay show-for-medium"></div>
 								<div class="hovered-line" style="background-color: rgba(47, 130, 246, 1.00);"></div>

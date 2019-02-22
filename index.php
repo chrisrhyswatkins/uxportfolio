@@ -127,6 +127,9 @@ $(document).ready(function() {
 	$footer = $('footer');
 	$footer.hide();
 
+
+function gradualAnimate() {
+
 	setTimeout(function() {
 	    $chromecover.hide();
 	}, 25);
@@ -154,7 +157,39 @@ $(document).ready(function() {
 	}, 7000);
 
 	$('.selected-work-item').css("height", "auto");
+
+}
+
+gradualAnimate();
+
+function skipAnimate() {
+
+	$chromecover.hide();
+
+	$greeting.fadeIn(1000);
+
+	$imchris.fadeIn(1250);
+
+	$medescription.fadeIn(1250);
+
+	$('.selected-work-item').css("height", "auto");
+	$maincontent.show();
+
+	$navbar.fadeIn(750);
+	$footer.fadeIn(150);
+
+	$('.selected-work-item').css("height", "auto");
+
+}
+
+$(document).keydown(function(keyPressed) {
+   if (keyPressed.keyCode == 38) {
+     skipAnimate();
+   }
 });
+
+});
+
 </script>
 
 <?php

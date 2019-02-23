@@ -349,10 +349,7 @@ p.portfolio-body.about-page {
 p.portfolio-body a {
 	font-weight: 600;
 	color: #202021;
-}
-
-p.portfolio-body a:hover {
-	text-decoration: underline;
+	position: relative;
 }
 
 p.portfolio-body.nothing-below {
@@ -927,8 +924,9 @@ footer.no-border-footer .row {
 
 footer.portfolio-project-footer {
 	/*background-color: rgba(30, 30, 30, 1) ;*/
-	background-color: rgba(58,67,94,1);
+	/*background-color: rgba(58,67,94,1);*/
 	/*background-color: rgba(36,40,45,1);*/
+	background: linear-gradient(270deg, #8D50FF 0%, #6C20FC 100%);
 
 }
 
@@ -1849,7 +1847,7 @@ a.about-page-bottom-option.contact-option .image-underlay {
 	width: 100%;
 	z-index: -2;
 	background-color: rgba(53,53,132,1);
-	opacity: 0.85;
+	opacity: 0.925;
 }
 
 .work-page-header h1 {
@@ -1967,18 +1965,24 @@ p.project-overview {
 	line-height: 2.35em;
 }
 
-p.project-overview span {
-	font-weight: 600;
-}
-
-p.project-overview a, p.project-overview b {
+p.project-overview a, p.project-overview b, p.project-overview span {
 	font-weight: 600;
 	color: #40464E;
 	position: relative;
 }
 
+p.project-overview a::before, p.portfolio-body a::before {
+	height: 2px;
+	width: 100%;
+	background-color: #40464E;
+	opacity: 0.15;
+	bottom: -2px;
+	left: 0;
+	position: absolute;
+	content: "";
+}
 
-p.project-overview a::after {
+p.project-overview a::after, p.portfolio-body a::after {
 	height: 2px;
 	width: 0%;
 	background-color: #40464E;
@@ -1990,7 +1994,7 @@ p.project-overview a::after {
     transition: all 0.2s;
 }
 
-p.project-overview a:hover::after {
+p.project-overview a:hover::after, p.portfolio-body a:hover::after {
 	width: 100%;
 }
 
@@ -2860,14 +2864,16 @@ section.portfolio-navigator-bottom-page {
 section.portfolio-next-project-area {
 	background-size: cover;
 	background-position: center center;
+	background: linear-gradient(270deg, #8D50FF 0%, #6C20FC 100%);
 }
 
 section.portfolio-next-project-area .portfolio-content-area {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#24282d+0,24282d+100&0.9+0,1+100 */
-	background: -moz-linear-gradient(top, rgba(58,67,94,0.9) 0%, rgba(58,67,94,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(58,67,94,0.9) 0%,rgba(58,67,94,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(58,67,94,0.9) 0%,rgba(58,67,94,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e624282d', endColorstr='#24282d',GradientType=0 ); /* IE6-9 */
+	/*background: -moz-linear-gradient(top, rgba(58,67,94,0.9) 0%, rgba(58,67,94,1) 100%); 
+	background: -webkit-linear-gradient(top, rgba(58,67,94,0.9) 0%,rgba(58,67,94,1) 100%);
+	background: linear-gradient(to bottom, rgba(58,67,94,0.9) 0%,rgba(58,67,94,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e624282d', endColorstr='#24282d',GradientType=0 );
+	*/
 }
 
 section.portfolio-next-project-area .portfolio-content-area .in-project-subhead {
@@ -2892,7 +2898,11 @@ section.portfolio-next-project-area .in-progress-project-container .selected-wor
 	height: 2px;
 	display: block;
 	margin-top: 28px;
-	background-color: rgba(255,255,255,1);
+	background-color: rgba(255,255,255,0.3);
+}
+
+section.portfolio-next-project-area:hover .show-for-medium .hovered-line {
+	width: 100%;
 }
 
 a.next-project {
@@ -2908,6 +2918,16 @@ a.next-project {
     font-family: 'proxima-nova', Arial, sans-serif;
 	font-size: 15px;
 	font-weight: 600;
+}
+
+a.next-project::before {
+	height: 2px;
+	width: 100%;
+	background-color: rgba(255,255,255,0.15);
+	bottom: -2px;
+	left: 0;
+	position: absolute;
+	content: "";
 }
 
 a.next-project::after {

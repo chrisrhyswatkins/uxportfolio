@@ -563,13 +563,13 @@
 	<section class="portfolio-content-area" id="solutionSect1">
 		<div class="row">
 			<div class="small-24 medium-22 large-18 columns small-centered fadeInMinor">
-		   		<p class="portfolio-body">The experience working as a member of the closely knit UX team at M*Modal was invaluable, particularly in terms of mentorship offered in differing areas of expertise from every member, is one that I cannot thank them enough for, as well as countless others from other product teams who offered advice, and research participants.</p>
+		   		<p class="portfolio-body">The experience working as a member of the closely knit UX team at <a href="https://mmodal.com/">M*Modal</a> was invaluable, particularly in terms of mentorship offered in differing areas of expertise from every member, is one that I cannot thank them enough for, as well as countless others from other product teams who offered advice, and research participants.</p>
 		   		<p class="portfolio-body nothing-below">Without a doubt, the most rewarding aspect of the internship was opportunity to be involved in such impactful work, not only making the day-to-day lives of physicians easier, but in turn the quality of care provided to their patients.</p>
 			</div>
 		</div>
 	</section>
 	
-	<section class="portfolio-next-project-area" style="background-image: url(img/project-backgrounds/lyft.jpg);">
+	<section class="portfolio-next-project-area">
 		<div class="portfolio-content-area">
 			<div class="row in-project-subhead">
 				<div class="medium-2 show-for-medium columns"><div class="next-project-line"></div></div>
@@ -578,7 +578,7 @@
 					<h2 class="selected-work up-next text-white hide-for-medium"><span>Where to Next?</span></h2>
 				</div>
 			</div>
-
+			
 			<div class="row show-for-medium">
 				<div class="small-24 columns end selected-work-item lyft project-in-progress first fadeInMinor">
 					<div class="row in-progress-project-container">				
@@ -594,7 +594,7 @@
 								<p class="category project-footer">Smartphone Application<span>University Work</span></p>
 							<p class="in-progress-description text-white">Providing victims with a streamlined, personable method of locating domestic abuse support services.</p>
 							<!--<p class="in-progress-date">COMING SEP 2018</p>-->
-							<a href="" class="next-project">View Project</a>
+							<a href="lyft" class="next-project">View Project</a>
 						</div>		
 					</div>
 				</div>

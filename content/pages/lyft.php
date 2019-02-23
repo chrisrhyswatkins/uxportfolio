@@ -18,7 +18,7 @@
 						<?php require 'content/elements/project-nav.php'; ?>
 					</div>
 					<div class="small-24 columns">
-						<p class="project-overview">In a two week project, my team and I researched, conceptualized, and prototyped an alternative solution to the traditional five-star system currently used by passengers and drivers of the rideshare application Lyft, to rate one another after each journey.</p>
+						<p class="project-overview">In a two week project, my team and I researched, conceptualized, and prototyped an alternative solution to the traditional five-star system currently used by passengers and drivers of the rideshare application <span>Lyft</span>, to rate one another after each journey.</p>
 					</div>
 				</div>
 				<div class="row project-overview-details">
@@ -661,7 +661,7 @@
 		</div>
 	</section>
 
-	<section class="portfolio-next-project-area" style="background-image: url(img/project-backgrounds/<?php echo $nextProject;?>.jpg);">
+	<section class="portfolio-next-project-area">
 		<div class="portfolio-content-area">
 			<div class="row in-project-subhead">
 				<div class="medium-2 show-for-medium columns"><div class="next-project-line"></div></div>
@@ -670,11 +670,11 @@
 					<h2 class="selected-work up-next text-white hide-for-medium"><span>Where to Next?</span></h2>
 				</div>
 			</div>
-
+			
 			<div class="row show-for-medium">
-				<div class="small-24 columns end selected-work-item <?php echo $nextProject;?> project-in-progress first fadeInMinor">
+				<div class="small-24 columns end selected-work-item google-drive project-in-progress first fadeInMinor">
 					<div class="row in-progress-project-container">				
-						<a href="<?php echo $nextProject;?>" class="small-24 show-for-medium medium-11 large-12 columns selected-work-item-image" style="background-image:url('img/project-backgrounds/<?php echo $nextProject;?>.jpg');">
+						<a href="google-drive" class="small-24 show-for-medium medium-11 large-12 columns selected-work-item-image" style="background-image:url('img/project-items/freeagent.jpg');">
 							<div class="hovered-overlay"></div>
 							<div class="hovered-line"></div>
 						</a>
@@ -682,11 +682,11 @@
 							
 						</div>
 						<div class="small-24 medium-12 large-10 columns selected-work-item-text">
-							<h3 class="test">Lyft Rating System</h3>
+							<h3 class="test">Google Drive</h3>
 								<p class="category project-footer">Smartphone Application<span>University Work</span></p>
 							<p class="in-progress-description text-white">Providing victims with a streamlined, personable method of locating domestic abuse support services.</p>
 							<!--<p class="in-progress-date">COMING SEP 2018</p>-->
-							<a href="<?php echo $nextProject;?>.php" class="next-project">View Project</a>
+							<a href="google-drive" class="next-project">View Project</a>
 						</div>		
 					</div>
 				</div>

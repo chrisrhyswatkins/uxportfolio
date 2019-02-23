@@ -305,6 +305,13 @@ $('.quote-slide-handler').on('click', '.slick-slide', function (e) {
 });
 
 
+// Get project number from hidden variable and hide that project in the slider at the bottom of the page which appears on mobile
+
+if($("input#projectNumberHousing").length) {
+    var projectNumInteger = $("input#projectNumberHousing").val();
+    $(".project-slider").find(".selected-work-item:nth-of-type(" + projectNumInteger + ")").hide();  
+}
+
 
 // Same page anchor
 

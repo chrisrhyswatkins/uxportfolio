@@ -18,6 +18,7 @@ $projectName = 'lyft';
 $colorMainRGB = 'rgba(53, 53, 132, 1)';
 $prevProject = 'mmodal';
 $nextProject = 'google-drive';
+$projectNumber = 2;
 
 ?>
 <!DOCTYPE html>

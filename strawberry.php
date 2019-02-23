@@ -18,6 +18,7 @@ $projectName = 'strawberry';
 $colorMainRGB = 'rgba(248, 12, 58, 1)';
 $prevProject = 'precision-plastics';
 $nextProject = 'seven-hair-body';
+$projectNumber = 6;
 
 ?>
 <!DOCTYPE html>

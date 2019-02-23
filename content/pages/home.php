@@ -56,7 +56,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="small-24 medium-12 columns selected-work-item google end" data-equalizer-watch>
+			<div class="small-24 medium-12 columns selected-work-item google-drive end" data-equalizer-watch>
 				<div class="row">
 					<a href="google-drive">
 						<div class="small-24 columns selected-work-item-image" style="background-image: url('img/project-items/freeagent.jpg');">

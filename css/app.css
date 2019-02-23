@@ -330,7 +330,7 @@ p.portfolio-body {
 	width: 100%;
 	color: #676C72;
 	font-family: 'proxima-nova', Arial, sans-serif;
-	font-size: 1.125em;
+	font-size: 1.075em;
 	padding-bottom: 25px;
 	letter-spacing: -0.5px;
 	line-height: 2.35em;
@@ -564,6 +564,7 @@ ul.nav-list li a {
     transition: color 0.2s;
     cursor: pointer;
     position: relative;
+    text-transform: capitalize;
 }
 
 ul.nav-list li a::after {
@@ -781,6 +782,7 @@ ul.responsive-nav-list li a {
 	padding-bottom: 8px;
 	border-bottom: 2px solid rgba(255,255,255,0);
 	color: rgba(255,255,255,1);
+	text-transform: capitalize;
 }
 
 ul.responsive-nav-list li.current-menu-item a {
@@ -984,7 +986,7 @@ footer a.social-link {
 	color: #202021 !important;
 	margin-right: 8px;
 	display: inline-block;
-	font-size: 1.2em;
+	/*font-size: 1.2em;*/
 }
 
 /* Scroll Top */
@@ -1365,11 +1367,11 @@ section.recent-work-container {
 }
 */
 
-.selected-work-item.google .selected-work-item-image .hovered-line {
+.selected-work-item.google-drive .selected-work-item-image .hovered-line {
 	background-color: rgba(52,168,83,1);
 }
 
-.selected-work-item.google a:hover .selected-work-item-text h3 {
+.selected-work-item.google-drive a:hover .selected-work-item-text h3 {
 	color: rgba(52,168,83,1);
 }
 
@@ -1957,10 +1959,10 @@ p.project-overview {
 	margin-top: 20px;
 	font-weight: 500;
 	width: 100%;
-	color: #40464E;
+	color: #676C72;
 	font-family: 'proxima-nova', Arial, sans-serif;
-	font-size: 1.125em;
-	padding-bottom: 25px;
+	font-size: 1.075em;
+	/*padding-bottom: 25px;*/
 	letter-spacing: -0.5px;
 	line-height: 2.35em;
 }
@@ -1969,7 +1971,7 @@ p.project-overview span {
 	font-weight: 600;
 }
 
-p.project-overview a {
+p.project-overview a, p.project-overview b {
 	font-weight: 600;
 	color: #40464E;
 	position: relative;
@@ -1992,34 +1994,11 @@ p.project-overview a:hover::after {
 	width: 100%;
 }
 
-/*p.project-overview a:hover {
-	text-decoration: underline;
-}*/
-
-/*
 .row.project-overview-details {
 	border-top: 1px solid rgba(53, 53, 132, 0.075);
-	border-bottom: 1px solid rgba(53, 53, 132, 0.075);
-	margin-bottom: 12px;
-	padding-top: 12px;
-	padding-bottom: 3px;
+	padding-top: 27px;
+	margin-top: 0px;
 }
-*/
-
-.row.project-overview-details {
-	border-top: 1px solid rgba(53, 53, 132, 0.075);
-	padding-top: 30px;
-	margin-top: 10px;
-}
-
-/*
-.row.project-overview-details {
-	border-top: 1px solid rgba(53, 53, 132, 0.075);
-	padding-top: 30px;
-	padding-bottom: 3px;
-	margin-top: 10px;
-}
-*/
 
 .row.project-overview-details.no-content-below {
 	border-bottom: none;
@@ -2288,7 +2267,7 @@ ol.regular li:before {
 	content: counter(principles-counter,decimal-leading-zero);
 	counter-increment: principles-counter;
 	font-family: 'proxima-nova', Arial, sans-serif;
-	font-size: 1.125em;
+	font-size: 1.075em;
 	color: rgba(12,98,218,1.00);
 	font-weight: 600;
 	position: absolute;
@@ -2305,7 +2284,7 @@ ol.regular li p {
 	padding-top: 2.5px;
 	font-style: normal;
 	margin-bottom: 0;
-	font-size: 1.125em;
+	font-size: 1.075em;
 	font-weight: 500;
 	color: #676C72;
 	padding-bottom: 25px;
@@ -2326,8 +2305,8 @@ ol.regular li p.subtext {
     font-weight: 500;
 	width: 100%;
 	font-family: 'proxima-nova', Arial, sans-serif;
-	font-size: 1.125em;
-	padding-bottom: 25px;
+	font-size: 1.075em;
+	padding-bottom: 2.25em;
 	letter-spacing: -0.5px;
 }
 
@@ -2864,7 +2843,7 @@ img.visual-screen-design.no-border {
 }
 
 img.second-card-image {
-	margin-top: 45px;
+	margin-top: 30px;
 }
 
 section.conclusions-area {
@@ -2916,8 +2895,6 @@ section.portfolio-next-project-area .in-progress-project-container .selected-wor
 	background-color: rgba(255,255,255,1);
 }
 
-/*
-
 a.next-project {
 	text-decoration: none;
 	padding-bottom: 5px;
@@ -2925,12 +2902,12 @@ a.next-project {
     transition: color 0.2s;
     cursor: pointer !important;
     position: relative;
-    margin-top: 30px;
+    margin-top: 40px;
     color: rgba(255,255,255,1) !important;
     display: inline-block;
     font-family: 'proxima-nova', Arial, sans-serif;
 	font-size: 15px;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 a.next-project::after {
@@ -2952,8 +2929,6 @@ a.next-project:hover {
 a.next-project:hover::after {
 	width: 100%;
 }
-
-*/
 
 /*
 .portfolio-navigator-bottom-page ul.portfolio-nav-option li a {

@@ -18,6 +18,7 @@ $projectName = 'sevenHairBody';
 $colorMainRGB = 'rgba(30,30,30,1)';
 $prevProject = 'strawberry';
 $nextProject = 'mmodal';
+$projectNumber = 5;
 
 ?>
 <!DOCTYPE html>

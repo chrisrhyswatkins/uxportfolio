@@ -18,13 +18,14 @@ $projectName = 'mmodal';
 $colorMainRGB = 'rgba(51,153,255,1)';
 $prevProject = 'seven-hair-body';
 $nextProject = 'lyft';
+$projectNumber = 1;
 
 ?>
 <!DOCTYPE html>
 <html>
 <?php include 'content/elements/head.php'; ?>
 <body class="white-bg">
-
+	
 <div id="content">
 
 <?php require 'content/elements/header.php'; ?>

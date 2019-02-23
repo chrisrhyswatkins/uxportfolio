@@ -18,6 +18,7 @@ $projectName = 'googleDrive';
 $colorMainRGB = 'rgba(52,168,83,1)';
 $prevProject = 'lyft';
 $nextProject = 'precision-plastics';
+$projectNumber = 3;
 
 ?>
 <!DOCTYPE html>

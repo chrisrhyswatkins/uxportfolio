@@ -18,6 +18,7 @@ $projectName = 'precisionPlastics';
 $colorMainRGB = 'rgba(37,50,68, 1)';
 $prevProject = 'google-drive';
 $nextProject = 'strawberry';
+$projectNumber = 4;
 
 ?>
 <!DOCTYPE html>

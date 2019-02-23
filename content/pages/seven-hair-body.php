@@ -88,89 +88,38 @@
 		</div>
 	</section>
 
-	<section class="portfolio-next-project-area" style="background-image: url(img/project-backgrounds/seven.jpg);">
+	<section class="portfolio-next-project-area" style="background-image: url(img/project-backgrounds/lyft.jpg);">
 		<div class="portfolio-content-area">
 			<div class="row in-project-subhead">
 				<div class="medium-2 show-for-medium columns"><div class="next-project-line"></div></div>
 				<div class="small-24 medium-10 columns end">
-					<h2 class="selected-work up-next text-white"><span>Where to Next?</span></h2>
+					<h2 class="selected-work up-next text-white show-for-medium"><span>Next Project</span></h2>
+					<h2 class="selected-work up-next text-white hide-for-medium"><span>Where to Next?</span></h2>
 				</div>
 			</div>
-			<div class="row project-slider scrolling-wrapper-flexbox draggable" data-equalizer>
-				<div class="small-24 medium-12 columns selected-work-item mmodal latest-item" data-equalizer-watch>
-					<div class="row">
-						<a href="mmodal">
-							<div class="small-24 columns selected-work-item-image" style="background-image: url('img/project-items/mmodal3.jpg');">
-								<div class="hovered-line"></div>
-								<div class="hovered-overlay"></div>
-								<span class="date text-white">NDA RESTRICTIONS</span>
-							</div>
-							<div class="small-24 columns selected-work-item-text">
-								<h3>Clinical Assistant</h3>
-								<p class="category no-margin-bottom">Multi-Modal Interaction<span>Internship</span></p>
-							</div>
+
+			<div class="row show-for-medium">
+				<div class="small-24 columns end selected-work-item lyft project-in-progress first fadeInMinor">
+					<div class="row in-progress-project-container">				
+						<a href="lyft" class="small-24 show-for-medium medium-11 large-12 columns selected-work-item-image" style="background-image:url('img/project-backgrounds/lyft.jpg');">
+							<div class="hovered-overlay"></div>
+							<div class="hovered-line"></div>
 						</a>
-					</div>
-				</div>
-				<div class="small-24 medium-12 columns selected-work-item lyft" data-equalizer-watch>
-					<div class="row">
-						<a href="lyft">
-							<div class="small-24 columns selected-work-item-image" style="background-image: url('img/project-backgrounds/lyft.jpg');">
-								<div class="hovered-line"></div>
-								<span class="date text-white"></span>
-							</div>
-							<div class="small-24 columns selected-work-item-text">
-								<h3>Lyft Rating System</h3>
-								<p class="category no-margin-bottom">Smartphone Application<span>University Work</span></p>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="small-24 medium-12 columns selected-work-item google" data-equalizer-watch>
-					<div class="row">
-						<a href="google-drive">
-							<div class="small-24 columns selected-work-item-image" style="background-image: url('img/project-items/freeagent.jpg');">
-								<div class="hovered-line"></div>
-								<span class="date text-white"></span>
-							</div>
-							<div class="small-24 columns selected-work-item-text">
-								<h3>Google Drive</h3>
-								<p class="category no-margin-bottom">Visual Design<span>University Work</span></p>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="small-24 medium-12 columns selected-work-item precisionplastics case-study-in-progress" data-equalizer-watch>
-					<div class="row">
-						<a href="precision-plastics">
-							<div class="small-24 columns selected-work-item-image" style="background-image:url('img/project-items/plastics2.jpg');" id="project-item-plastic">
-								<div class="hovered-line"></div>
-								<div class="hovered-overlay"></div>
-								<span class="date text-white">DESIGNS ONLY</span>
-							</div>
-							<div class="small-24 columns selected-work-item-text">
-								<h3>Precision Plastics</h3>
-								<p class="category">SaaS Application<span>Personal Project</span></p>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="small-24 medium-12 columns selected-work-item strawberry case-study-in-progress end" data-equalizer-watch>
-					<div class="row">
-						<a href="strawberry">
-							<div class="small-24 columns selected-work-item-image wide-image" style="background-image:url('img/project-items/strawberry.jpg');" id="project-item-strawberry">
-								<div class="hovered-line"></div>
-								<div class="hovered-overlay"></div>
-								<span class="date text-white">DESIGNS ONLY</span>
-							</div>
-							<div class="small-24 columns selected-work-item-text">
-								<h3>Strawberry</h3>
-								<p class="category">Visual Design<span>Personal Project</span></p>
-							</div>
-						</a>
+						<div class="show-for-medium medium-1 large-2 columns">
+							
+						</div>
+						<div class="small-24 medium-12 large-10 columns selected-work-item-text">
+							<h3 class="test">Lyft Rating System</h3>
+								<p class="category project-footer">Smartphone Application<span>University Work</span></p>
+							<p class="in-progress-description text-white">Providing victims with a streamlined, personable method of locating domestic abuse support services.</p>
+							<!--<p class="in-progress-date">COMING SEP 2018</p>-->
+							<a href="" class="next-project">View Project</a>
+						</div>		
 					</div>
 				</div>
 			</div>
+	
+			<?php require 'content/elements/project-nav-slider-bottom.php'; ?>
 		</div>
 	</section>
 </div>

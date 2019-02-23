@@ -6,7 +6,7 @@
 		</div>
 		<div class="small-24 medium-19 columns">
 			<p class="capitalized-title-desc text-white no-margin-bottom" id="content-top-indicator"><span>narcissistic babblings</span></p>
-			<h1 class="text-white about-page" style="margin-bottom: .5rem !important;">Yes, it's me... <span class="light">Second-runner up in the 2003 Great Britain K'NEX Championships.</span></h1>
+			<h1 class="text-white about-page" style="margin-bottom: .5rem !important;">Yes, it's me... <span class="light">Second-runner up in the 2003 Great Britain K'NEX Championships...</span></h1>
 			<div class="row about-me-section first-section">
 				<div class="small-24 large-7 columns">
 					<h2 class="text-white about-subsection">A bit about me</h2>

@@ -7,6 +7,8 @@ $metaDescription = "In a two week project, my team and I researched, conceptuali
 
 // Include specific header and footer style variable in here
 $headerType = 'no-bg-header';
+$gradientHeaderDarker = '#184776';
+$gradientHeaderLighter = '#3399FF';
 $logoColor = "white-logo";
 $navColor = 'white-nav';
 $activeNav = '1';
@@ -16,9 +18,17 @@ $footerType = 'white-footer portfolio-project-footer';
 // Project Page Details
 $projectName = 'mmodal';
 $colorMainRGB = 'rgba(51,153,255,1)';
-$prevProject = 'seven-hair-body';
-$nextProject = 'lyft';
+$prevProject = 'strawberry';
 $projectNumber = 1;
+
+// Bottom details for next project
+$nextProject = 'lyft';
+$gradientDarker = '#111130';
+$gradientLighter = '#353584';
+$nextProjectTitle = 'Lyft Rating System';
+$nextProjectType = 'Smartphone Application';
+$nextProjectReason = 'University Work';
+$nextProjectDescription = "Investigating and redesigning the existing 5-star rating system used by Lyft's riders and passengers.";
 
 ?>
 <!DOCTYPE html>

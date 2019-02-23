@@ -7,6 +7,8 @@ $metaDescription = "After 6 years of working as a director at Precision Plastics
 
 // Include specific header and footer style variable in here
 $headerType = 'no-bg-header';
+$gradientHeaderDarker = '#11171F';
+$gradientHeaderLighter = '#29374B';
 $logoColor = "white-logo";
 $navColor = 'white-nav';
 $activeNav = '1';
@@ -19,6 +21,16 @@ $colorMainRGB = 'rgba(37,50,68, 1)';
 $prevProject = 'google-drive';
 $nextProject = 'strawberry';
 $projectNumber = 4;
+
+// Bottom details for next project
+$nextProject = 'seven-hair-body';
+$gradientDarker = '#0A0A0A';
+$gradientLighter = '#282828';
+$nextProjectTitle = 'Seven Hair & Body';
+$nextProjectType = 'CMS Website';
+$nextProjectReason = 'Client Work';
+$nextProjectDescription = "Creating a bespoke, WordPress-powered website for a local high-class, contemporary barbershop.";
+
 
 ?>
 <!DOCTYPE html>

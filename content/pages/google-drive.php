@@ -1,6 +1,6 @@
 <section class="work-page-header <?php echo $projectName; ?>">
 	<div class="work-page-header-background-image" style="background-image: url(img/project-backgrounds/google-drive.jpg);"></div>
-	<div class="work-page-header-background-color" style="background-color: <?php echo $colorMainRGB; ?>"></div>
+	<div class="work-page-header-background-color" <?php if(isset($gradientHeaderLighter)) { ?> style="background: linear-gradient(270deg, <?php echo $gradientHeaderLighter ?> 0%, <?php echo $gradientHeaderDarker ?> 100%);" <?php } ?>"></div>
 	<div class="row work-page-header-text-content">
 		<div class="small-24 medium-18 columns">
 			<p class="category text-white no-margin-bottom" id="content-top-indicator">Visual Design<span>University Work</span></p>
@@ -127,38 +127,5 @@
 		</div>
 	</section>
 
-	<section class="portfolio-next-project-area">
-		<div class="portfolio-content-area">
-			<div class="row in-project-subhead">
-				<div class="medium-2 show-for-medium columns"><div class="next-project-line"></div></div>
-				<div class="small-24 medium-10 columns end">
-					<h2 class="selected-work up-next text-white show-for-medium"><span>Next Project</span></h2>
-					<h2 class="selected-work up-next text-white hide-for-medium"><span>Where to Next?</span></h2>
-				</div>
-			</div>
-			
-			<div class="row show-for-medium">
-				<div class="small-24 columns end selected-work-item precisionplastics project-in-progress first fadeInMinor">
-					<div class="row in-progress-project-container">				
-						<a href="lyft" class="small-24 show-for-medium medium-11 large-12 columns selected-work-item-image" style="background-image:url('img/project-items/plastics2.jpg');">
-							<div class="hovered-overlay"></div>
-							<div class="hovered-line"></div>
-						</a>
-						<div class="show-for-medium medium-1 large-2 columns">
-							
-						</div>
-						<div class="small-24 medium-12 large-10 columns selected-work-item-text">
-							<h3 class="test">Precision Plastics</h3>
-								<p class="category project-footer">Smartphone Application<span>University Work</span></p>
-							<p class="in-progress-description text-white">Providing victims with a streamlined, personable method of locating domestic abuse support services.</p>
-							<!--<p class="in-progress-date">COMING SEP 2018</p>-->
-							<a href="precision-plastics" class="next-project">View Project</a>
-						</div>		
-					</div>
-				</div>
-			</div>
-	
-			<?php require 'content/elements/project-nav-slider-bottom.php'; ?>
-		</div>
-	</section>
+	<?php require 'content/elements/next-project-section-bottom.php'; ?>
 </div>

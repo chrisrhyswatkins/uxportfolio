@@ -7,6 +7,8 @@ $metaDescription = "Given a single screenshot of the ‘My Drive’ screen withi
 
 // Include specific header and footer style variable in here
 $headerType = 'no-bg-header';
+$gradientHeaderDarker = '#174A25';
+$gradientHeaderLighter = '#34A853';
 $logoColor = "white-logo";
 $navColor = 'white-nav';
 $activeNav = '1';
@@ -19,6 +21,16 @@ $colorMainRGB = 'rgba(52,168,83,1)';
 $prevProject = 'lyft';
 $nextProject = 'precision-plastics';
 $projectNumber = 3;
+
+
+// Bottom details for next project
+$nextProject = 'precision-plastics';
+$gradientDarker = '#11171F';
+$gradientLighter = '#29374B';
+$nextProjectTitle = 'Precision Plastics';
+$nextProjectType = 'SaaS Application';
+$nextProjectReason = 'Personal Project';
+$nextProjectDescription = "Conceptualizing the digitization and streamlining of a paperwork reliant plastics manufacturer.";
 
 ?>
 <!DOCTYPE html>

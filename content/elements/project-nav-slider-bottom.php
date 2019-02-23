@@ -3,7 +3,7 @@
 	<div class="small-24 medium-12 columns selected-work-item mmodal latest-item nda-restrictions end" data-equalizer-watch>
 		<div class="row">
 			<a href="mmodal">
-				<div class="small-24 columns selected-work-item-image wide-image" style="background-image: url('img/project-items/mmodal3.jpg');">
+				<div class="small-24 columns selected-work-item-image wide-image" style="background-image: url('img/project-items/mmodal.jpg');">
 					<div class="hovered-line"></div>
 					<div class="hovered-overlay"></div>
 					<!--<span class="date text-white">NDA RESTRICTIONS</span>-->
@@ -32,7 +32,7 @@
 	<div class="small-24 medium-12 columns selected-work-item google-drive end" data-equalizer-watch>
 		<div class="row">
 			<a href="google-drive">
-				<div class="small-24 columns selected-work-item-image" style="background-image: url('img/project-items/freeagent.jpg');">
+				<div class="small-24 columns selected-work-item-image" style="background-image: url('img/project-items/google-drive.jpg');">
 					<div class="hovered-line"></div>
 					<span class="date text-white"></span>
 				</div>
@@ -43,10 +43,10 @@
 			</a>
 		</div>
 	</div>
-	<div class="small-24 medium-12 columns selected-work-item precisionplastics case-study-in-progress end" data-equalizer-watch>
+	<div class="small-24 medium-12 columns selected-work-item precision-plastics case-study-in-progress end" data-equalizer-watch>
 		<div class="row">
 			<a href="precision-plastics">
-				<div class="small-24 columns selected-work-item-image" style="background-image:url('img/project-items/plastics2.jpg');" id="project-item-plastic">
+				<div class="small-24 columns selected-work-item-image" style="background-image:url('img/project-items/precision-plastics.jpg');" id="project-item-plastic">
 					<div class="hovered-line"></div>
 					<div class="hovered-overlay"></div>
 					<span class="date text-white">DESIGNS ONLY</span>
@@ -58,10 +58,10 @@
 			</a>
 		</div>
 	</div>
-	<div class="small-24 medium-12 columns selected-work-item sevenhairbody case-study-in-progress end" data-equalizer-watch>
+	<div class="small-24 medium-12 columns selected-work-item seven-hair-body case-study-in-progress end" data-equalizer-watch>
 		<div class="row">
 			<a href="seven-hair-body">
-				<div class="small-24 columns selected-work-item-image" style="background-image:url('img/project-items/seven.jpg');" id="project-item-seven">
+				<div class="small-24 columns selected-work-item-image" style="background-image:url('img/project-items/seven-hair-body.jpg');" id="project-item-seven">
 					<div class="hovered-line"></div>
 					<div class="hovered-overlay"></div>
 					<span class="date text-white">DESIGNS ONLY</span>

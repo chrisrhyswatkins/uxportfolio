@@ -7,6 +7,8 @@ $metaDescription = "In a two week project, my team and I researched, conceptuali
 
 // Include specific header and footer style variable in here
 $headerType = 'no-bg-header';
+$gradientHeaderDarker = '#111130';
+$gradientHeaderLighter = '#353584';
 $logoColor = "white-logo";
 $navColor = 'white-nav';
 $activeNav = '1';
@@ -19,6 +21,15 @@ $colorMainRGB = 'rgba(53, 53, 132, 1)';
 $prevProject = 'mmodal';
 $nextProject = 'google-drive';
 $projectNumber = 2;
+
+// Bottom details for next project
+$nextProject = 'google-drive';
+$gradientDarker = '#174A25';
+$gradientLighter = '#34A853';
+$nextProjectTitle = 'Google Drive';
+$nextProjectType = 'Visual Design';
+$nextProjectReason = 'University Work';
+$nextProjectDescription = "Applying visual and interaction design principles to redesign a single screen within Google Drive.";
 
 ?>
 <!DOCTYPE html>

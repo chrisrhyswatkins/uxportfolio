@@ -7,6 +7,8 @@ $metaDescription = "With a single day free in my schedule, I decided to conduct 
 
 // Include specific header and footer style variable in here
 $headerType = 'no-bg-header';
+$gradientHeaderDarker = '#960823';
+$gradientHeaderLighter = '#F80C3A';
 $logoColor = "white-logo";
 $navColor = 'white-nav';
 $activeNav = '1';
@@ -20,7 +22,18 @@ $prevProject = 'precision-plastics';
 $nextProject = 'seven-hair-body';
 $projectNumber = 6;
 
+// Bottom details for next project
+$nextProject = 'mmodal';
+$gradientDarker = '#184776';
+$gradientLighter = '#3399FF';
+$nextProjectTitle = 'Clinical Assistant';
+$nextProjectType = 'Multi-Modal Interaction';
+$nextProjectReason = 'Internship';
+$nextProjectDescription = "Allowing physicians to improve the quality of clinical documentation and patient care, using only speech.";
+$nextProjectCode = "nda-restrictions";
+
 ?>
+
 <!DOCTYPE html>
 <html>
 <?php include 'content/elements/head.php'; ?>

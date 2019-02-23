@@ -312,6 +312,21 @@ if($("input#projectNumberHousing").length) {
     $(".project-slider").find(".selected-work-item:nth-of-type(" + projectNumInteger + ")").hide();  
 }
 
+$(".next-project").hover(function() {
+    $(this).closest(".selected-work-item").find(".hovered-line").css("width", "100%");
+    $(this).closest(".selected-work-item").find("a.selected-work-item-image").css("background-size", "110% auto");
+    $(this).closest(".selected-work-item").find("a.selected-work-item-image").css("transform", "scale(1.0175,1.0175)");
+}, function() { // Mouse ou
+    $(this).closest(".selected-work-item").find(".hovered-line").css("width", "0%");
+    $(this).closest(".selected-work-item").find("a.selected-work-item-image").css("background-size", 105+"% auto");
+    $(this).closest(".selected-work-item").find("a.selected-work-item-image").css("transform", "scale(1.0,1.0)");
+}); 
+
+/*
+background-size: 110% auto;
+    transform: scale(1.0175,1.0175);
+    */
+
 
 // Same page anchor
 

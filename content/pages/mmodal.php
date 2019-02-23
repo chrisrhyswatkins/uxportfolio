@@ -1,6 +1,6 @@
 <section class="work-page-header <?php echo $projectName; ?>">
 	<div class="work-page-header-background-image midtop-bg" style="background-image: url(img/project-backgrounds/mmodal.jpg);"></div>
-	<div class="work-page-header-background-color" style="background-color: <?php echo $colorMainRGB; ?>"></div>
+	<div class="work-page-header-background-color" <?php if(isset($gradientHeaderLighter)) { ?> style="background: linear-gradient(270deg, <?php echo $gradientHeaderLighter ?> 0%, <?php echo $gradientHeaderDarker ?> 100%);" <?php } ?>"></div>
 	<div class="row work-page-header-text-content">
 		<div class="small-24 medium-18 columns">
 			<p class="category text-white no-margin-bottom" id="content-top-indicator">Multi-Modal Interaction<span>Internship</span></p>
@@ -57,7 +57,73 @@
 		</div>
 	</section>
 
-	<section class="banner-below-overview no-grey-banner" id="theBrief">
+	<section class="portfolio-content-area">
+		<div class="row in-project-subhead">
+			<div class="small-24 columns fadeInPortfolioText">
+				<h2 class="selected-work line-behind"><span>Project Process</span></h2>
+				<p class="in-project-subhead-para">The key stages of the research &amp; design work.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="small-24 medium-22 large-18 columns small-centered fadeInPortfolioText">
+				<p class="capitalized-title-desc above-list-items" style="margin-top: 0;">Jump To Project Stage</p>
+				<div class="row" data-equalizer>
+					<div class="small-24 medium-12 large-8 columns" data-equalizer-watch>
+						<a href="#projectSect1" class="section-jump-option samepageanchor">
+							<h4>Clinical Suggestions</h4>
+						</a>
+					</div>
+					<div class="small-24 medium-12 large-8 columns" data-equalizer-watch>
+						<a href="#projectSect2" class="section-jump-option samepageanchor">
+							<h4>Actionable Messages</h4>
+						</a>
+					</div>
+					<div class="small-24 medium-12 large-8 columns" data-equalizer-watch>
+						<a href="#projectSect3" class="section-jump-option samepageanchor">
+							<h4>Initial Research Aims</h4>
+						</a>
+					</div>
+					<div class="small-24 medium-12 large-8 columns" data-equalizer-watch>
+						<a href="#projectSect4" class="section-jump-option samepageanchor">
+							<h4>Analogous Phrasing Study</h4>
+						</a>
+					</div>
+					<div class="small-24 medium-12 large-8 columns" data-equalizer-watch>
+						<a href="#projectSect5" class="section-jump-option samepageanchor">
+							<h4>Mixed-Method Analysis</h4>
+						</a>
+					</div>
+					<div class="small-24 medium-12 large-8 columns" data-equalizer-watch>
+						<a href="#projectSect6" class="section-jump-option samepageanchor">
+							<h4>Key Findings</h4>
+						</a>
+					</div>
+					<div class="small-24 medium-12 large-8 columns" data-equalizer-watch>
+						<a href="#projectSect7" class="section-jump-option samepageanchor">
+							<h4>CAPD Message Redesign</h4>
+						</a>
+					</div>
+					<div class="small-24 medium-12 large-8 columns" data-equalizer-watch>
+						<a href="#projectSect8" class="section-jump-option samepageanchor">
+							<h4>Wizard of Oz Study</h4>
+						</a>
+					</div>
+					<div class="small-24 medium-12 large-8 columns end" data-equalizer-watch>
+						<a href="#projectSect9" class="section-jump-option samepageanchor">
+							<h4>Study Outcomes</h4>
+						</a>
+					</div>
+					<div class="small-24 medium-12 large-8 columns end" data-equalizer-watch>
+						<a href="#projectSect10" class="section-jump-option samepageanchor">
+							<h4>Internship Recap</h4>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="banner-below-overview no-grey-banner" id="projectSect1">
 		<div class="row in-project-subhead">
 			<div class="small-24 columns">
 				<h2 class="line-behind"><span>Clinical Documentation Suggestions</span></h2>
@@ -79,7 +145,7 @@
 		</div>
 	</section>
 
-	<section class="banner-below-overview no-grey-banner" id="theBrief">
+	<section class="banner-below-overview no-grey-banner" id="projectSect2">
 		<div class="row in-project-subhead">
 			<div class="small-24 columns">
 				<h2 class="line-behind"><span>Actionable Messages</span></h2>
@@ -119,7 +185,7 @@
 		</div>
 	</section>
 
-	<section class="portfolio-content-area" id="projectSect1">
+	<section class="portfolio-content-area" id="projectSect3">
 		<div class="row in-project-subhead">
 			<div class="small-24 columns fadeInMinor">
 				<h2 class="selected-work line-behind"><span>Initial Research Aims</span></h2>
@@ -138,7 +204,7 @@
 		</div>
 	</section>
 
-	<section class="portfolio-content-area" id="projectSect2"><!-- id="research" -->
+	<section class="portfolio-content-area" id="projectSect4"><!-- id="research" -->
 		<div class="row in-project-subhead">
 			<div class="small-24 columns fadeInMinor">
 				<h2 class="selected-work line-behind"><span>Initial Study Plan</span></h2>
@@ -155,7 +221,7 @@
 		</div>
 	</section>
 
-	<section class="portfolio-content-area" id="projectSect2"><!-- id="research" -->
+	<section class="portfolio-content-area"><!-- id="research" -->
 		<div class="row in-project-subhead">
 			<div class="small-24 columns fadeInMinor">
 				<h2 class="selected-work line-behind"><span>Switch to Analogous Domain</span></h2>
@@ -181,7 +247,7 @@
 		</div>
 	</section>
 
-	<section class="portfolio-content-area" id="projectSect9">
+	<section class="portfolio-content-area" id="projectSect5">
 		<div class="row in-project-subhead">
 			<div class="small-24 columns fadeInMinor">
 				<h2 class="selected-work line-behind"><span>Analysis</span></h2>
@@ -194,7 +260,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="portfolio-content-area below-other-area" id="solutionSect1">
+	<section class="portfolio-content-area below-other-area">
 		<div class="row">
 			<div class="small-24 medium-22 large-18 columns small-centered fadeInMinor">
 				<h2 class="sub-section">Phrasing Structures &amp; Terminology</h2>
@@ -237,7 +303,7 @@
 		</div>
 	</section>
 
-	<section class="portfolio-content-area below-other-area" id="solutionSect1">
+	<section class="portfolio-content-area below-other-area">
 		<div class="row">
 			<div class="small-24 medium-22 large-18 columns small-centered fadeInMinor">
 				<h2 class="sub-section">Affinity Diagramming</h2>
@@ -262,7 +328,7 @@
 		</div>
 	</section>
 
-	<section class="portfolio-content-area" id="solutionSect1">
+	<section class="portfolio-content-area">
 		<div class="row">
 			<div class="small-24 medium-22 large-18 columns small-centered">
 				<p class="portfolio-body nothing-below">10 distinct themes were created using the extracted units of information, which after writing up a description of each individual theme, were used to inform the key study findings.</p>
@@ -342,7 +408,7 @@
 		</div>
 	</section>
 
-	<section class="portfolio-content-area" id="projectSect2"><!-- id="research" -->
+	<section class="portfolio-content-area" id="projectSect6"><!-- id="research" -->
 		<div class="row in-project-subhead">
 			<div class="small-24 columns fadeInMinor">
 				<h2 class="selected-work line-behind"><span>Key Study Findings</span></h2>
@@ -413,7 +479,7 @@
 		</div>
 	</section>
 
-	<section class="portfolio-content-area" id="projectSect2"><!-- id="research" -->
+	<section class="portfolio-content-area" id="projectSect7"><!-- id="research" -->
 		<div class="row in-project-subhead">
 			<div class="small-24 columns fadeInMinor">
 				<h2 class="selected-work line-behind"><span>Revised Research Scope</span></h2>
@@ -428,7 +494,7 @@
 		</div>
 	</section>
 
-	<section class="portfolio-content-area" id="projectSect2"><!-- id="research" -->
+	<section class="portfolio-content-area"><!-- id="research" -->
 		<div class="row in-project-subhead">
 			<div class="small-24 columns fadeInMinor">
 				<h2 class="selected-work line-behind"><span>Redesigning the Messages</span></h2>
@@ -449,7 +515,7 @@
 		</div>
 	</section>
 
-	<section class="portfolio-content-area" id="projectSect2"><!-- id="research" -->
+	<section class="portfolio-content-area" id="projectSect8"><!-- id="research" -->
 		<div class="row in-project-subhead">
 			<div class="small-24 columns fadeInMinor">
 				<h2 class="selected-work line-behind"><span>Wizard of Oz Study</span></h2>
@@ -493,7 +559,7 @@
 		</div>
 	</section>
 
-	<section class="portfolio-content-area" id="projectSect2"><!-- id="research" -->
+	<section class="portfolio-content-area" id="projectSect9"><!-- id="research" -->
 		<div class="row in-project-subhead">
 			<div class="small-24 columns fadeInMinor">
 				<h2 class="selected-work line-behind"><span>Study Outcomes</span></h2>
@@ -513,7 +579,7 @@
 		</div>
 	</section>
 
-	<section class="portfolio-content-area below-other-area" id="solutionSect1">
+	<section class="portfolio-content-area below-other-area">
 		<div class="row">
 			<div class="small-24 medium-22 large-18 columns small-centered fadeInMinor">
 		   		<p class="capitalized-title-desc above-list-items">Other Areas for Consideration</p>
@@ -525,7 +591,7 @@
 		</div>
 	</section>
 
-	<section class="portfolio-content-area" id="projectSect2"><!-- id="research" -->
+	<section class="portfolio-content-area" id="projectSect10"><!-- id="research" -->
 		<div class="row in-project-subhead">
 			<div class="small-24 columns fadeInMinor">
 				<h2 class="selected-work line-behind"><span>Internship Recap</span></h2>
@@ -569,38 +635,5 @@
 		</div>
 	</section>
 	
-	<section class="portfolio-next-project-area">
-		<div class="portfolio-content-area">
-			<div class="row in-project-subhead">
-				<div class="medium-2 show-for-medium columns"><div class="next-project-line"></div></div>
-				<div class="small-24 medium-10 columns end">
-					<h2 class="selected-work up-next text-white show-for-medium"><span>Next Project</span></h2>
-					<h2 class="selected-work up-next text-white hide-for-medium"><span>Where to Next?</span></h2>
-				</div>
-			</div>
-			
-			<div class="row show-for-medium">
-				<div class="small-24 columns end selected-work-item lyft project-in-progress first fadeInMinor">
-					<div class="row in-progress-project-container">				
-						<a href="lyft" class="small-24 show-for-medium medium-11 large-12 columns selected-work-item-image" style="background-image:url('img/project-backgrounds/lyft.jpg');">
-							<div class="hovered-overlay"></div>
-							<div class="hovered-line"></div>
-						</a>
-						<div class="show-for-medium medium-1 large-2 columns">
-							
-						</div>
-						<div class="small-24 medium-12 large-10 columns selected-work-item-text">
-							<h3 class="test">Lyft Rating System</h3>
-								<p class="category project-footer">Smartphone Application<span>University Work</span></p>
-							<p class="in-progress-description text-white">Providing victims with a streamlined, personable method of locating domestic abuse support services.</p>
-							<!--<p class="in-progress-date">COMING SEP 2018</p>-->
-							<a href="lyft" class="next-project">View Project</a>
-						</div>		
-					</div>
-				</div>
-			</div>
-	
-			<?php require 'content/elements/project-nav-slider-bottom.php'; ?>
-		</div>
-	</section>
+	<?php require 'content/elements/next-project-section-bottom.php'; ?>
 </div>

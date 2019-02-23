@@ -821,27 +821,27 @@ ul.responsive-nav-list li.social a span {
 /* Different Navigation Styles - Standard */
 
 header.has-background.mmodal-res-nav {
-	background: rgba(51,153,255,0.95)
+	background: linear-gradient(270deg, rgb(51, 153, 255) 0%, rgb(24, 71, 118) 100%);
 }
 
 header.has-background.lyft-res-nav {
-	background: rgba(53, 53, 132,0.95);
+	background: linear-gradient(270deg, rgb(53, 53, 132) 0%, rgb(17, 17, 48) 100%);
 }
 
 header.has-background.google-res-nav {
-	background: rgba(52,168,83,0.95);
+	background: linear-gradient(270deg, #34A853 0%, #174A25 100%);
 }
 
 header.has-background.prec-plas-res-nav {
-	background: rgba(37,50,68, 0.95);
-}
-
-header.has-background.strawberry-res-nav {
-	background: rgba(248, 12, 58, 0.95);
+	background: linear-gradient(270deg, #29374B 0%, #11171F 100%);
 }
 
 header.has-background.seven-res-nav {
-	background: rgba(30,30,30, 0.95);
+	background: linear-gradient(270deg, #282828 0%, #0A0A0A 100%);
+}
+
+header.has-background.strawberry-res-nav {
+	background: linear-gradient(270deg, #F80C3A 0%, #960823 100%);
 }
 
 header.has-background.freeagent-res-nav {

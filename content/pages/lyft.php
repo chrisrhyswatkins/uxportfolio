@@ -63,7 +63,7 @@
 		<div class="row in-project-subhead">
 			<div class="small-24 columns">
 				<h2 class="line-behind"><span>Project Team</span></h2>
-				<p class="in-project-subhead-para">Identifying the overarching issues.</p>
+				<p class="in-project-subhead-para">A quick introduction to the group.</p>
 			</div>
 		</div>
 		<div class="row">

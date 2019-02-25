@@ -59,7 +59,28 @@
 		-->
 	</section>
 
-	<section class="banner-below-overview no-grey-banner" id="theBrief">
+	<section class="banner-below-overview no-grey-banner team-members-section">
+		<div class="row in-project-subhead">
+			<div class="small-24 columns">
+				<h2 class="line-behind"><span>Project Team</span></h2>
+				<p class="in-project-subhead-para">Identifying the overarching issues.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="small-24 medium-22 large-18 columns small-centered fadeInPortfolioText">
+				<p class="capitalized-title-desc above-team-members">Team Members</p>
+		   		<div class="team-members-container">
+		   			<div class="team-member teamMemberImage" style="background-image: url('img/misc/team-members/chenchen.jpg');"></div>
+		   			<div class="team-member teamMemberImage" style="background-image: url('img/misc/team-members/chris.jpg');"></div>
+					<div class="team-member teamMemberImage" style="background-image: url('img/misc/team-members/dongqing.jpg');"></div>
+					<div class="team-member teamMemberImage" style="background-image: url('img/misc/team-members/keyuan.jpg');"></div>
+					<p class="names"><span class="teamMemberImage">Chenchen Li</span>, <span class="teamMemberImage">Chris Watkins</span>, <span class="teamMemberImage">Dongqing Zhang</span>, <span class="teamMemberImage">Keyuan Zhou</span></p>
+		   		</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="portfolio-content-area" id="theBrief">
 		<div class="row in-project-subhead">
 			<div class="small-24 columns">
 				<h2 class="line-behind"><span>The Brief</span></h2>
@@ -219,7 +240,7 @@
 		</div>
 		<div class="row quote-slide-individual static-quote hide-for-medium">
 			<div class="small-24">
-				<p class="main">"One bad rating, basically anything other than 5 stars, can put me at risk of Lyft deactiviting me as a driver."</p>
+				<p class="main">"One bad rating, basically anything other than 5 stars, can put me at risk of Lyft deactivating me as a driver."</p>
 				<p class="author">Lyft Driver</p>
 			</div>
 		</div>

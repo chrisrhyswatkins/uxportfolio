@@ -317,6 +317,10 @@ h2.sub-section span {
 	font-weight: 500;
 }
 
+.text-white {
+	color: rgba(255,255,255,1) !important;
+}
+
 p.portfolio-body {
 	/*font-weight: 400;
 	width: 100%;
@@ -374,10 +378,77 @@ p.capitalized-title-desc.above-list-items {
 	margin-bottom: 20px;
 }
 
-.text-white {
-	color: rgba(255,255,255,1) !important;
+p.capitalized-title-desc.above-team-members {
+	margin-top: 0px !important;
+	margin-bottom: 10px;
 }
 
+.team-members-container {
+	height: 65px;
+	width: 100%;
+}
+
+.team-members-container .team-member {
+	background-size: cover;
+	background-position: center center;
+	height: 65px;
+	width: 65px;
+	border-radius: 50px;
+	border: 5px solid rgba(255,255,255,1);
+	margin-left: -15px;	
+	display: inline-block;
+	float: left;
+}
+
+.team-members-container .team-member:first-child {
+	margin-left: 0;
+}
+
+.team-members-container p.names {
+	display: inline-block;
+	float: left;
+    line-height: 65px;
+    margin-left: 7px;
+    font-weight: 500;
+    color: rgba(103,108,114,0.5);
+    font-family: 'proxima-nova', Arial, sans-serif;
+    font-size: 1.075em;
+    letter-spacing: -0.5px;
+}
+
+.team-members-container p.names span, .team-members-container p.names a {
+	font-weight: 500;
+	margin-left: 8px;
+	color: #676C72;
+	position: relative;
+}
+
+.team-members-container p.names a::before {
+	height: 2px;
+	width: 100%;
+	background-color: #40464E;
+	opacity: 0.15;
+	bottom: -2px;
+	left: 0;
+	position: absolute;
+	content: "";
+}
+
+.team-members-container p.names a::after {
+	height: 2px;
+	width: 0%;
+	background-color: #40464E;
+	bottom: -2px;
+	left: 0;
+	position: absolute;
+	content: "";
+	-webkit-transition: all 0.2s; /* Safari */
+    transition: all 0.2s;
+}
+
+.team-members-container p.names a:hover::after {
+	width: 100%;
+}
 
 /* Background Styles */
 
@@ -1325,7 +1396,7 @@ section.portfolio-next-project-area a.selected-work-item-image:hover {
 }
 
 .selected-work-item.nda-restrictions h3::after, .selected-work-item-text.nda-restrictions h3::after {
-	content: 'NDA Restrictions';
+	content: 'NDA';
 	margin-left: 8px;
 	font-size: 0.475em;
 	text-transform: uppercase;
@@ -2060,9 +2131,10 @@ p.project-overview a:hover::after, p.portfolio-body a:hover::after {
 
 p.overview-detail {
 	font-family: 'proxima-nova', Arial, sans-serif;
-	font-weight: 400;
-	letter-spacing: -0.4px;
-	color: #40464E;
+	font-weight: 500;
+	letter-spacing: -0.5px;
+	color: #676C72;
+	font-size: 1em;
 }
 
 p.overview-detail.team-members {
@@ -2142,6 +2214,10 @@ p.overview-detail.team-members a.samepageanchor {
 .banner-below-overview.no-grey-banner {
 	background-color: rgba(255,255,255,0);
 	padding-top: 45px;
+}
+
+.banner-below-overview.team-members-section {
+	padding-bottom: 5px;
 }
 
 .portfolio-content-area {

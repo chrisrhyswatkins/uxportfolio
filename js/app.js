@@ -322,6 +322,18 @@ $(".next-project").hover(function() {
     $(this).closest(".selected-work-item").find("a.selected-work-item-image").css("transform", "scale(1.0,1.0)");
 }); 
 
+$("a.selected-work-item-image").hover(function() {
+    $(this).css("background-size", "110% auto");
+    $(this).css("transform", "scale(1.0175,1.0175)");
+    $(this).find(".hovered-line").css("width", "100%");
+}, function() {
+    $(this).css("background-size", "105% auto");
+    $(this).css("transform", "scale(1.0,1.0)");
+    $(this).find(".hovered-line").css("width", "0%");
+});
+
+
+
 /*
 background-size: 110% auto;
     transform: scale(1.0175,1.0175);

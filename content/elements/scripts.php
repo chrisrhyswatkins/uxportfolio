@@ -13,4 +13,5 @@
 	sr.reveal('.fadeInPortfolioImage', { duration: 1000, distance: '100px', reset: false, viewFactor: 0.5, scale: 1});
 	sr.reveal('.fadeInPersona', { duration: 1000, distance: '20px', reset: false, viewFactor: 0.05, scale: 1});
 	sr.reveal('.solutionJumpOption', { duration: 2000, distance: '20px', reset: false}, 50);
+	sr.reveal('.teamMemberImage', { duration: 1250, distance: '0px', reset: false}, 75);
 </script>

@@ -493,6 +493,20 @@ p.phrasing-step {
 
 }
 
+@media screen and (max-width: 705px) {
+
+.team-members-container p.names {
+	line-height: 1.35em;
+	margin-top: 15px;
+	margin-left: 0;
+}
+
+.team-members-container p.names span:first-child {
+	margin-left: 0;
+}
+
+}
+
 
 @media screen and (max-width: 485px) and (min-width: 435px) {
 

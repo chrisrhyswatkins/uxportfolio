@@ -3219,7 +3219,7 @@ a.download-resume:hover::after {
 }
 
 .resume-item {
-	margin-bottom: 50px;
+	margin-bottom: 75px;
 }
 
 .resume-item.last {
@@ -3238,7 +3238,7 @@ a.download-resume:hover::after {
 	top: 5px;
 	left: -25px;
 	background-color: rgba(203,206,208, 1.00);
-	content: "";
+	/*content: "";*/
 }
 
 .item-main-details.present::before {
@@ -3288,12 +3288,53 @@ p.resume-dates span.present-date {
 	color: rgba(47, 130, 246, 1.00);
 }
 
+p.resume-dates a {
+	font-weight: 500;
+	color: rgba(47, 130, 246, 1.00);
+	position: relative;
+}
+
+p.resume-dates a::before {
+	height: 2px;
+	width: 100%;
+	background-color: rgba(47, 130, 246, 1.00);
+	opacity: 0.15;
+	bottom: -2px;
+	left: 0;
+	position: absolute;
+	content: "";
+}
+
+p.resume-dates a::after {
+	height: 2px;
+	width: 0%;
+	background-color: rgba(47, 130, 246, 1.00);
+	bottom: -2px;
+	left: 0;
+	position: absolute;
+	content: "";
+	-webkit-transition: all 0.2s; /* Safari */
+    transition: all 0.2s;
+}
+
+p.resume-dates a:hover::after {
+	width: 100%;
+}
+
 .item-responsibilities {
 	margin-top: 15px;
 }
 
 .item-responsibilities ol.regular li:before {
-	display: none;
+	content: "";
+	height: 4px;
+	width: 4px;
+	border-radius: 50px;
+	background-color: #676C72;
+	padding: 0;
+	left: -20px;
+    top: 16px;
+    opacity: 0.45;
 }
 
 .item-responsibilities ol.regular li p {

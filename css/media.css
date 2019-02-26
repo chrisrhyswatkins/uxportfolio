@@ -438,6 +438,10 @@ ol.regular {
 	padding-left: 45px;
 }
 
+.item-responsibilities ol.regular {
+	padding-left: 0px;
+}
+
 ol.regular li:before {
 	left: -40px;
 	font-size: 1.05em;

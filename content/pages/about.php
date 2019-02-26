@@ -85,7 +85,7 @@
 									</div>
 								</div>
 							</a>
-							<a title="Chris Watkins - Resume, Spring 2018" href="https://drive.google.com/file/d/1deqNLEkFIyEt0Tu4kSPD1TdcSylPSKNs/view?usp=sharing" class="about-page-bottom-option resume-option fadeInQuick">
+							<a title="Chris Watkins - Resume" href="resume" class="about-page-bottom-option resume-option fadeInQuick">
 								<div class="color-block-overlay"></div>
 								<div class="gradient-block-overlay show-for-medium"></div>
 								<div class="hovered-line" style="background-color: rgba(47, 130, 246, 1.00);"></div>

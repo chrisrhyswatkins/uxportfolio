@@ -1638,6 +1638,11 @@ h2.about-subsection {
 h2.about-subsection.resume-page {
 	font-size: 1.825em;
 	font-weight: 600;
+	padding-top: 100px;
+}
+
+.portfolio-jump-wrapper h2.about-subsection.resume-page{
+	padding-top: 0;
 }
 
 h2.about-subsection.resume-page.fixed-to-top {
@@ -3097,6 +3102,15 @@ a.next-project:hover::after {
 
 /* Resume page */
 
+.portfolio-jump-wrapper {
+	margin-top: 100px;
+}
+
+.portfolio-jump-wrapper.fixed {
+	top: 100px;
+	position: fixed;
+}
+
 a.portfolio-jump-link {
 	text-decoration: none;
 	padding-bottom: 5px;
@@ -3112,6 +3126,14 @@ a.portfolio-jump-link {
 	font-size: 15px;
 	font-weight: 600;
 	float: left;
+}
+
+a.portfolio-jump-link.active-link::after {
+	width: 100%;
+}
+
+.portfolio-jump-wrapper a.portfolio-jump-link {
+	clear: both;
 }
 
 a.portfolio-jump-link::before {
@@ -3145,7 +3167,6 @@ a.portfolio-jump-link:hover::after {
 	width: 100%;
 }
 
-
 a.download-resume {
 	text-decoration: none;
 	padding-bottom: 5px;
@@ -3160,6 +3181,10 @@ a.download-resume {
 	font-size: 15px;
 	font-weight: 600;
 	float: left;
+}
+
+.portfolio-jump-wrapper a.download-resume {
+	clear: both;
 }
 
 a.download-resume::before {

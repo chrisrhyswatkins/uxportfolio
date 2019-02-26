@@ -359,10 +359,7 @@ if ($('a.scrolltop').length) {
 }
 
 /*
-
-if ($('h2.resume-page').length) {   
-
-    var outerWrap = $(this).closest(".portfolio-body-subsection-pad");
+if ($('.portfolio-jump-wrapper').length) {   
 
     var viewableOffset = $(this).offset().top - $(window).scrollTop(); 
 
@@ -382,7 +379,55 @@ if ($('h2.resume-page').length) {
 */
 
 
+if ($('.portfolio-jump-wrapper').length) {    
 
+    var fixmeTop = $('.portfolio-jump-wrapper').offset().top;       // get initial position of the element
+
+    $(window).scroll(function() {                  // assign scroll event listener
+
+        var currentScroll = $(window).scrollTop(); // get current position
+
+        if (currentScroll >= fixmeTop - 100) {           // apply position: fixed if you
+            $('.portfolio-jump-wrapper').css({                      // scroll to that element or below it
+                position: 'fixed',
+                top: '0px'
+            });
+        } else {                                   // apply position: static
+            $('.portfolio-jump-wrapper').css({                      // if you scroll above it
+                position: 'static'
+            });
+        }
+
+    });
+
+    var windowHeight = $(window).height();
+    var gridHalf = windowHeight * .2;
+
+    $(window).on('scroll', function () {
+        $('h2.actual-section').each(function () {
+            var headerID = $(this).attr('id');
+            var jumpOption = 0;
+
+            if (headerID == "Education") {
+                jumpOption = 1;
+            } else if (headerID == "Experience") {
+                jumpOption = 2;
+            } else if (headerID == "Publications") {
+                jumpOption = 3;
+            } else if (headerID == "OtherExperience") {
+                jumpOption = 4;
+            } 
+
+            var thisTop = $(this).offset().top - $(window).scrollTop();
+            if (thisTop <= gridHalf) {
+                $('.portfolio-jump-wrapper').find("a.portfolio-jump-link:nth-of-type(" + (jumpOption-1) + ")").removeClass('active-link');
+                $('.portfolio-jump-wrapper').find("a.portfolio-jump-link:nth-of-type(" + (jumpOption+1) + ")").removeClass('active-link');
+                $('.portfolio-jump-wrapper').find("a.portfolio-jump-link:nth-of-type(" + jumpOption + ")").addClass('active-link');
+            }
+        });
+    });
+
+}
 
 // Width based
 

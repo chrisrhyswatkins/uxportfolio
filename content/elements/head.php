@@ -46,7 +46,7 @@
 	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Coustard|Kalam" rel="stylesheet">
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script async src="https://use.fontawesome.com/d081fde90d.js"></script>
+	<!--<script async src="https://use.fontawesome.com/d081fde90d.js"></script>-->
 	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/browser-icons/apple-touch-icon-57x57.png" />
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/browser-icons/apple-touch-icon-114x114.png" />
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/browser-icons/apple-touch-icon-72x72.png" />

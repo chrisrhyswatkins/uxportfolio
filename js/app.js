@@ -333,13 +333,6 @@ $("a.selected-work-item-image").hover(function() {
 });
 
 
-
-/*
-background-size: 110% auto;
-    transform: scale(1.0175,1.0175);
-    */
-
-
 // Same page anchor
 
 $('a.samepageanchor, a.samepageanchor-menu').click(function(){
@@ -364,6 +357,31 @@ if ($('a.scrolltop').length) {
         }
     });
 }
+
+/*
+
+if ($('h2.resume-page').length) {   
+
+    var outerWrap = $(this).closest(".portfolio-body-subsection-pad");
+
+    var viewableOffset = $(this).offset().top - $(window).scrollTop(); 
+
+    $(window).scroll(function(event){
+        
+        $( "h2.resume-page" ).each(function() {
+
+            if (viewableOffset < 30) {
+                $(this).addClass("fixed-to-top");
+            } else if (viewableOffset >= 30) {
+                $(this).removeClass("fixed-to-top");
+            }
+        });
+
+    });
+}
+*/
+
+
 
 
 // Width based

@@ -3,7 +3,7 @@
 	<div class="row">
 		<div class="small-24 large-14 columns">
 			<p class="capitalized-title-desc no-margin-bottom" id="content-top-indicator"><span>the ol' razzle dazzle</span></p>
-			<h1 class="resume-page"><span class="light">"The reports of my <span style="text-decoration: line-through;">death</span> Excel capabilities are greatly exaggerated."</span></h1>
+			<h1 class="resume-page"><span class="light">"The reports of my <span class="line-through-in-title" style="/*text-decoration: line-through;*/">death</span> Microsoft Excel capabilities are greatly exaggerated."</span></h1>
 			<div class="horizontal-portfolio-nav hide-for-large">
 				<a href="#Education" class="samepageanchor portfolio-jump-link">Education</a>
 				<a href="#Experience" class="samepageanchor portfolio-jump-link">Selected Experience</a>
@@ -16,19 +16,6 @@
 </section>
 
 <section class="portfolio-content-area below-other-area-nothing-top">
-	<!--
-	<div class="row in-project-subhead">
-		<div class="small-24 columns">
-			<h2 class="line-behind"><span>Education</span></h2>
-			<p class="in-project-subhead-para">A gentleman and a scholar, ish.</p>
-		</div>
-	</div>
-	<div class="row">
-		<div class="small-24 medium-22 large-18 columns small-centered fadeInPortfolioText">
-
-		</div>
-	</div>
-	-->
 	<div class="row">	
 		<div class="small-24 large-7 columns show-for-large">
 			<div class="portfolio-jump-wrapper">
@@ -45,19 +32,11 @@
 
 			<h2 class="about-subsection resume-page actual-section" id="Education">Education</h2>
 			<div class="resume-item">
-				<div class="item-main-details present">
+				<div class="item-main-details">
 					<h3 class="resume-main-title">MS <span>in</span> Human-Centered Design &amp; Development</h3>
 					<h4 class="resume-institution">Purdue University <span>West Lafayette, Indiana, USA</span></h4>
-					<p class="resume-dates">August 2017 - <span class="present-date">May 2019 (Anticipated Graduation)</span></p>
+					<p class="resume-dates">August 2017 - May 2019</p>
 				</div>
-				<!--
-				<div class="item-responsibilities">
-					<ol class="regular">
-						<li><p>Conducting user interviews and usability studies, synthesizing findings to offer design recommendations to web applications offered by university-based Science Gateways.</p></li>
-						<li><p>Investigating how an awareness of dark patterns in UX might lead to a more ethically and socially responsible UX practice, through on-site practitioner observations and interviews.</p></li>
-					</ol>
-				</div>
-				-->
 			</div>
 			<div class="resume-item">
 				<div class="item-main-details">
@@ -65,27 +44,19 @@
 					<h4 class="resume-institution">Northumbria University <span>Newcastle upon Tyne, United Kingdom</span></h4>
 					<p class="resume-dates">September 2012 - May 2015</p>
 				</div>
-				<!--
-				<div class="item-responsibilities">
-					<ol class="regular">
-						<li><p>Conducting user interviews and usability studies, synthesizing findings to offer design recommendations to web applications offered by university-based Science Gateways.</p></li>
-						<li><p>Investigating how an awareness of dark patterns in UX might lead to a more ethically and socially responsible UX practice, through on-site practitioner observations and interviews.</p></li>
-					</ol>
-				</div>
-			-->
 			</div>
 	
 			<h2 class="about-subsection resume-page actual-section" id="Experience">Selected Experience</h2>
 			<div class="resume-item">
-				<div class="item-main-details present">
+				<div class="item-main-details">
 					<h3 class="resume-main-title">Graduate Research Assistant</h3>
 					<h4 class="resume-institution">Purdue University <span>West Lafayette, Indiana, USA</span></h4>
-					<p class="resume-dates">January 2018 - <span class="present-date">Present</span></p>
+					<p class="resume-dates">January 2018 - May 2019</p>
 				</div>
 				<div class="item-responsibilities">
 					<ol class="regular">
-						<li><p>Conducting user interviews and usability studies, synthesizing findings to offer design recommendations to web applications offered by university-based Science Gateways.</p></li>
-						<li><p>Investigating how an awareness of dark patterns in UX might lead to a more ethically and socially responsible UX practice, through on-site practitioner observations and interviews.</p></li>
+						<li><p>Conducted user interviews and usability studies, and synthesized findings to offer design recommendations to web applications offered by university-based Science Gateways.</p></li>
+						<li><p>Investigated how an awareness of dark patterns in UX might lead to a more ethically and socially responsible UX practice, through on-site practitioner observations and interviews.</p></li>
 					</ol>
 				</div>
 			</div>
@@ -164,7 +135,7 @@
 					<h3 class="resume-main-title">Digital Civics Goes Abroad.</h3>
 					<h4 class="resume-institution">Gray, C. M., Toombs, A. L., Owczarzak, M., &amp; Watkins, C. (2019)</h4>
 					<p class="resume-dates"><i style="margin-right: 3px;">ACM Interactions, 26</i>(2), 74-77.</p>
-					<p class="resume-dates"><!--[<a href="https://dl.acm.org/authorize.cfm?key=N677617">ACM Author-Izer</a>] --><a href="https://doi.org/10.1145/3301661" style="/*margin-left: 5px;*/">https://doi.org/10.1145/3301661</a></p>
+					<p class="resume-dates">[<a href="https://dl.acm.org/authorize?N677070">ACM Author-Izer</a>] <a href="https://doi.org/10.1145/3301661" style="margin-left: 5px;">https://doi.org/10.1145/3301661</a></p>
 				</div>
 			</div>
 	
@@ -196,7 +167,7 @@
 						<li><p>Coordinated three separate pickup/delivery operations for campers’ baggage, on each occasion leading teams of 12-14 colleagues in ensuring the safe transportation of around 1200 bags each time between the camp, and various locations in PA, NJ, MD, DE, NY, and DC.</p></li>
 						<li><p>Transported and ensured the wellbeing of campers and counselors on visits to healthcare facilities in medical emergencies.</p></li>
 						<li><p>Signed-in and administered random alcohol tests to off-duty counselors as a member of the upper staff, supervising an assisting camp counselor in doing so.</p></li>
-						<li><p>Photographed and edited 300-600 images per day of camp activities, uploading them to the camp’s website each evening.</p></li>
+						<li><p>Captured and edited 300-600 images per day of camp activities, uploading them to the camp’s website each evening.</p></li>
 					</ol>
 				</div>
 			</div>

@@ -108,6 +108,8 @@ if ($views == 1) {
 $(document).ready(function() {
 	// $("header").addClass("whiteblack");
 
+	$skiplink = $('.skip-animation-wrap');
+	$skiplink.hide();
 
 	$navbar = $('header');
 	$navbar.hide();
@@ -128,6 +130,16 @@ $(document).ready(function() {
 	$footer.hide();
 
 
+// Skip animation on home page load if link is clicked
+
+$("a.skip-animation").click(function(e) {
+	e.preventDefault();
+
+	skipAnimate();
+
+});
+
+
 function gradualAnimate() {
 
 	setTimeout(function() {
@@ -137,6 +149,10 @@ function gradualAnimate() {
 	setTimeout(function() {
 	    $greeting.fadeIn(1000);
 	}, 1000);
+
+	setTimeout(function() {
+	    $skiplink.fadeIn(750);
+	}, 1750);
 
 	setTimeout(function() {
 	    $imchris.fadeIn(1250);
@@ -154,6 +170,10 @@ function gradualAnimate() {
 	setTimeout(function() {
 		$navbar.fadeIn(750);
 	    $footer.fadeIn(150);
+	}, 7000);
+
+	setTimeout(function() {
+	    $skiplink.fadeOut(750);
 	}, 7000);
 
 	$('.selected-work-item').css("height", "auto");
@@ -180,6 +200,8 @@ function skipAnimate() {
 
 	$('.selected-work-item').css("height", "auto");
 
+	$("a.skip-animation").fadeOut(20);
+
 }
 
 $(document).keydown(function(keyPressed) {
@@ -195,6 +217,16 @@ $(document).keydown(function(keyPressed) {
 <?php
 } else if ($views > 1) { }
 ?>
+
+<script>
+$(document).ready(function() {
+	// $("header").addClass("whiteblack");
+
+	$skiplink = $('.skip-animation-wrap');
+	$skiplink.hide();
+});
+
+</script>
 
 </body>
 </html>

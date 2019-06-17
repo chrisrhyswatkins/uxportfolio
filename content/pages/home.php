@@ -1,9 +1,15 @@
+<div class="row skip-animation-wrap">
+	<div class="small-24 columns">
+		<a href="" class="skip-animation">Skip</a>
+	</div>
+</div>
+
 <div class="top-content">
-	<section class="top-pad-200 main-top-section">
+	<section class="top-pad-200 main-top-section home-page">
 		<div class="row">
 			<div class="small-24 columns" id="content-top-indicator">
 				<p class="greeting no-margin-bottom" id="home-greeting"></p>
-				<h1 class="welcome-description"><span class="bold" id="im-chris">I'm Chris,</span> <span class="none" id="me-description">a researcher and designer of context-driven user experiences.</h1>
+				<h1 class="welcome-description"><span class="bold" id="im-chris">I'm Chris,</span> <span class="none" id="me-description">a research-driven designer of contextualized user experiences.</h1>
 				<!--<h1 class="welcome-description"><span class="bold" id="im-chris">I'm Chris,</span> <span class="none" id="me-description">I design purposeful, context-driven <span class="thick">user experiences.</span></h1>--><!-- &amp; <span class="thick">products</span>.</span></h1>-->
 			</div>
 		</div>
@@ -146,7 +152,7 @@
 					</div>		
 				</div>
 			</div>
-			<div class="small-24 columns end selected-work-item k9m8 project-in-progress first fadeIn">
+			<div class="small-24 columns end selected-work-item k9m8 project-in-progress second fadeIn">
 				<div class="row in-progress-project-container">				
 					<div class="small-24 show-for-medium medium-11 large-12 columns selected-work-item-image wide-image" style="background-image:url('img/project-items/k9m8.jpg');">
 						<div class="hovered-overlay"></div>

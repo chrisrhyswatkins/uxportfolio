@@ -12,8 +12,9 @@
 					<h2 class="text-white about-subsection">A bit about me</h2>
 				</div>
 				<div class="small-24 large-17 columns">
-					<p class="portfolio-body text-white about-page">Originally from the <b>United Kingdom</b> 🇬🇧, I recently made the move across the pond to the <b>United States of America</b> 🇺🇸, to pursue a Masters degree in <b>Human-Centered Design &amp; Development</b> at <b>Purdue University</b>.</p>
-					<p class="portfolio-body text-white about-page">While my specialties lie in <b>qualitative research and UX design</b>, I also love <b>developing</b> the solutions I propose. When I'm not researching, designing, or coding, I enjoy anything dog-related, hiking, skiing (poorly), and coming up with horrendous puns for Instagram post captions.</p>
+					<!--<p class="portfolio-body text-white about-page">Originally from the <b>United Kingdom</b> 🇬🇧, I recently made the move across the pond to the <b>United States of America</b> 🇺🇸, to pursue a Masters degree in <b>Human-Centered Design &amp; Development</b> at <b>Purdue University</b>.</p>-->
+					<p class="portfolio-body text-white about-page">I'm a developer turned designer with a masters degree in Human-Centered Design &amp; Development from Purdue University. </p>
+					<p class="portfolio-body text-white about-page">When I'm not researching, designing, or coding, I enjoy anything dog-related, hiking, skiing (poorly), and coming up with horrendous puns for Instagram post captions.</p>
 				</div>
 			</div>
 		</div>
@@ -73,7 +74,7 @@
 				<div class="small-24 large-17 columns">
 					<div class="row">
 						<div class="small-24 columns">
-							<a href="/#work-anchor" class="about-page-bottom-option work-option fadeInQuick">
+							<a href="/#work-anchor" class="about-page-bottom-option work-option">
 								<div class="color-block-overlay"></div>
 								<div class="gradient-block-overlay show-for-medium"></div>
 								<div class="hovered-line" style="background-color: #FF0086;"></div>
@@ -85,7 +86,7 @@
 									</div>
 								</div>
 							</a>
-							<a title="Chris Watkins - Resume" href="resume" class="about-page-bottom-option resume-option fadeInQuick">
+							<a title="Chris Watkins - Resume" href="resume" class="about-page-bottom-option resume-option">
 								<div class="color-block-overlay"></div>
 								<div class="gradient-block-overlay show-for-medium"></div>
 								<div class="hovered-line" style="background-color: rgba(47, 130, 246, 1.00);"></div>
@@ -97,7 +98,7 @@
 									</div>
 								</div>
 							</a>
-							<a href="mailto:chris@crwatkins.com?Subject=Hey,%20Chris!" class="about-page-bottom-option contact-option fadeInQuick">
+							<a href="mailto:chris@crwatkins.com?Subject=Hey,%20Chris!" class="about-page-bottom-option contact-option">
 								<div class="color-block-overlay"></div>
 								<div class="gradient-block-overlay show-for-medium"></div>
 								<div class="hovered-line" style="background-color: #cfb2b1;"></div>
@@ -105,7 +106,7 @@
 								<div class="row">
 									<div class="small-24 medium-14 columns">
 										<h3>Get in touch</h3>
-										<p>Want to discuss a project, grab a coffee, or just say hello? Feel free to drop me an email!</p>
+										<p>Want to discuss a project, grab a coffee, or just say hello? Feel free to drop me an email.</p>
 									</div>
 								</div>
 							</a>

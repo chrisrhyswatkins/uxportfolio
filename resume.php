@@ -2,8 +2,8 @@
 
 // SEO Page Details
 
-$metaTitle = 'Chris Watkins, UX Researcher & Designer';
-$metaDescription = "I'm Chris, a researcher and designer of context-driven user experiences.";
+$metaTitle = 'Resume - Chris Watkins';
+$metaDescription = "View or download a copy of my resume.";
 
 // Include specific header and footer style variable in here
 $headerType = 'white-header';

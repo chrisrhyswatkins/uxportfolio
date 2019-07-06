@@ -2,7 +2,7 @@
 
 // SEO Page Details
 
-$metaTitle = 'Resume - Chris Watkins';
+$metaTitle = 'Resume - Chris Watkins, User Experience Designer';
 $metaDescription = "View or download a copy of my resume.";
 
 // Include specific header and footer style variable in here

@@ -2,7 +2,7 @@
 
 // SEO Page Details
 
-$metaTitle = 'Google Drive - Chris Watkins, UX Researcher & Designer';
+$metaTitle = 'Google Drive - Chris Watkins, User Experience Designer';
 $metaDescription = "Given a single screenshot of the ‘My Drive’ screen within a user’s Google Drive account, I conducted a critical analysis of the current design using various visual and interactive principles, and offered a proposed, but constrained redesign based on that critique.";
 
 // Include specific header and footer style variable in here

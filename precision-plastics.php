@@ -2,7 +2,7 @@
 
 // SEO Page Details
 
-$metaTitle = 'Precision Plastics - Chris Watkins, UX Researcher & Designer';
+$metaTitle = 'Precision Plastics - Chris Watkins, User Experience Designer';
 $metaDescription = "After 6 years of working as a director at Precision Plastics, I decided to begin the process of designing and building a system to not only reduce the man hours required to complete the day-to-day responsibilities required within the company, but also to increase efficiency and reduce risk of error in areas such as order distribution and administration.";
 
 // Include specific header and footer style variable in here

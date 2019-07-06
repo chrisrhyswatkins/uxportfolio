@@ -9,7 +9,7 @@
 		<div class="row">
 			<div class="small-24 columns" id="content-top-indicator">
 				<p class="greeting no-margin-bottom" id="home-greeting"></p>
-				<h1 class="welcome-description"><span class="bold" id="im-chris">I'm Chris,</span> <span class="none" id="me-description">a research-driven designer of contextualized user experiences.</h1>
+				<h1 class="welcome-description"><span class="bold" id="im-chris">I'm Chris,</span> <span class="none" id="me-description">a research-driven designer of context-centric user experiences.</h1>
 				<!--<h1 class="welcome-description"><span class="bold" id="im-chris">I'm Chris,</span> <span class="none" id="me-description">I design purposeful, context-driven <span class="thick">user experiences.</span></h1>--><!-- &amp; <span class="thick">products</span>.</span></h1>-->
 			</div>
 		</div>

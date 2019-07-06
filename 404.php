@@ -2,7 +2,7 @@
 
 // SEO Page Details
 
-$metaTitle = 'Page Not Found - Chris Watkins, UX Researcher & Designer';
+$metaTitle = 'Page Not Found - Chris Watkins, User Experience Designer';
 $metaDescription = '';
 
 // Include specific header and footer style variable in here

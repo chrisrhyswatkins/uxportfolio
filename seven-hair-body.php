@@ -2,7 +2,7 @@
 
 // SEO Page Details
 
-$metaTitle = 'Seven Hair & Body - Chris Watkins, UX Researcher & Designer';
+$metaTitle = 'Seven Hair & Body - Chris Watkins, User Experience Designer';
 $metaDescription = "Seven Hair & Body are a contemporary gents’ barbershop, offering a range of services and products across hair and grooming. The salon required a custom WordPress powered presence to not only compliment and enhance their recent rebranding, but also to address various requirements and frustrations held by stakeholders including current and potential clientele, as well as staff.";
 
 // Include specific header and footer style variable in here

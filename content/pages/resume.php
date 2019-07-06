@@ -9,7 +9,7 @@
 				<a href="#Experience" class="samepageanchor portfolio-jump-link">Selected Experience</a>
 				<a href="#Publications" class="samepageanchor portfolio-jump-link">Publications</a>
 				<a href="#OtherExperience" class="samepageanchor portfolio-jump-link">Other Experience</a>
-				<a href="https://drive.google.com/file/d/1deqNLEkFIyEt0Tu4kSPD1TdcSylPSKNs/view" class="download-resume">Download Résumé PDF</a>
+				<a href="<?php echo $resumeLink; ?>" class="download-resume">Download Résumé PDF</a>
 			</div>
 		</div>
 	</div>
@@ -24,7 +24,7 @@
 				<a href="#Experience" class="samepageanchor portfolio-jump-link">Selected Experience</a>
 				<a href="#Publications" class="samepageanchor portfolio-jump-link">Publications</a>
 				<a href="#OtherExperience" class="samepageanchor portfolio-jump-link">Other Experience</a>
-				<a href="https://drive.google.com/file/d/1deqNLEkFIyEt0Tu4kSPD1TdcSylPSKNs/view" class="download-resume">Download Résumé PDF</a>
+				<a href="<?php echo $resumeLink; ?>" class="download-resume">Download Résumé PDF</a>
 			</div>
 		</div>
 
@@ -188,7 +188,7 @@
 
 			<div class="row">	
 				<div class="small-24 columns">
-					<a href="https://drive.google.com/file/d/1deqNLEkFIyEt0Tu4kSPD1TdcSylPSKNs/view" class="download-resume" style="margin-top: 0;">Download Résumé PDF</a>
+					<a href="<?php echo $resumeLink; ?>" class="download-resume" style="margin-top: 0;">Download Résumé PDF</a>
 				</div>
 			</div>
 		</div>

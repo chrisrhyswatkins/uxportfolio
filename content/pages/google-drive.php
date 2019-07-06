@@ -127,5 +127,25 @@
 		</div>
 	</section>
 
+	<section class="portfolio-content-area">
+		<div class="row in-project-subhead">
+			<div class="small-24 columns fadeInMinor">
+				<h2 class="selected-work line-behind"><span>Reflection &amp; Takeaways</span></h2>
+				<p class="in-project-subhead-para">Summarizing the experience and deliverables.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="small-24 medium-22 large-18 columns small-centered fadeInMinor">
+				<p class="portfolio-body">The greatest challenge of working in a domain as complex and unfamiliar to myself as US healthcare, particularly the case-by-case challenges posed by individual medical institutions and physicians possessing drastically different workflows to account for, as a result of different systems implemented in each hospital.</p>
+				<p class="capitalized-title-desc above-list-items">Internship Deliverables</p>
+				<ol class="regular pad-below with-subtext">
+					<li><p class="maintext">Phrase Gathering</p><p class="subtext">Offering short term aid to voice-interactions with the current message design, providing the relative teams with a large corpus of phrases naturally used to resolve each message to increase the likelihood of successful interaction.</p></li>
+		      		<li><p class="maintext">Design Recommendations</p><p class="subtext">Prototyping, testing, and validating redesigned voice-actionable messages, which moving forward, will offer components through which voice-actionable messages, and other content, can be more discoverable, intuitive, and efficient to physicians.</p></li>
+		      		<li><p class="maintext">Future Research</p><p class="subtext">The findings from both studies will provide a foundation for future research efforts in seeking to build more natural, conversational interaction possibilities for physicians, both in GUI and VUI.</p></li>
+		   		</ol>
+		   	</div>
+		</div>
+	</section>
+
 	<?php require 'content/elements/next-project-section-bottom.php'; ?>
 </div>

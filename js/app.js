@@ -17,7 +17,6 @@ $(document).on("click", "a:not('.email-social-link, .samepageanchor')", function
 
     // now, fadeout the html (whole page)
     $("html").fadeOut(300, function () {
-        // when the animation is complete, set the new location
         location = newUrl;
     });
 
@@ -26,6 +25,21 @@ $(document).on("click", "a:not('.email-social-link, .samepageanchor')", function
 });
 
 
+// Ensure that body and html opacity is 1 if back button is pressed
+
+$(window).on("pageshow", function(event){
+    if(event.originalEvent.persisted) {
+        $("html").fadeIn(300);
+    }
+});
+
+
+/*
+$(window).on 'pageshow', (event) =>
+    if event.persisted
+        $("html").fadeIn(300);
+
+*/
 
 // Mobile navigation: When on work page (menu item 1), if clicking work item, menu needs to close and go to that section
 
@@ -40,8 +54,7 @@ $("ul.responsive-nav-list > li.current-menu-item > a.samepageanchor-menu ").clic
         // get the href attribute
         location = $(this).attr("href");
     } 
-})
-
+});
 
 
 // Hide Header on on scroll down
@@ -95,6 +108,7 @@ if ($('#content-top-indicator').length) {
     });
 }
 
+
 if ($('#content-white-change-indicator').length) {
     $(window).scroll(function(event){
         var nextViewableOffset = $("#content-white-change-indicator").offset().top - $(window).scrollTop();
@@ -117,7 +131,6 @@ if ($('#content-white-change-indicator').length) {
     });
 }
 
-
 // Responsive navigation function
 
 $(".responsive-menu-link").click(function(e) {
@@ -136,7 +149,7 @@ var fixed = document.getElementById('fixed-overlay');
 
 fixed.addEventListener('touchmove', function(e) {
 
-        e.preventDefault();
+    e.preventDefault();
 
 }, false);
 
@@ -427,7 +440,7 @@ if ($('.portfolio-jump-wrapper').length) {
         });
     });
 
-}
+} 
 
 // Width based
 
@@ -448,6 +461,5 @@ function checkWidth() {
 checkWidth();
 // Bind event listener
 $(window).resize(checkWidth);
-
 
 });

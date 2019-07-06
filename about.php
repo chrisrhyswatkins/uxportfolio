@@ -2,7 +2,7 @@
 
 // SEO Page Details
 
-$metaTitle = 'About Me - Chris Watkins, UX Researcher & Designer';
+$metaTitle = 'About Me - Chris Watkins, User Experience Designer';
 $metaDescription = "Originally from the United Kingdom, I recently made the move across the pond to the United States of America, to pursue a Masters degree in Human-Centered Design & Development at Purdue University.";
 
 // Include specific header and footer style variable in here

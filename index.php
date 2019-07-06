@@ -44,8 +44,8 @@ $views = ($_SESSION['views']);
 
 // SEO Page Details
 
-$metaTitle = 'Chris Watkins, UX Researcher & Designer';
-$metaDescription = "I'm Chris, a researcher and designer of context-driven user experiences.";
+$metaTitle = 'Chris Watkins, User Experience Designer';
+$metaDescription = "I'm Chris, a research-driven designer of context-centric user experiences.";
 
 // Include specific header and footer style variable in here
 $headerType = 'white-header';
@@ -55,8 +55,6 @@ $activeNav = '1';
 $homepageIndicator = 'Y';
 $responsiveNavRef = 'whitebg-res-nav';
 $footerType = 'black-footer';
-
-
 
 ?>
 <!DOCTYPE html>

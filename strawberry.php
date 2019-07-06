@@ -2,7 +2,7 @@
 
 // SEO Page Details
 
-$metaTitle = 'Strawberry - Chris Watkins, UX Researcher & Designer';
+$metaTitle = 'Strawberry - Chris Watkins, Chris Watkins, User Experience Designer';
 $metaDescription = "With a single day free in my schedule, I decided to conduct an exploratory and experimental project, with the intention of improving my visual design skills, in an 8 hour activity based on some extremely hypothetical user research. The challenge I set for myself was to create an enticing product landing page out of a simple, everyday object, such as a Strawberry.";
 
 // Include specific header and footer style variable in here

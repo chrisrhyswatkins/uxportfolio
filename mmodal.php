@@ -2,7 +2,7 @@
 
 // SEO Page Details
 
-$metaTitle = 'Clinical Assistant - Chris Watkins, UX Researcher & Designer';
+$metaTitle = 'Clinical Assistant - Chris Watkins, User Experience Designer';
 $metaDescription = "In a two week project, my team and I researched, conceptualized, and prototyped an alternative solution to the traditional five-star system currently used by passengers and drivers of the rideshare application Lyft, to rate one another after each journey.";
 
 // Include specific header and footer style variable in here
